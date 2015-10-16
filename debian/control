@@ -1,0 +1,11 @@
+Source: gooroom-translations
+Section: admin
+Priority: optional
+Maintainer: gooroom <gooroom@gooroom.kr>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: gooroom-translations
+Architecture: all
+Description: Translation files for gooroom
+ Translation files for gooroom
