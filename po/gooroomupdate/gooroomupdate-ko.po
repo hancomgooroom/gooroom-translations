@@ -17,425 +17,416 @@ msgstr ""
 "X-Launchpad-Export-Date: 2015-06-26 13:17+0000\n"
 "X-Generator: Launchpad (build 17578)\n"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:130
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:131
 msgid "Downloading changelog..."
 msgstr "변경사항 내역 받아오는 중..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:158
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:149
 msgid "No changelog available"
 msgstr "변경사항이 없습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:256
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:426
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:176
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:54
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:247
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:417
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:174
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade_root.py:54
 msgid "Please wait, this can take some time"
 msgstr "잠시만 기다려 주십시오. 이 작업은 시간이 다소 걸릴 수도 있습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:259
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:250
 #, python-format
 msgid "The %s kernel was removed"
 msgstr "%s 커널이 제거 되었습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:261
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:252
 #, python-format
 msgid "The %s kernel was installed"
 msgstr "%s 커널이 설치 되었습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:333
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:324
 msgid "This upgrade will trigger additional changes"
 msgstr "해당 업그레이드는 추가적인 변경을 일으킵니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:343
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:334
 msgid "The following package will be removed:"
 msgstr "다음의 패키지가 제거됩니다:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:345
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:336
 #, python-format
 msgid "The following %d packages will be removed:"
 msgstr "다음의 %d 개의 패키지가 제거됩니다:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:373
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:364
 msgid "The following package will be installed:"
 msgstr "다음의 패키지가 설치됩니다:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:375
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:366
 #, python-format
 msgid "The following %d packages will be installed:"
 msgstr "다음의 %d 개의 패키지가 설치됩니다:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:416
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:407
 msgid "Installing updates"
 msgstr "업데이트를 설치하고 있습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:428
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade_root.py:56
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:419
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade_root.py:56
 msgid "Update is complete"
 msgstr "업데이트가 끝났습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:468
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:577
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2048
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:459
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:568
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2043
 msgid "Checking for updates"
 msgstr "업데이트 확인중"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:493
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:484
 msgid "Could not install the security updates"
 msgstr "보안 업데이트 설치에 실패하였습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:568
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:559
 msgid "Starting refresh..."
 msgstr "새로고치는 중..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:614
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:616
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:605
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:607
 msgid "Another application is using APT"
 msgstr "다른 응용프로그램이 APT를 사용중입니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:626
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:617
 msgid "Finding the list of updates..."
 msgstr "업데이트 목록을 찾는 중..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:663
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:665
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:878
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:880
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2159
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:654
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:656
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:868
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:870
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2154
 msgid "Your system is up to date"
 msgstr "현재 시스템이 최신 버전입니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:678
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:680
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:905
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:910
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2160
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:669
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:671
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:895
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:900
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2155
 msgid "Could not refresh the list of updates"
 msgstr "업데이트 목록을 불러올 수 없습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:727
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:714
 msgid "Security update"
 msgstr "보안 업데이트"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:729
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:716
 msgid ""
 "Software backport. Be careful when upgrading. New versions of sofware can "
 "introduce regressions."
 msgstr "소프트웨어 백포트. 업그레이드할 때 주의하세요. 새 버전의 소프트웨어는 잘못될 경우가 있습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:731
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:718
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
 msgstr "불안정한 버전의 소프트웨어. 베타-테스트로 개발자를 도우실 때만 업데이트하세요."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:733
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:720
 msgid "Software update"
 msgstr "소프트웨어 업데이트"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:846
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:835
 msgid "A new version of the update manager is available"
 msgstr "새 버전의 업데이트 관리자가 나왔습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:857
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:846
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:859
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:848
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s), 1개의 업데이트가 무시되었습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:861
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:850
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s), %(ignored)d개의 업데이트가 무시되었습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:864
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:853
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
 msgstr "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:866
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:855
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s), 1개의 업데이트가 무시되었습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:868
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:857
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
 msgstr ""
 "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s), %(ignored)d개의 업데이트가 무시되었습니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:945
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:964
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1949
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:935
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:954
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1944
 msgid "No updates selected"
 msgstr "선택된 업데이트가 없습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:966
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1951
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:956
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1946
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgstr "%(selected)d개의 업데이트가 선택되었습니다 (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:968
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1953
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:958
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1948
 #, python-format
 msgid "%(selected)d updates selected (%(size)s)"
 msgstr "%(selected)d개의 업데이트가 선택되었습니다 (%(size)s)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:981
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1387
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1456
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1502
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1723
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1725
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2054 generate_desktop_files:24
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:971
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1229
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1377
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1446
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1492
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1713
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1715
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2049
+#: generate_desktop_files:25 generate_desktop_files:37
 msgid "Update Manager"
 msgstr "업데이트 관리자"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1239
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2178
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1229
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2173
 msgid "Preferences"
 msgstr "설정"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1241
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1231
 msgid "Levels"
 msgstr "등급"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1242
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1232
 msgid "Auto-Refresh"
 msgstr "자동 새로고침"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1243
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2089
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2233
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1233
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2084
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2228
 msgid "Level"
 msgstr "등급"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1244
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2156
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1234
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2151
 msgid "Description"
 msgstr "설명"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1245
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1235
 msgid "Tested?"
 msgstr "검증"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1246
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1236
 msgid "Origin"
 msgstr "출처"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1247
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1237
 msgid "Safe?"
 msgstr "신뢰"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1248
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1238
 msgid "Visible?"
 msgstr "표시"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1249
-msgid ""
-"Certified updates. Tested through Romeo or directly maintained by Linux Mint."
-msgstr "검증된 업데이트. Romeo 에 의해 테스트 되었거나 직접 리눅스 민트에 의해서 관리된 업데이트 입니다."
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1239
+msgid "Packages provided by Gooroom"
+msgstr "구름에서 제공하는 패키지입니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1250
-msgid "Recommended updates. Tested and approved by Linux Mint."
-msgstr "추천하는 업데이트. 리눅스 민트에 의해서 검증되고 승인된 업데이트 입니다."
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1240
+msgid "Packages provided by Debian"
+msgstr "데비안에서 제공하는 패키지입니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1251
-msgid "Safe updates. Not tested but believed to be safe."
-msgstr "안전 업데이트. 검증되지는 않았지만 안전하다고 여겨지는 업데이트 입니다."
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1241
+msgid "Packages provided by 3rd-party"
+msgstr "서드파티에서 제공하는 패키지입니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1252
-msgid "Unsafe updates. Could potentially affect the stability of the system."
-msgstr "불안전 업데이트. 시스템 안정에 영향을 끼칠 수 있습니다."
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1244
+msgid "Gooroom"
+msgstr "구름"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1253
-msgid ""
-"Dangerous updates. Known to affect the stability of the systems depending on "
-"certain specs or hardware."
-msgstr "위험한 업데이트. 특정한 스펙이나 하드웨어에 따라 시스템의 안정성에 영향을 끼치는 것으로 알려진 업데이트 입니다."
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1245
+msgid "Debian"
+msgstr "데비안"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1254
-msgid "Linux Mint"
-msgstr "리눅스 민트"
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1246
+msgid "3rd-party"
+msgstr "서드파티"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1255
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1256
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1257
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1258
-msgid "Upstream"
-msgstr "업스트림"
-
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1259
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1249
 msgid "Refresh the list of updates every:"
 msgstr "업데이트 목록 새로고침 주기:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1260
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1250
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
 msgstr "주의: 이 목록은 업데이트 관리자 창이 닫혀있을 때에만 갱신됩니다. (시스템 트레이 모드)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1262
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1252
 msgid "Options"
 msgstr "옵션"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1263
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1253
 msgid "Icons"
 msgstr "아이콘"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1264
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1254
 msgid "Icon"
 msgstr "아이콘"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1265
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1255
 msgid "Status"
 msgstr "상태"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1266
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1256
 msgid "New Icon"
 msgstr "새 아이콘"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1267
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1257
 msgid "Busy"
 msgstr "바쁨"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1268
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1258
 msgid "System up-to-date"
 msgstr "모두 최신 버전임"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1269
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1259
 msgid "Updates available"
 msgstr "업데이트 가능함"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1270
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1260
 msgid "Error"
 msgstr "오류"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1271
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1261
 msgid "Unknown state"
 msgstr "알 수 없는 상태"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1272
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1262
 msgid "Applying updates"
 msgstr "업데이트 적용중"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1273
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1329
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1263
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1319
 msgid "Ignored updates"
 msgstr "업데이트 안함"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1275
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1265
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
 msgstr "새로운 패키지를 설치해야 하거나 설치된 패키지를 제거해야 하는 업데이트를 포함하고 있습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1276
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1266
 msgid "Hide the update manager after applying updates"
 msgstr "업데이트 적용을 마치면 업데이트 매니저를 안 보이게 하기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1277
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1267
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr "업데이트할 것이 있거나 오류가 있을 때만 트레이에 아이콘 보이기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1306
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1296
 msgid "Always show security updates"
 msgstr "보안 업데이트 항상 보이기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1307
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1297
 msgid "Always select and trust security updates"
 msgstr "보안 업데이트 항상 선택하고 신뢰하기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1309
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1299
 msgid "minutes"
 msgstr "분"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1310
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1300
 msgid "hours"
 msgstr "시간"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1311
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1301
 msgid "days"
 msgstr "일"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1355
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1345
 msgid "Please specify the name of the update to ignore:"
 msgstr "업데이트 하지 않을 항목의 이름을 지정해 주세요:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1356
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1346
 msgid "Ignore an update"
 msgstr "업데이트 하지 않기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1360
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1350
 msgid "Name:"
 msgstr "이름:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1387
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2214
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1377
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2209
 msgid "History of updates"
 msgstr "업데이트 내역"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1390
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1380
 msgid "Date"
 msgstr "날짜"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1393
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2085
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2239
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1383
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2080
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2234
 msgid "Package"
 msgstr "패키지"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1396
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2093
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2245
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1386
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2088
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2240
 msgid "Old version"
 msgstr "오래된 버전"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1399
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2097
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2251
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1389
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2092
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2246
 msgid "New version"
 msgstr "새 버전"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1456
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2220
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1446
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2215
 msgid "Information"
 msgstr "정보"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1459
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1449
 msgid "Process ID:"
 msgstr "프로세스 ID:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1460
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1450
 msgid "Log file:"
 msgstr "로그 파일:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1478
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1468
 #, python-format
 msgid "Are you sure you want to remove the %s kernel?"
 msgstr "정말 %s 커널을 제거하시겠습니까?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1480
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1470
 #, python-format
 msgid "Are you sure you want to install the %s kernel?"
 msgstr "정말 %s 커널을 설치하시겠습니까?"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1502
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2217
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1492
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2212
 msgid "Linux kernels"
 msgstr "리눅스 커널"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1510
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1500
 msgid "Warning!"
 msgstr "알림!"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1511
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1501
 msgid ""
 "The Linux kernel is a critical part of the system. Regressions can lead to "
 "lack of networking, lack of sound, lack of graphical environment or even the "
@@ -447,21 +438,21 @@ msgstr ""
 "있습니다. 여러분이 커널, 드라이버, dkms 등에 대한 경험이 있으며 어떻게 부팅되지 않는 컴퓨터를 복구 시킬지 아는 경우에만 "
 "설치하거나 제거하세요."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1512
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1502
 msgid "The following kernels are available:"
 msgstr "다음 커널들이 사용 가능합니다:"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1513
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1503
 msgid "More info..."
 msgstr "추가 정보..."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1515
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1505
 msgid ""
 "Fixes can represent bug fixes, improvements in hardware support or security "
 "fixes."
 msgstr "문제 해결은버그를 치료하거나, 하드웨어 지원을 향상시키거나 보안 문제를 해결하게 됩니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1516
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1506
 msgid ""
 "Security fixes are important when local users represent a potential threat "
 "(in companies, libraries, schools or public places for instance) or when the "
@@ -470,14 +461,14 @@ msgstr ""
 "보안 문제 해결은 중요한데요 사용자가 (회사나, 도서관, 학교, 공공 장소 등에서) 위험에 맞닥 뜨릴 수 있기 때문입니다.또는, 컴퓨터가 "
 "외부로 부터 공격을 받을 수 도 있기 때문입니다(예를 들면 서버가 있지요)."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1517
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1507
 msgid ""
 "Bug fixes and hardware improvements are important if one of your devices "
 "isn't working as expected and the newer kernel addresses that problem."
 msgstr ""
 "버그 치료와 하드웨어 성능 향상은 매우 중요한데요 여러분의 장비가 기대한 대로 작동하지 않을때 새 커널이 그 문제를 해결하기도 합니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1518
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1508
 msgid ""
 "Regressions represent something which worked well and no longer works after "
 "an update. It is common in software development that a code change or even a "
@@ -489,17 +480,17 @@ msgstr ""
 "일인데요 코드를 바꾸거나 버그 해결에 따른 부작용 그리고 어떤 것이 망가지는 경우 등입니다. 잘못될 경우는 업데이트를 설치하거나 새 "
 "커널을 설치하는 등의 제한적인 경우에만 권장되기 때문입니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1520
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1543
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1510
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1533
 msgid "Fixes"
 msgstr "문제 해결"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1521
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1547
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1511
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1537
 msgid "Regressions"
 msgstr "잘못될 경우"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1522
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1512
 msgid ""
 "Note: Only known fixes and regressions are mentioned. If you are aware of "
 "additional fixes or regressions, please contact the development team."
@@ -507,168 +498,168 @@ msgstr ""
 "알림: 알려진 해결 방법이나 잘못될 경우만 언급되었습니다. 여러분이 추가적인 해결 방법이나 잘못될 경우를 아신다면, 개발 팀에게 연락 "
 "주세요."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1527
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1517
 msgid "Version"
 msgstr "버전"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1531
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1521
 msgid "Loaded"
 msgstr "읽어옴"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1535
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1525
 msgid "Recommended"
 msgstr "권장"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1539
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1529
 msgid "Installed"
 msgstr "설치됨"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1622
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1612
 msgid "Install"
 msgstr "설치하기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1626
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1616
 msgid "Remove"
 msgstr "제거하기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1668
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1658
 #, python-format
 msgid "Remove the %s kernel"
 msgstr "%s 커널을 제거합니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1670
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1660
 msgid "This kernel cannot be removed because it is currently in use."
 msgstr "이 커널은 현재 사용 중인 커널이어서 제거할 수 없습니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1674
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1664
 #, python-format
 msgid "Install the %s kernel"
 msgstr "%s 커널을 설치합니다"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1676
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1666
 msgid "This kernel is not installable."
 msgstr "이 커널은 설치할 수 없는 커널입니다."
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1723
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2289
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1713
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2286
 msgid "About"
 msgstr "정보"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1880
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1910
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1875
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1905
 #, python-format
 msgid "This update contains %d packages: "
 msgstr "이 업데이트는 %d 개의 패키지를 포함합니다: "
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1883
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1913
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1878
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1908
 msgid "This update contains 1 package: "
 msgstr "이 업데이트는 1개의 패키지를 포함합니다: "
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1956
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1951
 msgid "B"
 msgstr "B"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1958
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1953
 msgid "KB"
 msgstr "KB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1960
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1955
 msgid "MB"
 msgstr "MB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1962
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1957
 msgid "GB"
 msgstr "GB"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:1991
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1986
 msgid "Ignore updates for this package"
 msgstr "이 패키지에 대한 업데이트 무시"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2080
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2075
 msgid "Upgrade"
 msgstr "업그레이드"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2101
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2257
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2096
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2252
 msgid "Size"
 msgstr "크기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2105
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2227
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2100
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2222
 msgid "Type"
 msgstr "형식"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2152
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2147
 msgid "Install Updates"
 msgstr "업데이트 설치"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2153
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2148
 msgid "Refresh"
 msgstr "새로고침"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2154
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2149
 msgid "Select All"
 msgstr "모두 선택"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2155
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2150
 msgid "Clear"
 msgstr "선택 해제"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2157
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2152
 msgid "Changelog"
 msgstr "변경사항"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2166
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2161
 msgid "_File"
 msgstr "파일(_F)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2170
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2165
 msgid "Close"
 msgstr "닫기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2174
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2169
 msgid "_Edit"
 msgstr "편집(_E)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2184
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2179
 msgid "Software sources"
 msgstr "소프트웨어 저장소"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2206
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2201
 #, python-format
 msgid "Upgrade to %s"
 msgstr "%s로 업그레이드"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2210
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2205
 msgid "_View"
 msgstr "보기(_V)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2223
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2218
 msgid "Visible columns"
 msgstr "열 설정"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2265
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2260
 msgid "Show descriptions"
 msgstr "설명 보이기"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2280
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2275
 msgid "_Help"
 msgstr "도움말(_H)"
 
-#: usr/lib/linuxmint/mintUpdate/mintUpdate.py:2284
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2280
 msgid "Contents"
 msgstr "내용"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:18
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:18
 msgid "System Upgrade"
 msgstr "시스템 업그레이드"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:30
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:30
 msgid "Introduction"
 msgstr "도입"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:34
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:34
 msgid ""
 "Your system is missing critical components. A package corresponding to your "
 "edition of Linux Mint should provide the virtual package 'mint-info' and the "
@@ -677,75 +668,75 @@ msgstr ""
 "당신의 시스템은 중요한 부분을 보유하지 않고 있습니다.  당신의 리눅스 민트 에디션에 해당하는 패키지는 가상 패키지인 '민트-정보' 및 "
 "파일 /etc/linuxmint/info을 재공할 것입니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:47
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:47
 msgid "No upgrades were found."
 msgstr "업그레이드를 찾을 수 없습니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:55
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:55
 msgid "A new version of Linux Mint is available!"
 msgstr "새로운 버전의 리눅스 민트가 유효합니다!"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:65
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:65
 #, python-format
 msgid "An upgrade was found but it is not available yet for the %s edition."
 msgstr "업그레이드를 찾았으나 아직 %s 에디션에서 사용할 수 없는 업그레이드입니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:74
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:74
 msgid "Release notes"
 msgstr "출시 안내문"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:81
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:81
 msgid ""
 "Please read the release notes before upgrading. They explain all the known "
 "issues, workarounds and solutions associated with the new version."
 msgstr ""
 "업그레이드를 하기 전에 출시 안내문을 읽으십시오. 이것은 새로운 버전에 관련된 문제,  제 2의 해결책 그리고 해결책을 설명하고 있습니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:85
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:85
 #, python-format
 msgid "Release notes for %s"
 msgstr "%s의 출시 안내문"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:89
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:88
 msgid "Click on the link to open the release notes."
 msgstr "링크를 눌러 출시 안내문을 여십시오."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:97
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:96
 msgid "New features"
 msgstr "새로운 기능"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:104
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:103
 msgid "Please look at the new features introduced in the new version."
 msgstr "새로운 버전에 소개된 새로운 기능을 한번 둘러보십시오."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:108
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:107
 #, python-format
 msgid "New features in %s"
 msgstr "%s에 들어있는 새로운 기능"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:112
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:110
 msgid "Click on the link to browse the new features."
 msgstr "링크를 눌러 새로운 기능을 찾아보십시오."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:120
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:118
 msgid "Requirements"
 msgstr "요구 조건"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:130
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:128
 #, python-format
 msgid "The package %s needs to be installed before upgrading."
 msgstr "%s 패키지는 업그레이드하기 전에 설치되어야 합니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:134
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:132
 #, python-format
 msgid "Install %s"
 msgstr "%s 설치"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:139
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:137
 msgid "Click on the button to install the missing package."
 msgstr "버튼을 눌러 보유하고 있지 않은 패키지를 설치하십시오."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:153
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:151
 msgid ""
 "New releases provide bug fixes and new features but they also sometimes "
 "introduce new issues. Upgrading always represents a risk. Your data is safe "
@@ -754,36 +745,36 @@ msgstr ""
 "새로운 릴리스는 버그 수정이나 새로운 기능을 주기도 하지만 새로운 문제들을 야기하기도 합니다. 업그레이드는 항상 위험성을 지니고 "
 "있습니다. 당신의 데이터는 안전하지만 새로운 문제들이 당신의 운영체제에 심각한 문제를 끼칠 수도 있습니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:157
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:155
 #, python-format
 msgid "I understand the risk. I want to upgrade to %s."
 msgstr "이 업그레이드가 지닌 위험성을 이해했습니다. %s로 업그레이드를 합니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:167
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:165
 msgid "Summary"
 msgstr "개요"
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:178
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:176
 msgid "The package was installed"
 msgstr "이 패키지는 설치되어있습니다."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:270
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:262
 msgid ""
 "Your operating system was successfully upgraded. Please reboot your computer "
 "for all changes to take effect."
 msgstr "당신의 운영체제는 성공적으로 업그레이드가 되었습니다. 변경점이 적용될 수 있도록 재시작을 하십시오."
 
-#: usr/lib/linuxmint/mintUpdate/rel_upgrade.py:279
+#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:271
 msgid ""
 "The upgrade did not succeed. Make sure you are connected to the Internet and "
 "try to upgrade again."
 msgstr "업그레이드가 성공적이지 않습니다. 인터넷에 연결되었는지 확인하고 재시도를 하십시오."
 
-#: generate_desktop_files:24
+#: generate_desktop_files:25 generate_desktop_files:37
 msgid "Show and install available updates"
 msgstr "이용 가능한 업데이트를 보여주고, 설치합니다"
 
-#: usr/bin/mint-release-upgrade-root:16
+#: usr/bin/gooroom-release-upgrade-root:16
 msgid "Please enter your password to perform the upgrade"
 msgstr "업그레이드를 할 수 있도록 패스워드를 입력하십시오."
 
