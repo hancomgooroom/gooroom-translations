@@ -22,8 +22,8 @@ configure-stamp:
 
 build: build-stamp
 	#mkdir -p ${CURDIR}/usr/share/locale/ko/LC_MESSAGES
-	mkdir -p ${CURDIR}/usr/share/linuxmint/locale/ko/LC_MESSAGES
-	msgfmt $(CURDIR)/po/mintupdate/mintupdate-ko.po -o $(CURDIR)/usr/share/linuxmint/locale/ko/LC_MESSAGES/mintupdate.mo
+	mkdir -p ${CURDIR}/usr/share/gooroom/locale/ko/LC_MESSAGES
+	msgfmt $(CURDIR)/po/gooroomupdate/gooroomupdate-ko.po -o $(CURDIR)/usr/share/gooroom/locale/ko/LC_MESSAGES/gooroomupdate.mo
 
 build-stamp: configure-stamp
 	dh_testdir
