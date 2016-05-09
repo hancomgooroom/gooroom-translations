@@ -6,5 +6,5 @@ msgfmt po/xfce4-whiskermenu-plugin/xfce4-whiskermenu-plugin-ko.po \
 msgfmt po/gooroom-update/gooroom-update-ko.po \
 		-o usr/share/gooroom/locale/ko/LC_MESSAGES/gooroom-update.mo
 
-msgfmt po/gooroomsources/gooroomsources-ko.po \
-		-o usr/share/gooroom/locale/ko/LC_MESSAGES/gooroomsources.mo
+msgfmt po/gooroom-sources/gooroom-sources-ko.po \
+		-o usr/share/gooroom/locale/ko/LC_MESSAGES/gooroom-sources.mo
