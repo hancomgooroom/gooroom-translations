@@ -1,10 +1,11 @@
-gooroom-translations (2016.03.04) UNRELEASED; urgency=medium
+gooroom-translations (20160304) gooroom-1.0; urgency=medium
 
+  [ gooroom ]
   * xfce4-whiskermenu-plugin
 
  -- gooroom <gooroom@gooroom.kr>  Fri, 04 Mar 2016 18:24:41 +0900
 
-gooroom-translations (2015.10.16) gooroom-1.0; urgency=medium
+gooroom-translations (20151016) gooroom-1.0; urgency=medium
 
   * Initial release
 
