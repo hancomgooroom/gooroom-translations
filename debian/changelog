@@ -1,3 +1,12 @@
+gooroom-translations (20160627+grm1) gooroom-1.0; urgency=medium
+
+  [ jongkyung.woo ]
+  * [78aa6a39] Translations for gooroom/0.9.2+grm2 version of the gooroom-update
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 27 Jun 2016 13:40:01 +0900
+
 gooroom-translations (20160304+grm1) gooroom-1.0; urgency=medium
 
   * UNRELEASED
