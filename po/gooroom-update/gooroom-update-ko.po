@@ -145,11 +145,40 @@ msgid "A new version of the update manager is available"
 msgstr "새 버전의 업데이트 관리자가 나왔습니다"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1086
+msgid "OK"
+msgstr "원활합니"
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1089
+msgid "Failed"
+msgstr "실패했습니"
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1092
+msgid ""
+"Found a new version in updater.\n"
+"Please run the update."
+msgstr "새로운 업데이트가 있습니다.\n시스템을 업데이트하세요."
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1094
+msgid "warning updater"
+msgstr "업데이트 알림"
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:846
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1088
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1103
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1106
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1109
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1113
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1116
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1119
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1132
+#, python-format
+msgid "Network connection is %s"
+msgstr "업데이터 서버와의 접속이 %s다."
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:848
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s), 1개의 업데이트가 무시되었습니다."
