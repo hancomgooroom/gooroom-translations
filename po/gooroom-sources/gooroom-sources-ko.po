@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-04 11:33+0900\n"
+"POT-Creation-Date: 2016-11-07 09:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gooroom <gooroom@gooroom.kr>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -21,9 +21,20 @@ msgstr ""
 msgid "You are about to remove the following PPA from your system:"
 msgstr "다음 PPA를 제거하려고 합니다:"
 
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:38
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:114
+#, python-format
+msgid " More info: %s"
+msgstr " 더 많은 정보: %s"
+
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:42
 msgid "Press [ENTER] to continue or ctrl-c to cancel removing it"
 msgstr "계속 하시려면 [ENTER]를, 그만두시려면 ctrl-c 를 누르세요"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:46
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:122
+msgid "Unable to prompt for response.  Please run with -y"
+msgstr "결과를 확인 할 수 없습니다. -y 옵션과 함께 실행해 보세요"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:50
 msgid "Cancelling..."
@@ -49,7 +60,7 @@ msgid "Adding PPAs is not supported"
 msgstr "PPA 더하기를 지원하지 않습니다"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:104
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1060
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1145
 #, python-format
 msgid "Cannot add PPA: '%s'."
 msgstr "PPA를 추가할 수 없음: '%s'."
@@ -62,18 +73,9 @@ msgstr "현재 비공개 PPA 추가는 지원하지 않습니다."
 msgid "You are about to add the following PPA to your system:"
 msgstr "다음 PPA를 시스템에 추가하려고 합니다:"
 
-#: usr/lib/linuxmint/mintSources/mintSources.py:50
-#, python-format
-msgid " More info: %s"
-msgstr " 더 많은 정보: %s"
-
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:118
 msgid "Press [ENTER] to continue or ctrl-c to cancel adding it"
 msgstr "계속 하시려면 [ENTER]를, 그만두시려면 ctrl-c 를 누르세요"
-
-#: usr/lib/linuxmint/mintSources/mintSources.py:58
-msgid "Unable to prompt for response.  Please run with -y"
-msgstr "결과를 확인 할 수 없습니다. -y 옵션과 함께 실행해 보세요"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:170
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:173
@@ -97,8 +99,10 @@ msgid ""
 "Unless you are participating in beta-testing, you should not enable this "
 "repository. Are you sure you want to enable Romeo?"
 msgstr ""
-"리눅스 민트가 테스트 되지 않은 Romeo로 패키지를 만들고 있습니다. 이 패키지들이 테스트 되면, 공식 저장소로 옮겨질 겁니다, 그렇지 "
-"않은 경우에는 베타-테스팅 상태로 남을거구요, 이 저장소를 활성화 하지 말아 주세요. 정말 Romeo를 활성화 하시겠나요?"
+"리눅스 민트가 테스트 되지 않은 Romeo로 패키지를 만들고 있습니다. 이 패키지들"
+"이 테스트 되면, 공식 저장소로 옮겨질 겁니다, 그렇지 않은 경우에는 베타-테스"
+"팅 상태로 남을거구요, 이 저장소를 활성화 하지 말아 주세요. 정말 Romeo를 활성"
+"화 하시겠나요?"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:374
 msgid ""
@@ -110,282 +114,325 @@ msgid ""
 "backports until you have read this information. Are you sure you want to "
 "enable backports?"
 msgstr ""
-"백포트는 새로 출시되는 리눅스 민트의 패키지가 지원되는 곳입니다. 백포트 지원을 활성화 할때는, 개발팀에서 공식 발표를 "
-"http://blog.linuxmint.com 에 하게 됩니다. 이 공식 발표에는 새 기능, 디자인 결정 또는 여러분과 관련되 이슈들을 "
-"포함한 중요한 정보를 포함하게 되기도 합니다. 그러므로 여러분이 이런 정보를 받으 실때 까지는 백포트를 활성화 하지 않으시기를 적극 "
-"권장합니다. 정말 백포트를 활성화 하시겠나요?"
+"백포트는 새로 출시되는 리눅스 민트의 패키지가 지원되는 곳입니다. 백포트 지원"
+"을 활성화 할때는, 개발팀에서 공식 발표를 http://blog.linuxmint.com 에 하게 됩"
+"니다. 이 공식 발표에는 새 기능, 디자인 결정 또는 여러분과 관련되 이슈들을 포"
+"함한 중요한 정보를 포함하게 되기도 합니다. 그러므로 여러분이 이런 정보를 받"
+"으 실때 까지는 백포트를 활성화 하지 않으시기를 적극 권장합니다. 정말 백포트"
+"를 활성화 하시겠나요?"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:402
 msgid "Select a mirror"
 msgstr "미러 선택"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:413
-msgid "Country"
-msgstr "국가"
+msgid "Add a URL"
+msgstr "URL 추가"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:418
-msgid "URL"
-msgstr "URL 주소"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:423
-msgid "Speed"
-msgstr "속도"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:515
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:529
-msgid "kB/s"
-msgstr "kB/s"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:518
-msgid "MB/s"
-msgstr "MB/s"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:521
-msgid "GB/s"
-msgstr "GB/s"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:565
-msgid "Unreachable"
-msgstr ""
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:681
-#: generate_desktop_files:27 generate_desktop_files:43
-msgid "Software Sources"
-msgstr "소프트웨어소스"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:698
-msgid "Backported packages"
-msgstr "백포트 지원 패키지"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:700
-msgid "Unstable packages"
-msgstr "불안정한 패키지"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:713
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1382
-msgid "No action required"
-msgstr "아무것도 안해도 됩니다"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:715
-msgid "Official repositories"
-msgstr "공식 저장소"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:716
-msgid "PPAs"
-msgstr "개별 저장소(PPA)"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:717
-msgid "Additional repositories"
-msgstr "추가 저장소"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:718
-msgid "Authentication keys"
-msgstr "인증 키"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:719
-msgid "Maintenance"
-msgstr "유지 관리"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:721
-msgid "Mirrors"
-msgstr "미러 서버"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:722
-msgid "Main"
-msgstr "주 OS"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:723
-msgid "Base"
-msgstr "기반 OS"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:724
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:725
-msgid "Select a faster server..."
-msgstr "빠른 서버 고르기..."
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:727
-msgid "Optional components"
-msgstr "선택 사항"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:728
-msgid "Source code"
-msgstr "소스 코드"
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:730
-msgid "Add a new PPA..."
-msgstr "새 PPA 추가..."
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:731
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:737
-msgid "Edit URL..."
-msgstr "URL 편집..."
-
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:732
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:738
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:742
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:414
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:809
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:815
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:819
 #: usr/lib/gooroom/gooroomSources/foreign_packages.py:42
 msgid "Remove"
 msgstr "제거하기"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:733
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:419
+msgid "Country"
+msgstr "국가"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:424
+msgid "URL"
+msgstr "URL 주소"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:429
+msgid "Speed"
+msgstr "속도"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:521
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:535
+msgid "kB/s"
+msgstr "kB/s"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:524
+msgid "MB/s"
+msgstr "MB/s"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:527
+msgid "GB/s"
+msgstr "GB/s"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:568
+msgid "Obsolete"
+msgstr ""
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:571
+msgid "Unreachable"
+msgstr ""
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:584
+msgid "Server Error : Cannot connect to server"
+msgstr "서버 오류 : 서버에 연결할 수 없습니다."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:597
+msgid "You must register certifiate using gooroom-cert"
+msgstr "구름 인증 센터를 이용해 인증서를 등록해야 합니다."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:616
+msgid "Please enter the name of the URL you want to add:"
+msgstr "추가하실 URL의 이름을 넣어주세요."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:625
+msgid "Add succeeded."
+msgstr "추가 성공"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:627
+msgid "Cannot add URL: URL format is wrong."
+msgstr "URL을 추가할 수 없음: URL 형식이 잘못되었습니다."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:634
+msgid "Are you sure you want to permanently remove this URL?"
+msgstr "이 URL을 완전히 삭제하시겠습니까?"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:644
+msgid "Remove succeeded."
+msgstr "제거 완료"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:758
+#: generate_desktop_files:27 generate_desktop_files:43
+msgid "Software Sources"
+msgstr "소프트웨어소스"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:775
+msgid "Backported packages"
+msgstr "백포트 지원 패키지"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:777
+msgid "Unstable packages"
+msgstr "불안정한 패키지"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:790
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1472
+msgid "No action required"
+msgstr "아무것도 안해도 됩니다"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:792
+msgid "Official repositories"
+msgstr "공식 저장소"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:793
+msgid "PPAs"
+msgstr "개별 저장소(PPA)"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:794
+msgid "Additional repositories"
+msgstr "추가 저장소"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:795
+msgid "Authentication keys"
+msgstr "인증 키"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:796
+msgid "Maintenance"
+msgstr "유지 관리"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:798
+msgid "Mirrors"
+msgstr "미러 서버"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:799
+msgid "Main"
+msgstr "주 OS"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:800
+msgid "Base"
+msgstr "기반 OS"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:801
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:802
+msgid "Select a faster server..."
+msgstr "빠른 서버 고르기..."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:804
+msgid "Optional components"
+msgstr "선택 사항"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:805
+msgid "Source code"
+msgstr "소스 코드"
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:807
+msgid "Add a new PPA..."
+msgstr "새 PPA 추가..."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:808
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:814
+msgid "Edit URL..."
+msgstr "URL 편집..."
+
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:810
 msgid "Open PPA"
 msgstr "PPA 열어보기"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:734
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:811
 msgid "Look inside the PPA and install packages it provides"
 msgstr "PPA를 들여다보고 제공하는 패키지를 설치합니다"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:736
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:813
 msgid "Add a new repository..."
 msgstr "새 저장소 추가..."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:740
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:817
 msgid "Import key file..."
 msgstr "키 파일 추가..."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:741
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:818
 msgid "Download a key..."
 msgstr "키 파일 다운로드..."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:744
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:821
 msgid "Fix MergeList problems"
 msgstr "서버 병합 문제 해결"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:745
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:822
 msgid ""
 "If you experience MergeList problems, click this button to solve the problem."
 msgstr "서버 병합 문제를 겪으셨으면, 이 버튼을 눌러서 문제를 해결해보세요."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:746
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:823
 msgid "Purge residual configuration"
 msgstr "사용하지 않는 설정값 지우기"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:747
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:824
 msgid ""
 "Packages sometimes leave configuration files on the system even after they "
 "are removed."
 msgstr "패키지가 제거된 이후에도 설정 파일들이 시스템에 남아 있을 수 있습니다."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:748
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:825
 msgid "Remove foreign packages"
 msgstr "외래 패키지 제거"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:749
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:826
 msgid ""
 "Packages which do not come from known repositories are listed here and can "
 "be removed."
 msgstr "저장소에서 가져오지 않은 패키지들 목록이며 지우실 수 있습니다."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:750
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:827
 msgid "Downgrade foreign packages"
 msgstr "외래 패키지 다운그레이드"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:751
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:828
 msgid ""
 "Packages which version does not come from known repositories are listed here "
 "and can be downgraded."
-msgstr "알려지지 않은 저장소에서 가져온 패키지들 버전 목록이며 다운그레이드 하실 수 있습니다."
+msgstr ""
+"알려지지 않은 저장소에서 가져온 패키지들 버전 목록이며 다운그레이드 하실 수 "
+"있습니다."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:756
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:833
 msgid "Enable source code repositories"
 msgstr "소스 코드 저장소 활성화"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:766
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:843
 msgid ""
 "Warning: Backports and unstable packages can introduce regressions and "
 "negatively impact your system. Please do not enable these options in Linux "
 "Mint unless it was suggested by the development team."
 msgstr ""
-"주의: 백포트와 불안정한 버전의 패키지들은 여러분의 시스템을 퇴보 시키거나 부정적인 영향을 끼칠 수 있습니다. 리눅스 민트 개발팀으로 "
-"부터 제안 받지 않으셨다면 이 옵션들을 활성화 하지 않으셨으면 합니다."
+"주의: 백포트와 불안정한 버전의 패키지들은 여러분의 시스템을 퇴보 시키거나 부"
+"정적인 영향을 끼칠 수 있습니다. 리눅스 민트 개발팀으로 부터 제안 받지 않으셨"
+"다면 이 옵션들을 활성화 하지 않으셨으면 합니다."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:830
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:854
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:907
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:931
 msgid "Enabled"
 msgstr "사용중"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:836
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:913
 #: usr/lib/gooroom/gooroomSources/ppa_browser.py:38
 msgid "PPA"
 msgstr "개별 저장소(PPA)"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:860
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:937
 msgid "Repository"
 msgstr "저장소"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:876
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:953
 msgid "Key"
 msgstr "키 값"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:889
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:966
 msgid "Restore the default settings"
 msgstr "기본 설정으로 복원"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:890
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:967
 msgid "Restore the official repositories to their default settings"
 msgstr "공식 저장소를 기본 설정으로 복원"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:978
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1063
 msgid "There is no more residual configuration on the system."
 msgstr "사용하지 않는 설정이 시스템에 더 남아 있습니다."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:984
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1069
 msgid "The problem was fixed. Please reload the cache."
 msgstr "문제가 해결되었습니다. 캐시를 다시 불러오십시오."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1010
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1095
 msgid "Open.."
 msgstr "열기.."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1026
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1111
 msgid ""
 "Please enter the 8 characters of the public key you want to download from "
 "keyserver.ubuntu.com:"
 msgstr "keyserver.ubuntu.com에서 불러올 8자리의 공식 키를 넣어주십시오."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1039
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1124
 msgid "Are you sure you want to permanently remove this key?"
 msgstr "이 키를 완전히 삭제하시겠습니까?"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1053
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1138
 msgid "Please enter the name of the PPA you want to add:"
 msgstr "추가하실 PPA의 이름을 넣어주세요."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1106
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1191
 msgid "Edit the URL of the PPA"
 msgstr "PPA 주소 편집"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1116
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1201
 msgid "Are you sure you want to permanently remove this PPA?"
 msgstr "정말 이 PPA를 완전히 제거하시겠습니까?"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1155
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1240
 msgid ""
 "The content of this PPA is not available. Please refresh the cache and try "
 "again."
-msgstr "이 PPA의 패키지들을 사용할 수 없습니다. 새로 고침 하신 후에 다시 시도해보세요"
+msgstr ""
+"이 PPA의 패키지들을 사용할 수 없습니다. 새로 고침 하신 후에 다시 시도해보세요"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1169
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1254
 msgid "Please enter the name of the repository you want to add:"
 msgstr "추가하실 저장소 이름을 넣어주세요."
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1188
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1273
 msgid "Edit the URL of the repository"
 msgstr "저장소 주소 편집"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1198
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1283
 msgid "Are you sure you want to permanently remove this repository?"
 msgstr "정말 이 저장소를 완전히 제거하시겠습니까?"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1376
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1466
 msgid "Update the cache"
 msgstr "캐시 업데이트"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1377
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1467
 msgid "Click here to update your APT cache with your new sources"
 msgstr "새 소스에서 APT 캐시를 업데이트 하시려면 여기를 클릭하세요"
 
-#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1383
+#: usr/lib/gooroom/gooroomSources/gooroomSources.py:1473
 msgid "Your APT cache is up to date"
 msgstr "APT 캐시가 업데이트 되었습니다"
 
@@ -402,7 +449,8 @@ msgstr "취소"
 msgid ""
 "This PPA provides the following packages. Please select the ones you want to "
 "install:"
-msgstr "이 PPA는 다음의 패키지들을 제공합니다. 설치하시려는 패키지를 골라주세요:"
+msgstr ""
+"이 PPA는 다음의 패키지들을 제공합니다. 설치하시려는 패키지를 골라주세요:"
 
 #: usr/lib/gooroom/gooroomSources/ppa_browser.py:79
 #, python-format
@@ -435,7 +483,9 @@ msgstr "패키지들의 버전이 저장소의 것과 다릅니다:"
 msgid ""
 "The packages below are installed on your computer but not present in the "
 "repositories:"
-msgstr "아래 패키지들은 여러분의 컴퓨터에 설치는 되어 있지만 저장소에는 없는 것들입니다:"
+msgstr ""
+"아래 패키지들은 여러분의 컴퓨터에 설치는 되어 있지만 저장소에는 없는 것들입니"
+"다:"
 
 #: usr/lib/gooroom/gooroomSources/foreign_packages.py:46
 msgid "WARNING"
