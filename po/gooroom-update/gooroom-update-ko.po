@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gooroom\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-09 09:13+0900\n"
+"POT-Creation-Date: 2016-12-13 11:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,121 +17,107 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:131
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:130
 msgid "Downloading changelog..."
 msgstr "변경사항 내역 받아오는 중..."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:150
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:149
 msgid "No changelog available"
 msgstr "변경사항이 없습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:248
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:418
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:174
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade_root.py:54
-msgid "Please wait, this can take some time"
-msgstr "잠시만 기다려 주십시오. 이 작업은 시간이 다소 걸릴 수도 있습니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:251
-#, python-format
-msgid "The %s kernel was removed"
-msgstr "%s 커널이 제거 되었습니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:253
-#, python-format
-msgid "The %s kernel was installed"
-msgstr "%s 커널이 설치 되었습니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:325
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:579
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:288
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:542
 msgid "This upgrade will trigger additional changes"
 msgstr "해당 업그레이드는 추가적인 변경을 일으킵니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:335
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:589
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:298
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:552
 msgid "The following package will be removed:"
 msgstr "다음의 패키지가 제거됩니다:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:337
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:591
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:300
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:554
 #, python-format
 msgid "The following %d packages will be removed:"
 msgstr "다음의 %d 개의 패키지가 제거됩니다:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:365
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:619
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:328
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:582
 msgid "The following package will be installed:"
 msgstr "다음의 패키지가 설치됩니다:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:367
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:621
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:330
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:584
 #, python-format
 msgid "The following %d packages will be installed:"
 msgstr "다음의 %d 개의 패키지가 설치됩니다:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:408
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:662
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:371
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:625
 msgid "Installing updates"
 msgstr "업데이트를 설치하고 있습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:420
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade_root.py:56
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:381
+msgid "Please wait, this can take some time"
+msgstr "잠시만 기다려 주십시오. 이 작업은 시간이 다소 걸릴 수도 있습니다"
+
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:383
 msgid "Update is complete"
 msgstr "업데이트가 끝났습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:460
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:701
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:813
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2428
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:423
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:664
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:776
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2144
 msgid "Checking for updates"
 msgstr "업데이트 확인중"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:485
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:727
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:448
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:690
 msgid "Could not install the security updates"
 msgstr "보안 업데이트 설치에 실패하였습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:804
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:767
 msgid "Starting refresh..."
 msgstr "새로고치는 중..."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:850
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:852
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:813
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:815
 msgid "Another application is using APT"
 msgstr "다른 응용프로그램이 APT를 사용중입니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:862
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:825
 msgid "Finding the list of updates..."
 msgstr "업데이트 목록을 찾는 중..."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:899
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:901
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1166
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2542
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:862
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:864
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1130
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2258
 msgid "Your system is up to date"
 msgstr "현재 시스템이 최신 버전입니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:914
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:916
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1195
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1200
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2543
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:877
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:879
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1159
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1164
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2259
 msgid "Could not refresh the list of updates"
 msgstr "업데이트 목록을 불러올 수 없습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:959
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:922
 msgid "Security update"
 msgstr "보안 업데이트"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:961
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:924
 msgid ""
-"Software backport. Be careful when upgrading. New versions of sofware can "
+"Software backport. Be careful when upgrading. New versions of software can "
 "introduce regressions."
 msgstr ""
-"소프트웨어 백포트. 업그레이드할 때 주의하세요. 새 버전의 소프트웨어는 잘못될 "
-"경우가 있습니다."
+"소프트웨어 백포트. 업그레이드할 때 주의하세요. 새 버전의 소프트웨어는 잘못"
+"될 경우가 있습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:963
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:926
 msgid ""
 "Unstable software. Only apply this update to help developers beta-test new "
 "software."
@@ -139,27 +125,27 @@ msgstr ""
 "불안정한 버전의 소프트웨어. 베타-테스트로 개발자를 도우실 때만 업데이트하세"
 "요."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:965
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:928
 msgid "Software update"
 msgstr "소프트웨어 업데이트"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1080
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1043
 msgid "A new version of the update manager is available"
 msgstr "새 버전의 업데이트 관리자가 나왔습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1091
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1054
 msgid "OK"
 msgstr "원활합니"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1094
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1057
 msgid "Failed"
 msgstr "실패했습니"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1107
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1070
 msgid "warning updater"
 msgstr "업데이트 알림"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1110
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1073
 msgid ""
 "Found a new version in updater.\n"
 "Please run the update."
@@ -167,48 +153,48 @@ msgstr ""
 "새로운 업데이트가 있습니다.\n"
 "시스템을 업데이트하세요."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1138
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1102
 #, python-format
 msgid "1 recommended update available (%(size)s)"
 msgstr "1개의 추천 업데이트가 있습니다 (%(size)s)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1139
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1142
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1145
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1149
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1152
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1155
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1167
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1103
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1106
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1109
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1113
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1116
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1119
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1131
 #, python-format
 msgid "Network connection is %s"
 msgstr "업데이터 서버와의 접속이 %s다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1141
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1105
 #, python-format
 msgid "1 recommended update available (%(size)s), 1 ignored"
 msgstr ""
 "1개의 추천 업데이트가 있습니다 (%(size)s), 1개의 업데이트가 무시되었습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1144
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1108
 #, python-format
 msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
 msgstr ""
 "1개의 추천 업데이트가 있습니다 (%(size)s), %(ignored)d개의 업데이트가 무시되"
 "었습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1148
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1112
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s)"
 msgstr "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1151
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1115
 #, python-format
 msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
 msgstr ""
 "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s), 1개의 업데이트가 무"
 "시되었습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1154
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1118
 #, python-format
 msgid ""
 "%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
@@ -216,105 +202,104 @@ msgstr ""
 "%(recommended)d개의 추천 업데이트가 있습니다 (%(size)s), %(ignored)d개의 업데"
 "이트가 무시되었습니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1235
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1254
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2325
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1199
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1218
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2041
 msgid "No updates selected"
 msgstr "선택된 업데이트가 없습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1256
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2327
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1220
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2043
 #, python-format
 msgid "%(selected)d update selected (%(size)s)"
 msgstr "%(selected)d개의 업데이트가 선택되었습니다 (%(size)s)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1258
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2329
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1222
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2045
 #, python-format
 msgid "%(selected)d updates selected (%(size)s)"
 msgstr "%(selected)d개의 업데이트가 선택되었습니다 (%(size)s)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1276
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1585
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1758
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1827
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1873
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2094
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2096
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2434
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1240
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1546
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1722
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1791
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1810
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1812
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2150
 #: generate_desktop_files:25 generate_desktop_files:37
 msgid "Update Manager"
 msgstr "업데이트 관리자"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1585
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2561
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1546
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2277
 msgid "Preferences"
 msgstr "설정"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1587
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1548
 msgid "Levels"
 msgstr "등급"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1588
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1549
 msgid "Auto-Refresh & Upgrade"
 msgstr "자동 새로고침 & 업그레이드"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1589
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2469
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2623
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1550
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2185
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2314
 msgid "Level"
 msgstr "등급"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1590
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2539
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1551
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2255
 msgid "Description"
 msgstr "설명"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1591
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1552
 msgid "Tested?"
 msgstr "검증"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1592
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1553
 msgid "Origin"
 msgstr "출처"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1593
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1554
 msgid "Safe?"
 msgstr "신뢰"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1594
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1555
 msgid "Visible?"
 msgstr "표시"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1595
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1556
 msgid "Packages provided by Gooroom"
 msgstr "구름에서 제공하는 패키지입니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1596
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1557
 msgid "Packages provided by Debian"
 msgstr "데비안에서 제공하는 패키지입니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1597
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1558
 msgid "Packages provided by 3rd-party"
 msgstr "서드파티에서 제공하는 패키지입니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1600
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1561
 msgid "Gooroom"
 msgstr "구름"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1601
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1562
 msgid "Debian"
 msgstr "데비안"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1602
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1563
 msgid "3rd-party"
 msgstr "서드파티"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1605
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1566
 msgid "Refresh the list of updates every:"
 msgstr "업데이트 목록 새로고침 주기:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1606
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1567
 msgid ""
 "Note: The list only gets refreshed while the update manager window is closed "
 "(system tray mode)."
@@ -322,68 +307,68 @@ msgstr ""
 "주의: 이 목록은 업데이트 관리자 창이 닫혀있을 때에만 갱신됩니다. (시스템 트레"
 "이 모드)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1608
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1569
 msgid "Options"
 msgstr "옵션"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1609
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1570
 msgid "Icons"
 msgstr "아이콘"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1610
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1571
 msgid "Icon"
 msgstr "아이콘"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1611
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1572
 msgid "Status"
 msgstr "상태"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1612
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1573
 msgid "New Icon"
 msgstr "새 아이콘"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1613
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1574
 msgid "Busy"
 msgstr "바쁨"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1614
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1575
 msgid "System up-to-date"
 msgstr "모두 최신 버전임"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1615
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1576
 msgid "Updates available"
 msgstr "업데이트 가능함"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1616
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1577
 msgid "Error"
 msgstr "오류"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1617
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1578
 msgid "Unknown state"
 msgstr "알 수 없는 상태"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1618
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1579
 msgid "Applying updates"
 msgstr "업데이트 적용중"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1619
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1700
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1580
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1661
 msgid "Ignored updates"
 msgstr "업데이트 안함"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1621
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1582
 msgid "Auto Upgrade"
 msgstr "자동 업그레이드"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1622
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1583
 msgid "New Upgrade"
 msgstr "새 업그레이드"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1623
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1584
 msgid "Time"
 msgstr "시간"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1624
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1585
 msgid ""
 "The system will be upgraded automatically with the latest software if it is "
 "on and running at the time."
@@ -391,39 +376,39 @@ msgstr ""
 "설정된 시간에 단말기가 실행 중이면 최신 버전의 소프트웨어로 자동 업그레이드합"
 "니다."
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1625
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1586
 msgid "Every Saturday"
 msgstr "매주 토요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1626
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1587
 msgid "Every Friday"
 msgstr "매주 금요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1627
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1588
 msgid "Every Thursday"
 msgstr "매주 목요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1628
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1589
 msgid "Every Wednesday"
 msgstr "매주 수요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1629
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1590
 msgid "Every Tuesday"
 msgstr "매주 화요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1630
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1591
 msgid "Every Monday"
 msgstr "매주 월요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1631
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1592
 msgid "Every Sunday"
 msgstr "매주 일요일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1632
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1593
 msgid "Every Day"
 msgstr "매일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1634
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1595
 msgid ""
 "Include updates which require the installation of new packages or the "
 "removal of installed packages"
@@ -431,468 +416,195 @@ msgstr ""
 "새로운 패키지를 설치해야 하거나 설치된 패키지를 제거해야 하는 업데이트를 포함"
 "하고 있습니다"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1635
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1596
 msgid "Hide the update manager after applying updates"
 msgstr "업데이트 적용을 마치면 업데이트 매니저를 안 보이게 하기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1636
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1597
 msgid "Only show a tray icon when updates are available or in case of errors"
 msgstr "업데이트할 것이 있거나 오류가 있을 때만 트레이에 아이콘 보이기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1665
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1626
 msgid "Always show security updates"
 msgstr "보안 업데이트 항상 보이기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1666
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1627
 msgid "Always select and trust security updates"
 msgstr "보안 업데이트 항상 선택하고 신뢰하기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1668
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1629
 msgid "minutes"
 msgstr "분"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1669
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1630
 msgid "hours"
 msgstr "시간"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1670
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1631
 msgid "days"
 msgstr "일"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1726
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1687
 msgid "Please specify the name of the update to ignore:"
 msgstr "업데이트 하지 않을 항목의 이름을 지정해 주세요:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1727
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1688
 msgid "Ignore an update"
 msgstr "업데이트 하지 않기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1731
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1692
 msgid "Name:"
 msgstr "이름:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1758
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2604
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1722
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2298
 msgid "History of updates"
 msgstr "업데이트 내역"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1761
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1725
 msgid "Date"
 msgstr "날짜"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1764
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2465
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2629
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1728
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2181
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2320
 msgid "Package"
 msgstr "패키지"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1767
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2473
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2635
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1731
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2189
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2326
 msgid "Old version"
 msgstr "오래된 버전"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1770
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2477
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2641
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1734
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2193
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2332
 msgid "New version"
 msgstr "새 버전"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1827
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2610
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1791
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2301
 msgid "Information"
 msgstr "정보"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1830
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1794
 msgid "Process ID:"
 msgstr "프로세스 ID:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1831
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1795
 msgid "Log file:"
 msgstr "로그 파일:"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1849
-#, python-format
-msgid "Are you sure you want to remove the %s kernel?"
-msgstr "정말 %s 커널을 제거하시겠습니까?"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1851
-#, python-format
-msgid "Are you sure you want to install the %s kernel?"
-msgstr "정말 %s 커널을 설치하시겠습니까?"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1873
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2607
-msgid "Linux kernels"
-msgstr "리눅스 커널"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1881
-msgid "Warning!"
-msgstr "알림!"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1882
-msgid ""
-"The Linux kernel is a critical part of the system. Regressions can lead to "
-"lack of networking, lack of sound, lack of graphical environment or even the "
-"inability to boot the computer. Only install or remove kernels if you're "
-"experienced with kernels, drivers, dkms and you know how to recover a non-"
-"booting computer."
-msgstr ""
-"리눅스 커널은 시스템의 정수 입니다. 잘못 될 경우 네트워크, 소리, 그래픽 환"
-"경, 또는 컴퓨터를 부팅하는 데에도 이상이 생길 수 있습니다. 여러분이 커널, 드"
-"라이버, dkms 등에 대한 경험이 있으며 어떻게 부팅되지 않는 컴퓨터를 복구 시킬"
-"지 아는 경우에만 설치하거나 제거하세요."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1883
-msgid "The following kernels are available:"
-msgstr "다음 커널들이 사용 가능합니다:"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1884
-msgid "More info..."
-msgstr "추가 정보..."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1886
-msgid ""
-"Fixes can represent bug fixes, improvements in hardware support or security "
-"fixes."
-msgstr ""
-"문제 해결은버그를 치료하거나, 하드웨어 지원을 향상시키거나 보안 문제를 해결하"
-"게 됩니다."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1887
-msgid ""
-"Security fixes are important when local users represent a potential threat "
-"(in companies, libraries, schools or public places for instance) or when the "
-"computer can be threatened by remote attacks (servers for instance)."
-msgstr ""
-"보안 문제 해결은 중요한데요 사용자가 (회사나, 도서관, 학교, 공공 장소 등에"
-"서) 위험에 맞닥 뜨릴 수 있기 때문입니다.또는, 컴퓨터가 외부로 부터 공격을 받"
-"을 수 도 있기 때문입니다(예를 들면 서버가 있지요)."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1888
-msgid ""
-"Bug fixes and hardware improvements are important if one of your devices "
-"isn't working as expected and the newer kernel addresses that problem."
-msgstr ""
-"버그 치료와 하드웨어 성능 향상은 매우 중요한데요 여러분의 장비가 기대한 대로 "
-"작동하지 않을때 새 커널이 그 문제를 해결하기도 합니다."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1889
-msgid ""
-"Regressions represent something which worked well and no longer works after "
-"an update. It is common in software development that a code change or even a "
-"bug fix introduces side effects and breaks something else. Because of "
-"regressions it is recommended to be selective when installing updates or "
-"newer kernels."
-msgstr ""
-"잘못될 경우란 잘 작동하던 것이 업데이트 이후에 제대로 작동하지 않는 것을 말합"
-"니다. 이런 일은 소프트웨어 개발을 하다 보면 자주 있는 일인데요 코드를 바꾸거"
-"나 버그 해결에 따른 부작용 그리고 어떤 것이 망가지는 경우 등입니다. 잘못될 경"
-"우는 업데이트를 설치하거나 새 커널을 설치하는 등의 제한적인 경우에만 권장되"
-"기 때문입니다."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1891
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1914
-msgid "Fixes"
-msgstr "문제 해결"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1892
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1918
-msgid "Regressions"
-msgstr "잘못될 경우"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1893
-msgid ""
-"Note: Only known fixes and regressions are mentioned. If you are aware of "
-"additional fixes or regressions, please contact the development team."
-msgstr ""
-"알림: 알려진 해결 방법이나 잘못될 경우만 언급되었습니다. 여러분이 추가적인 해"
-"결 방법이나 잘못될 경우를 아신다면, 개발 팀에게 연락 주세요."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1898
-msgid "Version"
-msgstr "버전"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1902
-msgid "Loaded"
-msgstr "읽어옴"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1906
-msgid "Recommended"
-msgstr "권장"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1910
-msgid "Installed"
-msgstr "설치됨"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1993
-msgid "Install"
-msgstr "설치하기"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1997
-msgid "Remove"
-msgstr "제거하기"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2039
-#, python-format
-msgid "Remove the %s kernel"
-msgstr "%s 커널을 제거합니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2041
-msgid "This kernel cannot be removed because it is currently in use."
-msgstr "이 커널은 현재 사용 중인 커널이어서 제거할 수 없습니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2045
-#, python-format
-msgid "Install the %s kernel"
-msgstr "%s 커널을 설치합니다"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2047
-msgid "This kernel is not installable."
-msgstr "이 커널은 설치할 수 없는 커널입니다."
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2094
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2681
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1810
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2365
 msgid "About"
 msgstr "정보"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2256
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2286
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1972
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2002
 #, python-format
 msgid "This update contains %d packages: "
 msgstr "이 업데이트는 %d 개의 패키지를 포함합니다: "
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2259
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2289
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:1975
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2005
 msgid "This update contains 1 package: "
 msgstr "이 업데이트는 1개의 패키지를 포함합니다: "
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2332
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2048
 msgid "B"
 msgstr "B"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2334
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2050
 msgid "KB"
 msgstr "KB"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2336
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2052
 msgid "MB"
 msgstr "MB"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2338
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2054
 msgid "GB"
 msgstr "GB"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2367
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2083
 msgid "Ignore updates for this package"
 msgstr "이 패키지에 대한 업데이트 무시"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2460
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2176
 msgid "Upgrade"
 msgstr "업그레이드"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2481
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2647
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2197
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2338
 msgid "Size"
 msgstr "크기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2485
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2617
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2201
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2308
 msgid "Type"
 msgstr "형식"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2535
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2251
 msgid "Install Updates"
 msgstr "업데이트 설치"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2536
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2252
 msgid "Refresh"
 msgstr "새로고침"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2537
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2253
 msgid "Select All"
 msgstr "모두 선택"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2538
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2254
 msgid "Clear"
 msgstr "선택 해제"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2540
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2256
 msgid "Changelog"
 msgstr "변경사항"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2549
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2265
 msgid "_File"
 msgstr "파일(_F)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2553
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2269
 msgid "Close"
 msgstr "닫기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2557
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2273
 msgid "_Edit"
 msgstr "편집(_E)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2567
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2283
 msgid "Certification management"
 msgstr "인증 관리"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2574
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2290
 msgid "Software sources"
 msgstr "소프트웨어 저장소"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2596
-#, python-format
-msgid "Upgrade to %s"
-msgstr "%s로 업그레이드"
-
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2600
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2294
 msgid "_View"
 msgstr "보기(_V)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2613
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2304
 msgid "Visible columns"
 msgstr "열 설정"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2655
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2346
 msgid "Show descriptions"
 msgstr "설명 보이기"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2670
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2354
 msgid "_Help"
 msgstr "도움말(_H)"
 
-#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2675
+#: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2359
 msgid "Contents"
 msgstr "내용"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:18
-msgid "System Upgrade"
-msgstr "시스템 업그레이드"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:30
-msgid "Introduction"
-msgstr "도입"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:34
-msgid ""
-"Your system is missing critical components. A package corresponding to your "
-"edition of Linux Mint should provide the virtual package 'mint-info' and the "
-"file /etc/linuxmint/info."
-msgstr ""
-"당신의 시스템은 중요한 부분을 보유하지 않고 있습니다.  당신의 리눅스 민트 에"
-"디션에 해당하는 패키지는 가상 패키지인 '민트-정보' 및 파일 /etc/linuxmint/"
-"info을 재공할 것입니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:47
-msgid "No upgrades were found."
-msgstr "업그레이드를 찾을 수 없습니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:55
-msgid "A new version of Linux Mint is available!"
-msgstr "새로운 버전의 리눅스 민트가 유효합니다!"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:65
-#, python-format
-msgid "An upgrade was found but it is not available yet for the %s edition."
-msgstr ""
-"업그레이드를 찾았으나 아직 %s 에디션에서 사용할 수 없는 업그레이드입니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:74
-msgid "Release notes"
-msgstr "출시 안내문"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:81
-msgid ""
-"Please read the release notes before upgrading. They explain all the known "
-"issues, workarounds and solutions associated with the new version."
-msgstr ""
-"업그레이드를 하기 전에 출시 안내문을 읽으십시오. 이것은 새로운 버전에 관련된 "
-"문제,  제 2의 해결책 그리고 해결책을 설명하고 있습니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:85
-#, python-format
-msgid "Release notes for %s"
-msgstr "%s의 출시 안내문"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:88
-msgid "Click on the link to open the release notes."
-msgstr "링크를 눌러 출시 안내문을 여십시오."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:96
-msgid "New features"
-msgstr "새로운 기능"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:103
-msgid "Please look at the new features introduced in the new version."
-msgstr "새로운 버전에 소개된 새로운 기능을 한번 둘러보십시오."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:107
-#, python-format
-msgid "New features in %s"
-msgstr "%s에 들어있는 새로운 기능"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:110
-msgid "Click on the link to browse the new features."
-msgstr "링크를 눌러 새로운 기능을 찾아보십시오."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:118
-msgid "Requirements"
-msgstr "요구 조건"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:128
-#, python-format
-msgid "The package %s needs to be installed before upgrading."
-msgstr "%s 패키지는 업그레이드하기 전에 설치되어야 합니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:132
-#, python-format
-msgid "Install %s"
-msgstr "%s 설치"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:137
-msgid "Click on the button to install the missing package."
-msgstr "버튼을 눌러 보유하고 있지 않은 패키지를 설치하십시오."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:151
-msgid ""
-"New releases provide bug fixes and new features but they also sometimes "
-"introduce new issues. Upgrading always represents a risk. Your data is safe "
-"but new issues can potentially affect your operating system."
-msgstr ""
-"새로운 릴리스는 버그 수정이나 새로운 기능을 주기도 하지만 새로운 문제들을 야"
-"기하기도 합니다. 업그레이드는 항상 위험성을 지니고 있습니다. 당신의 데이터는 "
-"안전하지만 새로운 문제들이 당신의 운영체제에 심각한 문제를 끼칠 수도 있습니"
-"다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:155
-#, python-format
-msgid "I understand the risk. I want to upgrade to %s."
-msgstr "이 업그레이드가 지닌 위험성을 이해했습니다. %s로 업그레이드를 합니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:165
-msgid "Summary"
-msgstr "개요"
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:176
-msgid "The package was installed"
-msgstr "이 패키지는 설치되어있습니다."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:262
-msgid ""
-"Your operating system was successfully upgraded. Please reboot your computer "
-"for all changes to take effect."
-msgstr ""
-"당신의 운영체제는 성공적으로 업그레이드가 되었습니다. 변경점이 적용될 수 있도"
-"록 재시작을 하십시오."
-
-#: usr/lib/gooroom/gooroomUpdate/rel_upgrade.py:271
-msgid ""
-"The upgrade did not succeed. Make sure you are connected to the Internet and "
-"try to upgrade again."
-msgstr ""
-"업그레이드가 성공적이지 않습니다. 인터넷에 연결되었는지 확인하고 재시도를 하"
-"십시오."
 
 #: generate_desktop_files:25 generate_desktop_files:37
 msgid "Show and install available updates"
@@ -902,147 +614,3 @@ msgstr "이용 가능한 업데이트를 보여주고, 설치합니다"
 msgid "Please enter your password to perform the upgrade"
 msgstr "업그레이드를 할 수 있도록 패스워드를 입력하십시오."
 
-#~ msgid "Software Updates"
-#~ msgstr "소프트웨어 업데이트"
-
-#~ msgid "Could not connect to the Internet"
-#~ msgstr "인터넷에 연결할 수 없습니다"
-
-#~ msgid "Could not download safety rules"
-#~ msgstr "안전 규칙을 다운로드할 수 없습니다"
-
-#~ msgid "Update Method"
-#~ msgstr "업데이트 방법"
-
-#~ msgid "Proxy"
-#~ msgstr "프록시"
-
-#~ msgid "Manual proxy configuration"
-#~ msgstr "수동 프록시 설정"
-
-#~ msgid "HTTP Proxy:"
-#~ msgstr "HTTP 프록시:"
-
-#~ msgid "FTP Proxy:"
-#~ msgstr "FTP 프록시:"
-
-#~ msgid "Port:"
-#~ msgstr "포트:"
-
-#~ msgid "Ignored packages"
-#~ msgstr "무시된 패키지"
-
-#~ msgid "Please enter a package name:"
-#~ msgstr "패키지 이름을 입력하십시오:"
-
-#~ msgid "Ignore a package"
-#~ msgstr "패키지 무시"
-
-#~ msgid "Package name:"
-#~ msgstr "패키지 이름:"
-
-#~ msgid "Log file"
-#~ msgstr "로그 파일"
-
-#~ msgid "Permissions:"
-#~ msgstr "권한:"
-
-#~ msgid "Warnings"
-#~ msgstr "경고"
-
-#~ msgid "Extra Info"
-#~ msgstr "추가 정보"
-
-#~ msgid "%(recommended)d recommended updates available, %(ignored)d ignored"
-#~ msgstr "권장 업데이트 %(recommended)d개, %(ignored)d개  무시됨"
-
-#~ msgid "%d recommended updates available"
-#~ msgstr "권장 업데이트가 %d개 있습니다"
-
-#~ msgid ""
-#~ "Unsafe packages. Could potentially affect the stability of the system."
-#~ msgstr ""
-#~ "안전하지 않은 패키지 입니다. 시스템의 안정성에 영향을 끼칠 수 있습니다."
-
-#~ msgid "Safe packages. Not tested but believed to be safe."
-#~ msgstr "안전한 업데이트입니다. 검증되지 않았지만 안전하다고 여겨집니다."
-
-#~ msgid "Linux Mint or Romeo"
-#~ msgstr "리눅스 민트 /로미오"
-
-#~ msgid ""
-#~ "Dangerous packages. Known to affect the stability of the systems "
-#~ "depending on certain specs or hardware."
-#~ msgstr ""
-#~ "위험한 패키지입니다. 컴퓨터 환경에 따라 시스템의 안정성에 영향을 끼치는 것"
-#~ "으로 알려져 있습니다."
-
-#~ msgid "Ubuntu or 3rd party"
-#~ msgstr "우분투 / 제 3자"
-
-#~ msgid "Yes"
-#~ msgstr "됨"
-
-#~ msgid ""
-#~ "Certified packages. Tested through Romeo or directly maintained by Linux "
-#~ "Mint."
-#~ msgstr ""
-#~ "공인된 업데이트입니다. 로미오를 통해 검증되었거나 리눅스 민트가 직접 관리"
-#~ "합니다."
-
-#~ msgid "Recommended packages. Tested and approved by Linux Mint."
-#~ msgstr "권장되는 업데이트입니다. 리눅스 민트에 의해 검증되었습니다."
-
-#~ msgid "No"
-#~ msgstr "안됨"
-
-#~ msgid "Internet check (domain name or IP address):"
-#~ msgstr "인터넷 연결 확인 (도메인명 또는 IP 주소):"
-
-#~ msgid "Use the same proxy for all protocols"
-#~ msgstr "모든 프로토콜에 같은 프록시 사용"
-
-#~ msgid "Startup delay (in seconds):"
-#~ msgstr "시작 지연 (초 단위)"
-
-#~ msgid "Satisfy changing dependencies using dist-upgrade?"
-#~ msgstr "dist-upgrade를 사용하여 바뀐 의존성을 해결하시겠습니까?"
-
-#~ msgid "Gopher Proxy:"
-#~ msgstr "Gopher 프록시:"
-
-#~ msgid "All available upgrades for this package will be ignored."
-#~ msgstr "이 패키지에 대한 모든 업데이트는 무시됩니다."
-
-#~ msgid ""
-#~ "Note: The dist-upgrade option, in addition to performing the function of "
-#~ "upgrade, also intelligently handles changing dependencies with new "
-#~ "versions of packages. Without this option, only the latest versions of "
-#~ "any out-of-date packages on your system are installed. Packages that are "
-#~ "not yet installed don't get installed automatically and newer versions of "
-#~ "packages which dependencies require such installations are simply ignored."
-#~ msgstr ""
-#~ "참고: dist-upgrade 기능은 업그레이드를 진행함과 동시에 새로운 버전에서 필"
-#~ "요한 패키지를 자동으로 설치합니다. 이 기능을 사용하지 않는다면, 현재 시스"
-#~ "템의 패키지를 새로운 버전의 패키지로 교체하고 추가적인 의존성 해결은 일어"
-#~ "나지 않습니다. 이 때 의존성을 만족하지 못한 새 버전의 패키지는 설치하지 않"
-#~ "고 건너 뜁니다."
-
-#~ msgid "Checking the connection to the Internet..."
-#~ msgstr "인터넷 연결을 확인하는 중..."
-
-#~ msgid "Downloading safety level rules..."
-#~ msgstr "안전 등급 규칙을 다운로드하는 중..."
-
-#~ msgid "Please enter your password to start mintUpdate"
-#~ msgstr "업데이트 관리자를 시작하려면 사용자의 암호가 필요합니다"
-
-#~ msgid "Could not refresh the list of packages"
-#~ msgstr "패키지 목록을 새로고칠 수 없습니다."
-
-#~ msgid ""
-#~ "Note: The list only gets refreshed while the mintUpdate window is closed "
-#~ "(system tray mode)."
-#~ msgstr ""
-#~ "참고: 업데이트 목록은 업데이트 관리자의 창이 닫혀있을 때에만 자동으로 갱신"
-#~ "됩니다. (시스템 트레이 모드)"
