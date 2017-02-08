@@ -1,3 +1,19 @@
+gooroom-translations (20170202+grm1) gooroom-1.0; urgency=medium
+
+  [ jongkyung.woo ]
+  * [c556408a] add live-installer-ko.po
+
+  [ sungho.kang ]
+  * [928ce095] modified gooroom sources and update translations.
+  * [60ce2fad] removed gooroom sources translations which related mint
+  * [7e15da8e] gooroom sources translation changed
+  * [de769062] Update gooroom-update translations
+  * [c98df0c8] Add polkit-1 translation
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 08 Feb 2017 17:10:55 +0900
+
 gooroom-translations (20160627+grm1) gooroom-1.0; urgency=medium
 
   [ jongkyung.woo ]
