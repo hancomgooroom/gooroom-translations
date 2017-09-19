@@ -107,7 +107,11 @@ msgstr ""
 "주의: grub 부트로더가 올바르게 설정되지 않았습니다!"
 "수동으로 설정해야 합니다"
 
-#: usr/lib/live-installer/installer.py:504
+#: usr/lib/live-installer/installer.py:570
+msgid "Configuring Recovery Mode"
+msgstr "구름 복구 파일 생성중입니다"
+
+#: usr/lib/live-installer/installer.py:588
 msgid "Cleaning APT"
 msgstr "APT를 지우는 중입니다"
 
