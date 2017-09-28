@@ -645,7 +645,7 @@ msgstr "홈 디렉토리 암호화 설정"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:920
 msgid "Encrypted home: "
-msgstr "홈 디렉토리 암호화"
+msgstr "홈 디렉토리 암호화: "
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:920
 msgid "ecryptfs (Kernel Level Encryption)"
