@@ -639,6 +639,22 @@ msgstr "시스템 설정"
 msgid "Hostname: "
 msgstr "호스트 이름: "
 
+#: usr/lib/live-installer/frontend/gtk_interface.py:919
+msgid "Encrypted home settings"
+msgstr "홈 디렉토리 암호화 설정"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:920
+msgid "Encrypted home: "
+msgstr "홈 디렉토리 암호화"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:920
+msgid "ecryptfs (Kernel Level Encryption)"
+msgstr "ecryptfs (커널 수준 암호화)"
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:920
+msgid "encfs (User Level Encryption)"
+msgstr "encfs (사용자 수준 암호화)"
+
 #: usr/lib/live-installer/frontend/gtk_interface.py:897
 msgid "Filesystem operations"
 msgstr "파일시스템 동작"
