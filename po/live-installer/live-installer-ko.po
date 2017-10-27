@@ -170,8 +170,8 @@ msgid "Summary"
 msgstr "개요"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:95
-msgid "Installing Gooroom Platform..."
-msgstr "구름 플랫폼 설치..."
+msgid "Installing Gooroom Platform"
+msgstr "구름 플랫폼 설치"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Installation paused: please finish the custom installation"
