@@ -653,10 +653,10 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:1008
 msgid ""
-"The installation is now complete. Do you want to restart your computer to "
+"The installation is now complete.\nDo you want to restart your computer to "
 "use the new system?"
 msgstr ""
-"지금 설치가 완료되었습니다. 새로운 시스템을 사용하기 위해 컴퓨터를 재시작하시"
+"설치가 완료되었습니다.\n새로운 시스템을 사용하기 위해 컴퓨터를 재시작하시"
 "겠습니까?"
 
 #: usr/lib/live-installer/partitioning.py:133
