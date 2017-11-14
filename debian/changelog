@@ -1,3 +1,25 @@
+gooroom-translations (20171114+grm1u1) gooroom-1.0; urgency=medium
+
+  [ jongkyung.woo ]
+  * [5ca20db0] Added translation of Gooroom Recovery Mode to live-installer
+  * [5abdb639] Support for home directory encryption in live-installer
+  * [14a026df] Translation of additional home directory encryption in live-installer
+  * [659861e7] Updated live-installer-ko.po
+
+  [ sungho.kang ]
+  * [a32541f7] update gooroom-update l10n
+  * [4171b611] update gooroom-sources l10n
+
+  [ hmkim ]
+  * [004d7b79] added a statement to translate when new password is too simple.
+  * [7b76a779] added password validation comment in live-installer.
+  * [320f2ef7] changed installation completion korean message.
+  * [b6ea5a67] changed title of installation page.
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 14 Nov 2017 09:17:23 +0900
+
 gooroom-translations (20170202+grm1) gooroom-1.0; urgency=medium
 
   [ jongkyung.woo ]
