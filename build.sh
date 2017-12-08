@@ -11,3 +11,6 @@ msgfmt -v -c po/gooroom-sources/gooroom-sources-ko.po \
 
 msgfmt -v -c po/live-installer/live-installer-ko.po \
 		-o usr/share/gooroom/locale/ko/LC_MESSAGES/live-installer.mo
+
+msgfmt -v -c po/galculator/galculator-ko.po \
+		-o usr/share/locale/ko/LC_MESSAGES/galculator.mo
