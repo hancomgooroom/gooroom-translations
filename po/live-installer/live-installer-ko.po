@@ -236,7 +236,6 @@ msgid "This is the name you will use to log in to your computer."
 msgstr "이것은 당신의 컴퓨터에 로그인할 때 사용할 이름입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:400
-#, fuzzy
 msgid ""
 "It's recommended more than 1 letters which starts with lowcase alphabet and "
 "combined of lowcase alphabets, numbers and special character(-)."
