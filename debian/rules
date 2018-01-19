@@ -22,6 +22,7 @@ configure-stamp:
 
 build: build-stamp
 	mkdir -p ${CURDIR}/usr/share/gooroom/locale/ko/LC_MESSAGES
+	mkdir -p ${CURDIR}/boot/grub/locale
 	./build.sh
 
 build-stamp: configure-stamp
@@ -43,6 +44,7 @@ install: build
 	# Add here commands to install the package into debian/gooroom-translations.
 	mkdir -p $(CURDIR)/debian/gooroom-translations
 	cp -r $(CURDIR)/usr $(CURDIR)/debian/gooroom-translations/
+	cp -r $(CURDIR)/boot $(CURDIR)/debian/gooroom-translations/
 
 # Build architecture-independent files here.
 binary-indep: build install
