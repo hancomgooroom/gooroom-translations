@@ -5559,7 +5559,7 @@ msgid ""
 msgstr ""
 "enter 키를 누르셔서 선택한 OS로 부팅하시거나, "
 "`e'를 누르셔서 부팅하기 전에 명령어를 편집하시거나 "
-"`c'를 누르셔서 명령-줄로 진입하십시오. ESC 키를 누르셔서 이전 메뉴로 돌아가십시오."
+"`c'를 누르셔서 명령줄로 진입하십시오. ESC 키를 누르셔서 이전 메뉴로 돌아가십시오."
 
 #: grub-core/gfxmenu/gui_label.c:190 grub-core/normal/menu_text.c:192
 msgid ""
@@ -5569,11 +5569,11 @@ msgid ""
 msgstr ""
 "enter 키를 누르셔서 선택한 OS로 부팅하시거나, "
 "`e'를 누르셔서 부팅하기 전에 명령어를 편집하시거나"
-"`c'를 누르셔서 명령-줄로 진입하십시오."
+"`c'를 누르셔서 명령줄로 진입하십시오."
 
 #: grub-core/gfxmenu/gui_label.c:194
 msgid "enter: boot, `e': options, `c': cmd-line"
-msgstr "enter: 부팅, `e': 선택 사항, `c': 명령-줄"
+msgstr "enter: 부팅, `e': 선택 사항, `c': 명령줄"
 
 #: grub-core/gfxmenu/gui_progress_bar.c:339 grub-core/normal/menu_text.c:446
 #, c-format
@@ -6351,7 +6351,7 @@ msgid ""
 "edits and return to the GRUB menu."
 msgstr ""
 "최소한의 Emacs-계열 화면 편집이 지원됩니다. TAB 키는 자동완성 목록을 보여줍니다. Ctrl-x나 F10 키를 누르셔서 "
-"부트하시고, Ctrl-c나 F2 키를 누르셔서 명령-줄로 들어가시거나 ESC 키를 누르셔서 편집한 사항을 취소하고 GRUB 메뉴로 "
+"부트하시고, Ctrl-c나 F2 키를 누르셔서 명령줄로 들어가시거나 ESC 키를 누르셔서 편집한 사항을 취소하고 GRUB 메뉴로 "
 "돌아가십시오."
 
 #: grub-core/normal/menu_text.c:170
@@ -6566,12 +6566,12 @@ msgstr "코어 이미지의 섹터를 읽는 걸 실패했습니다"
 #: grub-core/osdep/hurd/getroot.c:79
 #, c-format
 msgid "cannot get translator command line for path `%s': %s"
-msgstr "경로 `%s'용 변환기 명령 줄을 가져올 수 없습니다: %s"
+msgstr "경로 `%s'용 변환기 명령줄을 가져올 수 없습니다: %s"
 
 #: grub-core/osdep/hurd/getroot.c:82
 #, c-format
 msgid "translator command line is empty for path `%s'"
-msgstr "경로 `%s'용 변환기 명령 줄이 공란입니다"
+msgstr "경로 `%s'용 변환기 명령줄이 공란입니다"
 
 #. TRANSLATORS: we expect to get something like
 #. /hurd/foobar --option1 --option2=baz /dev/something
