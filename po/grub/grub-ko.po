@@ -8031,7 +8031,7 @@ msgstr "리눅스 %s를 불러옵니다 ..."
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:195 util/grub.d/20_linux_xen.in:139
 msgid "Loading initial ramdisk ..."
-msgstr "첫 램 디스크를 불러옵니다 ..."
+msgstr "초기의 램 디스크를 불러옵니다 ..."
 
 #: util/grub.d/10_linux.in:296 util/grub.d/20_linux_xen.in:219
 msgid "Found linux image: %s\\n"
