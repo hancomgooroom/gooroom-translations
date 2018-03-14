@@ -1,3 +1,26 @@
+gooroom-translations (20180314+grm1u1) gooroom-1.0; urgency=medium
+
+  [ sjchu ]
+  * [4f8c4997] Added galculator translation
+
+  [ hmkim ]
+  * [97cc6c7b] added validation comment of both userid and password.
+  * [3c345852] changed password validation comment.
+  * [9958ffc0] changed live-installer-ko.po.
+  * [f00ae472] changed userid validation comment.
+  * [db1c8312] added(changed) password validation comments.
+
+  [ jongkyung.woo ]
+  * [9f64d79c] Updated copyright file
+  * [e6797063] Added grub-ko.po
+  * [0f7071d3] Updated grub-ko.po
+  * [60493abf] Updated grub-ko file a second time
+  * [071ba4a8] Added glib20-ko.po
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 14 Mar 2018 12:09:12 +0900
+
 gooroom-translations (20171114+grm1u1) gooroom-1.0; urgency=medium
 
   [ jongkyung.woo ]
