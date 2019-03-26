@@ -178,7 +178,7 @@ msgstr "제거 성공"
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:754
 #: generate_desktop_files:27 generate_desktop_files:43
 msgid "Software Sources"
-msgstr "소프트웨어소스"
+msgstr "소프트웨어 저장소"
 
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:776
 #: usr/lib/gooroom/gooroomSources/gooroomSources.py:1436
