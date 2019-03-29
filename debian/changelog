@@ -1,3 +1,15 @@
+gooroom-translations (20190326+grm1u1) gooroom-1.0; urgency=medium
+
+  [ jongkyung.woo ]
+  * [eaf1a950] Avoided conflicts with the grub.mo in grub-common packages
+
+  [ HaeRyong Jeong ]
+  * [7ea6b09c] Change resource text in gooroom-sources
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 29 Mar 2019 09:26:04 +0900
+
 gooroom-translations (20180314+grm1u1) gooroom-1.0; urgency=medium
 
   [ sjchu ]
