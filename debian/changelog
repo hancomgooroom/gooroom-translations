@@ -1,3 +1,12 @@
+gooroom-translations (20190401+grm1u1) gooroom-1.0; urgency=medium
+
+  [ jongkyung.woo ]
+  * [6f2ccfab] Revert "Avoided conflicts with the grub.mo in grub-common packages"
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 23 Apr 2019 18:19:30 +0900
+
 gooroom-translations (20190326+grm1u1) gooroom-1.0; urgency=medium
 
   [ jongkyung.woo ]
