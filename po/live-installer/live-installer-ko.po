@@ -171,7 +171,7 @@ msgstr "개요"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:96
 msgid "Installing Gooroom Platform"
-msgstr "구름 플랫폼 설치"
+msgstr "구름 플랫폼 설치중..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:97
 msgid "Installation paused: please finish the custom installation"
@@ -298,8 +298,8 @@ msgid ""
 "not recommended except for research purpose to verify the encryption "
 "function\n"
 msgstr ""
-"주의 : Encfs는 단말에서 예기치 않은 오류가 발생할 수 있으므로, Encfs 암호화 "
-"본연의 기능 테스트나 연구 목적용으로만 설치를 권장합니다.\n"
+"주의 : Encfs는 단말에서 예기치 않은 오류가 발생할 수 있으므로,\n"
+"       Encfs 암호화 본연의 기능 테스트나 연구 목적용으로만 설치를 권장합니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:447
 msgid "Use this box to test your keyboard layout."
