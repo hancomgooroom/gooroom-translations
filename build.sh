@@ -13,6 +13,7 @@ live-installer
 debian_po=(
 gnome-flashback
 gnome-mpv
+gnome-panel
 galculator
 glib20
 grub
@@ -32,6 +33,6 @@ for po_name in "${debian_po[@]}"; do
               -o usr/share/gooroom/locale/debian/$po_name/ko/$po_name.mo
 done
 
-# Grub
-mkdir -p boot/grub/locale
-msgfmt -v -c po/grub/grub-ko.po -o boot/grub/locale/ko.mo
+## Grub
+#mkdir -p boot/grub/locale
+#msgfmt -v -c po/grub/grub-ko.po -o boot/grub/locale/ko.mo
