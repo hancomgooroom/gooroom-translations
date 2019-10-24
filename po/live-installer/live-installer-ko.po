@@ -302,11 +302,10 @@ msgstr "Encfs (고급 사용자를 위한 사용자 수준 암호화)"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:443
 msgid ""
-"Note: Because encfs encryption can cause unexpected errors, Installation is "
-"not recommended except for research purpose to verify the encryption "
-"function\n"
+"Note: Because encfs encryption can cause unexpected errors,\n Installation is "
+"not recommended except for research purpose to verify the encryption function.\n"
 msgstr ""
-"주의 : Encfs는 단말에서 예기치 않은 오류가 발생할 수 있으므로, "
+"주의 : Encfs는 단말에서 예기치 않은 오류가 발생할 수 있으므로,\n "
 "Encfs 암호화 본연의 기능 테스트나 연구 목적용으로만 설치를 권장합니다.\n"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:446
