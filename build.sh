@@ -17,6 +17,7 @@ gnome-panel
 galculator
 glib20
 grub
+libpwquality
 )
 
 # Gooroom
