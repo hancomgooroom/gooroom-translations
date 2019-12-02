@@ -18,6 +18,9 @@ galculator
 glib20
 grub
 libpwquality
+NetworkManager
+nm-applet
+#network-manager-applet
 )
 
 # Gooroom
