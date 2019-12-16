@@ -4914,3 +4914,15 @@ msgstr ""
 msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
 msgstr ""
 "유효하지 않은 wpa-psk : 16 진수로 64 바이트의 키를 해석 할 수 없습니다."
+
+#: ../src/applet.c:2244
+msgid "Don't show this message again"
+msgstr "다시 보지 않기"
+
+#: ../src/applet.c:2210
+msgid "Disconnected - you are now offline"
+msgstr "연결 끊김 - 오프라인 상태"
+
+#: ../src/applet.c:2298
+msgid "Wireless network"
+msgstr "무선 네트워크"
