@@ -57,7 +57,7 @@ msgstr "네트워크 연결 설정을 관리하고 설정을 바꿉니다"
 
 #: nm-connection-editor.desktop.in:5
 msgid "preferences-system-network"
-msgstr ""
+msgstr "시스템-네트워크-설정"
 
 #: org.gnome.nm-applet.gschema.xml.in:6
 msgid "Disable connected notifications"
@@ -839,15 +839,15 @@ msgstr "서브넷 마스크"
 
 #: src/applet-dialogs.c:428
 msgid "Primary DNS"
-msgstr "기본(_P):"
+msgstr "기본 DNS(_P):"
 
 #: src/applet-dialogs.c:428
 msgid "Secondary DNS"
-msgstr "보조 암호(_S):"
+msgstr "보조 DNS" 
 
 #: src/applet-dialogs.c:428
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "3차 DNS"
 
 #: src/applet-dialogs.c:507
 #, c-format
@@ -1145,7 +1145,7 @@ msgstr ""
 #: src/connection-editor/ce-page-infiniband.ui:50
 #: src/connection-editor/ce-page-wifi.ui:139
 msgid "_Device"
-msgstr "서비스(_S):"
+msgstr "장치(_D):"
 
 #: src/connection-editor/ce-page-bond.ui:24
 #: src/connection-editor/ce-page-team.ui:434
@@ -1422,7 +1422,7 @@ msgstr "MAC 주소"
 
 #: src/connection-editor/ce-page.c:327
 msgid "HW address"
-msgstr "주소"
+msgstr "HW 주소"
 
 #: src/connection-editor/ce-page.c:330
 #, c-format
@@ -1801,7 +1801,7 @@ msgstr "복제한 MAC 주소(_L):"
 
 #: src/connection-editor/ce-page-ethernet.ui:242
 msgid "Wake on LAN"
-msgstr "비밀키 암호(_P):"
+msgstr "Wake-on-LAN"
 
 #: src/connection-editor/ce-page-ethernet.ui:258
 msgid "De_fault"
@@ -1817,11 +1817,11 @@ msgstr "_Phy"
 
 #: src/connection-editor/ce-page-ethernet.ui:305
 msgid "_Unicast"
-msgstr "_Unicast"
+msgstr "유니캐스트"
 
 #: src/connection-editor/ce-page-ethernet.ui:320
 msgid "Mul_ticast"
-msgstr "물티슈"
+msgstr "멀티캐스트"
 
 #: src/connection-editor/ce-page-ethernet.ui:335
 msgid "_Broadcast"
@@ -1837,7 +1837,7 @@ msgstr "Ma_gic"
 
 #: src/connection-editor/ce-page-ethernet.ui:388
 msgid "_Wake on LAN password"
-msgstr "비밀키 암호(_P):"
+msgstr "Wake-on-LAN 비밀번호(_W):"
 
 #: src/connection-editor/ce-page-ethernet.ui:402
 msgid ""
@@ -1846,7 +1846,7 @@ msgstr "Wake-on-LAN 암호 (이더넷 MAC). 마법 패킷에만 유효합니다.
 
 #: src/connection-editor/ce-page-ethernet.ui:414
 msgid "Lin_k negotiation"
-msgstr ""
+msgstr "포트 설정(_K)"
 
 #: src/connection-editor/ce-page-ethernet.ui:428
 msgid ""
@@ -1886,11 +1886,11 @@ msgstr ""
 
 #: src/connection-editor/ce-page-general.ui:29
 msgid "Yes"
-msgstr ""
+msgstr "연결"
 
 #: src/connection-editor/ce-page-general.ui:32
 msgid "No"
-msgstr "없음"
+msgstr "안함"
 
 #: src/connection-editor/ce-page-general.ui:65
 msgid "All _users may connect to this network"
@@ -1906,7 +1906,7 @@ msgstr "방화벽 구역(_Z):"
 
 #: src/connection-editor/ce-page-general.ui:121
 msgid "_Metered connection"
-msgstr "팀 연결(_T):"
+msgstr "데이터 통신 연결(_T):"
 
 #: src/connection-editor/ce-page-general.ui:134
 msgid ""
@@ -1918,7 +1918,7 @@ msgstr ""
 
 #: src/connection-editor/ce-page-general.ui:150
 msgid "Connect _automatically with priority"
-msgstr "자동으로 얻은 라우팅 정보 무시(_N)"
+msgstr "자동으로 우선 순위 연결"
 
 #: src/connection-editor/ce-page-general.ui:167
 msgid ""
@@ -1984,7 +1984,7 @@ msgstr "GRE"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:23
 msgid "SIT"
-msgstr "앉다"
+msgstr "SIT"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:26
 msgid "ISATAP"
@@ -2016,27 +2016,27 @@ msgstr "장치 이름 + 번호"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:85
 msgid "Parent device"
-msgstr "이더넷"
+msgstr "부모 장치"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:115
 msgid "Mode"
-msgstr ""
+msgstr "모드"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:128
 msgid "Local IP"
-msgstr ""
+msgstr "로컬 IP"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:140
 msgid "Remote IP"
-msgstr ""
+msgstr "리모트 IP"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:152
 msgid "Input key"
-msgstr ""
+msgstr "입력 키"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:164
 msgid "Output key"
-msgstr ""
+msgstr "출력 키"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:245
 msgid "MTU"
@@ -2160,7 +2160,7 @@ msgstr "IPv6 개인 보안 확장(_P):"
 
 #: src/connection-editor/ce-page-ip6.ui:319
 msgid "IPv6 address _generation mode"
-msgstr ""
+msgstr "IPv6 주소 생성 모드(_G)"
 
 #: src/connection-editor/ce-page-ip6.ui:356
 msgid "Require IPv_6 addressing for this connection to complete"
@@ -2201,7 +2201,7 @@ msgstr "MACsec 장치의 이름입니다."
 
 #: src/connection-editor/ce-page-macsec.ui:85
 msgid "_Parent device"
-msgstr "이더넷"
+msgstr "부모 장치"
 
 #: src/connection-editor/ce-page-macsec.ui:98
 msgid ""
@@ -2253,11 +2253,11 @@ msgstr " 미리 공유 된 연결 연관 키 이름"
 
 #: src/connection-editor/ce-page-macsec.ui:217
 msgid "Parameters"
-msgstr ""
+msgstr "매개 변수"
 
 #: src/connection-editor/ce-page-macsec.ui:234
 msgid "_Validation"
-msgstr ""
+msgstr "검증"
 
 #: src/connection-editor/ce-page-macsec.ui:247
 msgid "Specifies the validation mode for incoming frames"
@@ -2265,7 +2265,7 @@ msgstr "수신 프레임에 대한 유효성 검사 모드를 지정합니다."
 
 #: src/connection-editor/ce-page-macsec.ui:266
 msgid "_SCI port"
-msgstr ""
+msgstr "SCI 포트"
 
 #: src/connection-editor/ce-page-macsec.ui:279
 msgid "The port component of the SCI (Secure Channel Identifier)"
@@ -2384,7 +2384,7 @@ msgstr ""
 
 #: src/connection-editor/ce-page-proxy.ui:64
 msgid "PAC script"
-msgstr ""
+msgstr "PAC 스크립트"
 
 #: src/connection-editor/ce-page-proxy.ui:76
 msgid "URL from where the PAC script is to be obtained."
@@ -2410,7 +2410,7 @@ msgstr "마스터로 설정"
 #: src/connection-editor/ce-page-team-port.ui:112
 #: src/connection-editor/ce-page-team.ui:85
 msgid "Ethernet port state"
-msgstr "이더넷 네트워크"
+msgstr "이더넷 포트 상태"
 
 #: src/connection-editor/ce-page-team-port.ui:116
 #: src/connection-editor/ce-page-team.ui:89
@@ -2429,7 +2429,7 @@ msgstr "팀 고급 옵션"
 
 #: src/connection-editor/ce-page-team-port.ui:225
 msgid "_Queue ID"
-msgstr ""
+msgstr "큐 ID"
 
 #: src/connection-editor/ce-page-team-port.ui:239
 #: src/connection-editor/ce-page-team.ui:663
@@ -2471,7 +2471,7 @@ msgstr "Port _sticky"
 
 #: src/connection-editor/ce-page-team-port.ui:301
 msgid "Do not unselect the port if a better one becomes available."
-msgstr ""
+msgstr "더 나은 포트를 사용할 수 있다면 포트를 선택 해제하지 마십시오."
 
 #: src/connection-editor/ce-page-team-port.ui:316
 msgid "LACP runner options"
@@ -2519,7 +2519,7 @@ msgstr "LACP 표준에 따른 포트 키. 같은 키로 포트를 집계하는 �
 #: src/connection-editor/ce-page-team-port.ui:416
 #: src/connection-editor/ce-page-team.ui:1143
 msgid "_Link watcher"
-msgstr ""
+msgstr "링크 감시자"
 
 #: src/connection-editor/ce-page-team-port.ui:431
 #: src/connection-editor/ce-page-team.ui:1158
@@ -2539,12 +2539,12 @@ msgstr "상위 인터페이스(_P):"
 #: src/connection-editor/ce-page-team-port.ui:476
 #: src/connection-editor/ce-page-team.ui:1203
 msgid "Delay _before first send"
-msgstr ""
+msgstr "첫 전송 이전 지연"
 
 #: src/connection-editor/ce-page-team-port.ui:491
 #: src/connection-editor/ce-page-team.ui:1218
 msgid "_Maximum missed replies"
-msgstr ""
+msgstr "누락 된 최대 응답"
 
 #: src/connection-editor/ce-page-team-port.ui:506
 #: src/connection-editor/ce-page-team.ui:1233
@@ -2662,7 +2662,7 @@ msgstr "파일에서 팀 설정 가져오기(_I)..."
 #: src/connection-editor/ce-page-team-port.ui:826
 #: src/connection-editor/ce-page-team.ui:1553
 msgid "Edit _JSON configuration"
-msgstr "_JSON 설정:"
+msgstr "_JSON 설정 수정:"
 
 #: src/connection-editor/ce-page-team-port.ui:845
 #: src/connection-editor/ce-page-team.ui:1572
@@ -2691,7 +2691,7 @@ msgstr "우선 순위"
 
 #: src/connection-editor/ce-page-team.ui:57
 msgid "From the team device"
-msgstr "이더넷"
+msgstr "팀 장치에서"
 
 #: src/connection-editor/ce-page-team.ui:61
 msgid "From the active port"
@@ -2729,7 +2729,7 @@ msgstr "가상 LAN"
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version 6.1, document hammer-cli-foreman
 #: src/connection-editor/ce-page-team.ui:501
 msgid "IP"
-msgstr "IP "
+msgstr ""
 
 #: src/connection-editor/ce-page-team.ui:505
 msgid "Any L3 protocol"
@@ -2829,11 +2829,11 @@ msgstr "우선 순위(_P):"
 
 #: src/connection-editor/ce-page-team.ui:919
 msgid "_Minimum ports"
-msgstr ""
+msgstr "최소 포트"
 
 #: src/connection-editor/ce-page-team.ui:934
 msgid "_Aggregator selection policy"
-msgstr ""
+msgstr "집계 선택 정책"
 
 #: src/connection-editor/ce-page-team.ui:948
 msgid "System priority, value can be 0 – 65535."
@@ -2881,7 +2881,7 @@ msgstr "전송 출력(_W):"
 
 #: src/connection-editor/ce-page-team.ui:1120
 msgid "Runner"
-msgstr "달리는 사람"
+msgstr ""
 
 #: src/connection-editor/ce-page-vlan.ui:28
 msgid "_Parent interface"
@@ -2901,7 +2901,7 @@ msgstr "가상 LAN 아이디(_I):"
 
 #: src/connection-editor/ce-page-vlan.ui:197
 msgid "Flags"
-msgstr ""
+msgstr "플래그"
 
 #: src/connection-editor/ce-page-vlan.ui:213
 msgid "_Reorder headers"
@@ -3150,11 +3150,11 @@ msgstr "%s 연결을 정말로 제거하시겠습니까?"
 
 #: src/connection-editor/gtk/menus.ui:6
 msgid "_New Connection"
-msgstr "가상 사설망 연결(_V)"
+msgstr "새로 연결(_N)"
 
 #: src/connection-editor/gtk/menus.ui:13
 msgid "_Quit"
-msgstr ""
+msgstr "종료"
 
 #: src/connection-editor/ip4-routes-dialog.c:683
 #: src/connection-editor/ip6-routes-dialog.c:704
@@ -3893,7 +3893,7 @@ msgstr "'%s'에 대한 가상 사설망 플러그인 서비스를 찾을 수 없
 
 #: src/connection-editor/page-vpn.c:51
 msgid "unknown failure"
-msgstr "연결에 실패"
+msgstr "알려지지 않은 실패"
 
 #: src/connection-editor/page-vpn.c:88
 msgid "Could not load VPN user interface."
@@ -3954,7 +3954,7 @@ msgstr "bssid"
 
 #: src/connection-editor/page-wifi.c:553
 msgid "Wi-Fi device"
-msgstr "모든 장치"
+msgstr "와이파이 장치"
 
 #: src/connection-editor/page-wifi.c:600
 #, c-format
@@ -4302,7 +4302,7 @@ msgstr "연결을 편집하는데 오류"
 
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.ui:20
 msgid "_Unlock token"
-msgstr "잠금 해제(_U)"
+msgstr "토큰 잠금 해제(_U)"
 
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.ui:126
 msgid "Issued By"
@@ -4319,7 +4319,7 @@ msgstr "로그인(_L)"
 
 #: src/libnma/nma-pkcs11-token-login-dialog.ui:82
 msgid "_Remember PIN"
-msgstr "_Remember PIN"
+msgstr "PIN 기억하기"
 
 #: src/libnma/nma-ui-utils.c:36 src/libnm-gtk/nm-ui-utils.c:601
 msgid "Store the password only for this user"
@@ -4424,7 +4424,7 @@ msgstr "와이파이 보안(_S):"
 
 #: src/libnma/wifi.ui:154
 msgid "C_onnection"
-msgstr "연결 이름(_O):"
+msgstr "연결(_C):"
 
 #: src/libnma/wifi.ui:179
 msgid "Wi-Fi _adapter"
@@ -4496,7 +4496,7 @@ msgstr "네트워크 이름(_N):"
 
 #: src/libnm-gtk/wifi.ui:154
 msgid "C_onnection:"
-msgstr "연결 이름(_O):"
+msgstr "연결(_C):"
 
 #: src/libnm-gtk/wifi.ui:179
 msgid "Wi-Fi _adapter:"
@@ -4744,7 +4744,7 @@ msgstr "서버 인증서 이름의 접미사입니다."
 #: src/wireless-security/eap-method-tls.ui:63
 #: src/wireless-security/eap-method-ttls.ui:134
 msgid "_Domain"
-msgstr ""
+msgstr "도메인"
 
 #: src/wireless-security/eap-method-simple.c:77
 msgid "missing EAP username"
