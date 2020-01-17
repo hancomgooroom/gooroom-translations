@@ -4792,7 +4792,7 @@ msgstr "인증 정보(_D):"
 
 #: src/wireless-security/eap-method-ttls.c:324
 msgid "MSCHAPv2 (no EAP)"
-msgstr "MSCHAPv2"
+msgstr "MSCHAPv2 (no EAP)"
 
 #: src/wireless-security/wireless-security.c:58
 msgid "Unknown error validating 802.1X security"
