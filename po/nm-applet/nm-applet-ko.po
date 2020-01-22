@@ -3449,7 +3449,7 @@ msgstr "잘못된 블루투스 기기 (%s)"
 
 #: src/connection-editor/page-bluetooth.c:239
 msgid "Bluetooth connection %d"
-msgstr "본딩 네트워크 연결 %d"
+msgstr "블루투스 네트워크 연결 %d"
 
 #: src/connection-editor/page-bluetooth.c:290
 msgid "Bluetooth Type"
@@ -3606,7 +3606,7 @@ msgstr "IPv4 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-ip-tunnel.c:275
 msgid "IP tunnel connection %d"
-msgstr "이더넷 연결 %d"
+msgstr "IP 터널 연결 %d"
 
 #: src/connection-editor/page-ip4.c:114 src/connection-editor/page-ip6.c:129
 msgid "Automatic (VPN)"
