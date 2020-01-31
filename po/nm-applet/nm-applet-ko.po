@@ -45,11 +45,11 @@ msgstr "네트워크 연결을 관리합니다"
 
 #: nm-applet.desktop.in:5
 msgid "nm-device-wireless"
-msgstr ""
+msgstr "nm-device-wireless"
 
 #: nm-connection-editor.desktop.in:3
 msgid "Advanced Network Configuration"
-msgstr "사용 중인 네트워크 연결"
+msgstr "고급 네트워크 설정"
 
 #: nm-connection-editor.desktop.in:4
 msgid "Manage and change your network connection settings"
@@ -57,7 +57,7 @@ msgstr "네트워크 연결 설정을 관리하고 설정을 바꿉니다"
 
 #: nm-connection-editor.desktop.in:5
 msgid "preferences-system-network"
-msgstr "시스템-네트워크-설정"
+msgstr "preferences-system-network"
 
 #: org.gnome.nm-applet.gschema.xml.in:6
 msgid "Disable connected notifications"
@@ -143,7 +143,7 @@ msgstr "NetworkManager"
 
 #: nm-connection-editor.appdata.xml.in:8
 msgid "NetworkManager connection editor"
-msgstr "네트워크 연결 없음"
+msgstr "NetworkManager 연결 편집"
 
 #: nm-connection-editor.appdata.xml.in:11
 msgid ""
@@ -163,43 +163,43 @@ msgstr ""
 
 #: nm-connection-editor.appdata.xml.in:27
 msgid "The NetworkManager Developers"
-msgstr "네트워크 관리 애플릿"
+msgstr "NetworkManager 개발자들"
 
 #: shared/nm-utils/nm-shared-utils.c:793
 #, c-format
-msgid "object class '%s' has no property named '%s'"
-msgstr "개체 클래스 '%s'에 이름이 '%s'인 속성이 없습니다"
+msgid "object class “%s” has no property named “%s”"
+msgstr "개체 클래스 “%s”에 이름이 “%s”인 속성이 없습니다"
 
 #: shared/nm-utils/nm-shared-utils.c:800
 #, c-format
-msgid "property '%s' of object class '%s' is not writable"
-msgstr "개체 클래스의 '%s'의 속성 '%s'에는 쓸 수 없습니다"
+msgid "property “%s” of object class “%s” is not writable"
+msgstr "개체 클래스의 “%s”의 속성 “%s”에는 쓸 수 없습니다"
 
 #: shared/nm-utils/nm-shared-utils.c:807
 #, c-format
 msgid ""
-"construct property \"%s\" for object '%s' can't be set after construction"
-msgstr "구성 후에는 개체 '%s'의 구성 속성 ''%s''을(를) 설정할 수 없습니다"
+"construct property \"%s\" for object “%s” can't be set after construction"
+msgstr "구성 후에는 개체 “%s”의 구성 속성 \"%s\"을(를) 설정할 수 없습니다"
 
 #: shared/nm-utils/nm-shared-utils.c:815
 #, c-format
-msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgid "'%s::%s' is not a valid property name; “%s” is not a GObject subtype"
 msgstr ""
-"'%s::%s'은(는) 올바른 속성 이름이 아닙니다. '%s'은(는) GObject 하위 유형이 아"
+"'%s::%s'은(는) 올바른 속성 이름이 아닙니다. “%s”은(는) GObject 하위 유형이 아"
 "닙니다"
 
 #: shared/nm-utils/nm-shared-utils.c:824
 #, c-format
-msgid "unable to set property '%s' of type '%s' from value of type '%s'"
-msgstr "유형 '%s'의 값에서 유형 '%s'의 속성 '%s'(을)를 설정할 수 없습니다"
+msgid "unable to set property “%s” of type “%s” from value of type “%s”"
+msgstr "유형 “%s”의 값에서 유형 “%s”의 속성 “%s”(을)를 설정할 수 없습니다"
 
 #: shared/nm-utils/nm-shared-utils.c:835
 #, c-format
 msgid ""
-"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
-"type '%s'"
+"value \"%s\" of type “%s” is invalid or out of range for property “%s” of "
+"type “%s”"
 msgstr ""
-"유형 '%s'의 값 \"%s\"이(가) 잘못되었거나 유형 '%s'의 속성 '%s' 범위에서 벗어"
+"유형 “%s”의 값 \"%s\"이(가) 잘못되었거나 유형 “%s”의 속성 “%s” 범위에서 벗어"
 "났습니다"
 
 #: src/8021x.ui:11 src/ethernet-dialog.c:85
@@ -235,7 +235,7 @@ msgstr "연결(_O)"
 
 #: src/8021x.ui:122 src/libnma/wifi.ui:129
 msgid "_Network name"
-msgstr "네트워크 이름(_N):"
+msgstr "네트워크 이름(_N)"
 
 #: src/ap-menu-item.c:70
 msgid "ad-hoc"
@@ -243,11 +243,11 @@ msgstr "애드혹"
 
 #: src/ap-menu-item.c:75
 msgid "secure."
-msgstr "안전한."
+msgstr "시큐어."
 
 #: src/applet.c:378
 msgid "Failed to add/activate connection"
-msgstr "연결 추가/활성화하는 데 실패"
+msgstr "연결 추가/활성화 실패"
 
 #: src/applet.c:380 src/applet.c:434 src/applet.c:469
 #: src/applet-device-wifi.c:1371 src/applet-device-wifi.c:1394
@@ -257,15 +257,15 @@ msgstr "알 수 없는 오류"
 #: src/applet.c:383 src/applet.c:472 src/applet-device-wifi.c:522
 #: src/applet-device-wifi.c:1374 src/applet-device-wifi.c:1397
 msgid "Connection failure"
-msgstr "연결에 실패"
+msgstr "연결 실패"
 
 #: src/applet.c:432
 msgid "Device disconnect failed"
-msgstr "장치 연결 끊는 데 실패"
+msgstr "장치 연결끊기 실패"
 
 #: src/applet.c:437
 msgid "Disconnect failure"
-msgstr "연결 끊는 데 실패"
+msgstr "연결 끊기 실패"
 
 #: src/applet.c:467
 msgid "Connection activation failed"
@@ -276,91 +276,97 @@ msgid "Don’t show this message again"
 msgstr "다시 보지 않기"
 
 #: src/applet.c:884
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” disconnected because the network connection was "
 "interrupted."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 네트워크 연결이 중단되었습니다."
+"네트워크 연결이 중단되어 가상 사설망 “%s” 연결이 끊겼습니다."
 
 #: src/applet.c:886
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the network connection was "
 "interrupted."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 네트워크 연결이 중단되었습니다."
+"네트워크 연결이 중단되어 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:888
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the VPN service stopped unexpectedly."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 서비스가 예기치 못하게 중단"
-"되었습니다."
+"가상 사설망 서비스가 예기치 못하게 중단되어 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:890
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the VPN service returned invalid "
 "configuration."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 서비스가 잘못된 설정을 반환"
-"했습니다."
+"가상 사설망 서비스가 유효하지 않은 설정을 반환하여 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:892
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the connection attempt timed out."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 연결 시도가 제한 시간을 초과했습니다."
+"연결 시도가 제한 시간을 초과하여 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:894
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the VPN service did not start in time."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 서비스가 제 시간에 시작하"
-"지 못했습니다."
+"가상 사설망 서비스가 제 시간에 시작하지 못하여 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:896
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the VPN service failed to start."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 서비스를 시작하는데 실패했"
-"습니다."
+"가상 사설망 서비스의 시작 실패로 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:898
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because there were no valid VPN secrets."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 올바른 가상 사설망 비밀정보가 없습니다."
+"유효한 가상 사설망 정보가 없어 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:900
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because of invalid VPN secrets."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 비밀 정보가 잘못되었습니다."
+"가상 사설망 정보가 유효하지 않아 가상 사설망 “%s” 연결에 실패하였습니다."
 
 #: src/applet.c:905
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed."
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다."
+"가상 사설망 “%s” 연결 실패"
 
 #: src/applet.c:932
 #, c-format
@@ -386,6 +392,7 @@ msgid "VPN Connection Failed"
 msgstr "가상 사설망 연결 실패"
 
 #: src/applet.c:988
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed because the VPN service failed to start.\n"
@@ -393,12 +400,12 @@ msgid ""
 "%s"
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다. 가상 사설망 서비스를 시작하는 데 실패했"
-"습니다.\n"
+"가상 사설망 서비스의 시작 실패로 가상 사설망 “%s” 연결에 실패하였습니다."
 "\n"
 "%s"
 
 #: src/applet.c:991
+#, c-format
 msgid ""
 "\n"
 "The VPN connection “%s” failed to start.\n"
@@ -406,7 +413,7 @@ msgid ""
 "%s"
 msgstr ""
 "\n"
-"'%s' 가상 사설망 연결이 실패했습니다.\n"
+"가상 사설망 “%s” 연결에 실패했습니다.\n"
 "\n"
 "%s"
 
@@ -425,7 +432,7 @@ msgstr "연결 끊김"
 
 #: src/applet.c:1310
 msgid "Disconnect"
-msgstr "연결 끊김"
+msgstr "연결 끊기"
 
 #: src/applet.c:1324
 msgid "device not managed"
@@ -441,19 +448,19 @@ msgstr "가상 사설망 연결(_V)"
 
 #: src/applet.c:1493
 msgid "_Configure VPN…"
-msgstr "가상 사설망 설정(_C)..."
+msgstr "가상 사설망 설정(_C)…"
 
 #: src/applet.c:1496
 msgid "_Add a VPN connection…"
-msgstr "가상 사설망 연결(_V)"
+msgstr "가상 사설망 연결 추가(_A)"
 
 #: src/applet.c:1602
 msgid "NetworkManager is not running…"
-msgstr "네트워크 관리가 실행 중이 아닙니다..."
+msgstr "NetworkManager가 실행 중이 아닙니다…"
 
 #: src/applet.c:1607 src/applet.c:2672
 msgid "Networking disabled"
-msgstr "네트워크를 사용할 수 없습니다"
+msgstr "네트워크 사용 안함"
 
 #. 'Enable Networking' item
 #: src/applet.c:1817
@@ -473,7 +480,7 @@ msgstr "모바일 광대역 사용(_M)"
 #. Toggle notifications item
 #: src/applet.c:1847
 msgid "Enable N_otifications"
-msgstr "통지기능 사용(_O)"
+msgstr "알림 사용(_O)"
 
 #. 'Connection Information' item
 #: src/applet.c:1859
@@ -483,15 +490,16 @@ msgstr "연결 정보(_I)"
 #. 'Edit Connections...' item
 #: src/applet.c:1867
 msgid "Edit Connections…"
-msgstr "연결 편집..."
+msgstr "연결 편집…"
 
 #: src/applet.c:1881
 msgid "_About"
 msgstr "정보(_A)"
 
 #: src/applet.c:2192
+#, c-format
 msgid "You are now connected to “%s”."
-msgstr "'%s'에 연결되었습니다."
+msgstr "“%s”에 연결되었습니다."
 
 #: src/applet.c:2232
 msgid "Disconnected"
@@ -502,36 +510,43 @@ msgid "The network connection has been disconnected."
 msgstr "네트워크 연결이 끊겼습니다."
 
 #: src/applet.c:2535
+#, c-format
 msgid "Preparing network connection “%s”…"
-msgstr "네트워크 연결 '%s' 준비 중..."
+msgstr "네트워크 연결 “%s” 준비 중…"
 
 #: src/applet.c:2538
+#, c-format
 msgid "User authentication required for network connection “%s”…"
-msgstr "네트워크 연결 '%s'에는 사용자 인증이 필요합니다..."
+msgstr "네트워크 연결 “%s”에 사용자 인증이 필요합니다…"
 
 #: src/applet.c:2541 src/applet-device-bt.c:111 src/mobile-helpers.c:593
+#, c-format
 msgid "Requesting a network address for “%s”…"
-msgstr "'%s'에 네트워크 주소 요청중..."
+msgstr "“%s”에 네트워크 주소 요청중…"
 
 #: src/applet.c:2544
+#, c-format
 msgid "Network connection “%s” active"
-msgstr "'%s' 네트워크 연결 사용 중"
+msgstr "네트워크 연결 “%s” 사용 중"
 
 #: src/applet.c:2617
+#, c-format
 msgid "Starting VPN connection “%s”…"
-msgstr "가상 사설망 연결 '%s' 시작 중..."
+msgstr "가상 사설망 연결 “%s” 시작…"
 
 #: src/applet.c:2620
+#, c-format
 msgid "User authentication required for VPN connection “%s”…"
-msgstr "가상 사설망 연결 '%s'에는 사용자 인증이 필요합니다..."
+msgstr "가상 사설망 연결 “%s”에 사용자 인증이 필요합니다…"
 
 #: src/applet.c:2623
+#, c-format
 msgid "Requesting a VPN address for “%s”…"
-msgstr "'%s'에 가상 사설망 주소 요청 중..."
+msgstr "“%s”에 가상 사설망 주소 요청 중…"
 
 #: src/applet.c:2626
 msgid "VPN connection active"
-msgstr "가상 사설망 연결 '%s' 사용 중"
+msgstr "가상 사설망 연결 사용 중"
 
 #: src/applet.c:2676
 msgid "No network connection"
@@ -552,12 +567,12 @@ msgstr "잘못된 PIN 코드. 서비스 업체에 문의하십시오."
 #. Start the spinner to show the progress of the unlock
 #: src/applet-device-broadband.c:240
 msgid "Sending unlock code…"
-msgstr "언락 코드를 보내는 중..."
+msgstr "언락 코드를 보내는 중…"
 
 #: src/applet-device-broadband.c:725 src/applet-dialogs.c:521
 #, c-format
 msgid "Mobile Broadband (%s)"
-msgstr "모바일 광대역(%s)"
+msgstr "모바일 광대역 (%s)"
 
 #: src/applet-device-broadband.c:727
 #: src/connection-editor/connection-helpers.c:94
@@ -573,7 +588,7 @@ msgstr "사용 가능"
 #. Default connection item
 #: src/applet-device-broadband.c:793
 msgid "New Mobile Broadband connection…"
-msgstr "새 모바일 광대역 연결"
+msgstr "새 모바일 광대역 연결…"
 
 #: src/applet-device-broadband.c:807 src/applet-device-bt.c:73
 #: src/applet-device-ethernet.c:118 src/applet-device-wifi.c:1292
@@ -601,20 +616,24 @@ msgid "You are now connected to the mobile broadband network."
 msgstr "모바일 광대역 네트워크에 연결되었습니다."
 
 #: src/applet-device-bt.c:102 src/mobile-helpers.c:584
+#, c-format
 msgid "Preparing mobile broadband connection “%s”…"
-msgstr "모바일 광대역 연결 '%s' 준비 중..."
+msgstr "모바일 광대역 연결 “%s” 준비 중…"
 
 #: src/applet-device-bt.c:105 src/mobile-helpers.c:587
+#, c-format
 msgid "Configuring mobile broadband connection “%s”…"
-msgstr "모바일 광대역 연결 '%s' 설정 중..."
+msgstr "모바일 광대역 연결 “%s” 구성 중…"
 
 #: src/applet-device-bt.c:108 src/mobile-helpers.c:590
+#, c-format
 msgid "User authentication required for mobile broadband connection “%s”…"
-msgstr "모바일 광대역 연결 '%s'에는 사용자 인증이 필요합니다..."
+msgstr "모바일 광대역 연결 “%s”에 사용자 인증이 필요합니다…"
 
 #: src/applet-device-bt.c:115 src/mobile-helpers.c:612
+#, c-format
 msgid "Mobile broadband connection “%s” active"
-msgstr "모바일 광대역 연결 '%s' 사용 중"
+msgstr "모바일 광대역 연결 “%s” 사용 중"
 
 #: src/applet-device-ethernet.c:16
 msgid "Auto Ethernet"
@@ -623,12 +642,12 @@ msgstr "자동 이더넷"
 #: src/applet-device-ethernet.c:68
 #, c-format
 msgid "Ethernet Networks (%s)"
-msgstr "이더넷 네트워크(%s)"
+msgstr "이더넷 네트워크 (%s)"
 
 #: src/applet-device-ethernet.c:70
 #, c-format
 msgid "Ethernet Network (%s)"
-msgstr "이더넷 네트워크(%s)"
+msgstr "이더넷 네트워크 (%s)"
 
 #: src/applet-device-ethernet.c:73
 msgid "Ethernet Networks"
@@ -643,24 +662,29 @@ msgid "You are now connected to the ethernet network."
 msgstr "이더넷 네트워크에 연결되었습니다."
 
 #: src/applet-device-ethernet.c:147
+#, c-format
 msgid "Preparing ethernet network connection “%s”…"
-msgstr "이더넷 네트워크 '%s' 연결 준비 중..."
+msgstr "이더넷 네트워크 연결 “%s” 준비 중…"
 
 #: src/applet-device-ethernet.c:150
+#, c-format
 msgid "Configuring ethernet network connection “%s”…"
-msgstr "이더넷 네트워크 '%s' 연결 설정 중..."
+msgstr "이더넷 네트워크 연결 “%s” 구성 중…"
 
 #: src/applet-device-ethernet.c:153
+#, c-format
 msgid "User authentication required for ethernet network connection “%s”…"
-msgstr "이더넷 네트워크 연결 '%s'에 사용자 인증이 필요합니다..."
+msgstr "이더넷 네트워크 연결 “%s”에 사용자 인증이 필요합니다…"
 
 #: src/applet-device-ethernet.c:156
+#, c-format
 msgid "Requesting an ethernet network address for “%s”…"
-msgstr "이더넷 네트워크 '%s'에 네트워크 주소 요청 중..."
+msgstr "“%s”에 이더넷 네트워크 주소 요청 중…"
 
 #: src/applet-device-ethernet.c:160
+#, c-format
 msgid "Ethernet network connection “%s” active"
-msgstr "이더넷 네트워크 연결 '%s' 사용 중"
+msgstr "이더넷 네트워크 연결 “%s” 사용 중"
 
 #: src/applet-device-ethernet.c:332
 msgid "DSL authentication"
@@ -677,15 +701,15 @@ msgstr "DSL 인증"
 #: src/libnma/nma-vpn-password-dialog.ui:39
 #: src/libnm-gtk/nm-vpn-password-dialog.c:205 src/mobile-helpers.c:452
 msgid "_OK"
-msgstr "_OK"
+msgstr "확인(_O)"
 
 #: src/applet-device-wifi.c:208
 msgid "_Connect to Hidden Wi-Fi Network…"
-msgstr "감춰진 와이파이 네트워크에 연결"
+msgstr "숨겨진 와이파이 네트워크에 연결(_C)…"
 
 #: src/applet-device-wifi.c:259
 msgid "Create _New Wi-Fi Network…"
-msgstr "새 와이파이 네트워크 만들기"
+msgstr "새 와이파이 네트워크 만들기(_N)…"
 
 #: src/applet-device-wifi.c:341
 msgid "(none)"
@@ -693,7 +717,7 @@ msgstr "(없음)"
 
 #: src/applet-device-wifi.c:519 src/applet-device-wifi.c:1392
 msgid "Failed to add new connection"
-msgstr "새로운 연결을 추가하는데 실패"
+msgstr "새 연결 추가 실패"
 
 #: src/applet-device-wifi.c:520
 msgid "Insufficient privileges."
@@ -702,12 +726,12 @@ msgstr "권한이 충분하지 않습니다."
 #: src/applet-device-wifi.c:822
 #, c-format
 msgid "Wi-Fi Networks (%s)"
-msgstr "와이파이 네트워크(%s)"
+msgstr "와이파이 네트워크 (%s)"
 
 #: src/applet-device-wifi.c:824
 #, c-format
 msgid "Wi-Fi Network (%s)"
-msgstr "와이파이 네트워크(%s)"
+msgstr "와이파이 네트워크 (%s)"
 
 #: src/applet-device-wifi.c:826
 msgid "Wi-Fi Network"
@@ -716,11 +740,11 @@ msgstr[0] "와이파이 네트워크"
 
 #: src/applet-device-wifi.c:855
 msgid "Wi-Fi is disabled"
-msgstr "와이파이를 사용하지 않습니다"
+msgstr "와이파이 사용 않함"
 
 #: src/applet-device-wifi.c:856
 msgid "Wi-Fi is disabled by hardware switch"
-msgstr "와이파이가 하드웨어 스위치를 통해 사용하지 않습니다"
+msgstr "하드웨어 스위치에 의해 와이파이가 비활성화 됨"
 
 #: src/applet-device-wifi.c:917
 msgid "More networks"
@@ -735,36 +759,43 @@ msgid "Use the network menu to connect to a Wi-Fi network"
 msgstr "네트워크 메뉴에서 와이파이 네트워크에 연결할 수 있습니다"
 
 #: src/applet-device-wifi.c:1291
+#, c-format
 msgid "You are now connected to the Wi-Fi network “%s”."
-msgstr "와이파이 네트워크 '%s'에 연결되었습니다."
+msgstr "와이파이 네트워크 “%s”에 연결되었습니다."
 
 #: src/applet-device-wifi.c:1326
+#, c-format
 msgid "Preparing Wi-Fi network connection “%s”…"
-msgstr "와이파이 네트워크 '%s' 연결 준비 중..."
+msgstr "와이파이 네트워크 연결 “%s” 준비 중…"
 
 #: src/applet-device-wifi.c:1329
+#, c-format
 msgid "Configuring Wi-Fi network connection “%s”…"
-msgstr "와이파이 네트워크 '%s' 연결 설정 중..."
+msgstr "와이파이 네트워크 연결 “%s” 구성 중…"
 
 #: src/applet-device-wifi.c:1332
+#, c-format
 msgid "User authentication required for Wi-Fi network “%s”…"
-msgstr "와이파이 네트워크 연결 '%s'에 사용자 인증이 필요합니다..."
+msgstr "와이파이 네트워크 연결 “%s”에 사용자 인증이 필요합니다…"
 
 #: src/applet-device-wifi.c:1335
+#, c-format
 msgid "Requesting a Wi-Fi network address for “%s”…"
-msgstr "'%s'에 대한 와이파이 네트워크 주소 요청 중..."
+msgstr "“%s”에 와이파이 네트워크 주소 요청 중…"
 
 #: src/applet-device-wifi.c:1346
+#, c-format
 msgid "Wi-Fi network connection “%s” active: %s (%d%%)"
-msgstr "와이파이 네트워크 연결 '%s' 사용 중: %s (%d%%)"
+msgstr "와이파이 네트워크 연결 “%s” 사용 중: %s (%d%%)"
 
 #: src/applet-device-wifi.c:1350
+#, c-format
 msgid "Wi-Fi network connection “%s” active"
-msgstr "와이파이 네트워크 연결 '%s' 사용 중"
+msgstr "와이파이 네트워크 연결 “%s” 사용 중"
 
 #: src/applet-device-wifi.c:1369
 msgid "Failed to activate connection"
-msgstr "연결 활성화하는 데 실패"
+msgstr "연결 활성화 실패"
 
 #: src/applet-dialogs.c:28
 msgid "Error displaying connection information:"
@@ -787,7 +818,7 @@ msgstr "WPA/WPA2"
 #. Create the expander
 #: src/applet-dialogs.c:163
 msgid "More addresses"
-msgstr "주소"
+msgstr "다른 주소"
 
 #: src/applet-dialogs.c:224
 msgid "WEP"
@@ -795,7 +826,7 @@ msgstr "WEP"
 
 #: src/applet-dialogs.c:230
 msgid "WPA3"
-msgstr ""
+msgstr "WPA3"
 
 #: src/applet-dialogs.c:234 src/applet-dialogs.c:243
 #: src/connection-editor/page-wifi-security.c:320
@@ -839,7 +870,7 @@ msgstr "서브넷 마스크"
 
 #: src/applet-dialogs.c:428
 msgid "Primary DNS"
-msgstr "기본 DNS(_P):"
+msgstr "기본 DNS"
 
 #: src/applet-dialogs.c:428
 msgid "Secondary DNS"
@@ -852,12 +883,12 @@ msgstr "3차 DNS"
 #: src/applet-dialogs.c:507
 #, c-format
 msgid "Ethernet (%s)"
-msgstr "이더넷(%s)"
+msgstr "이더넷 (%s)"
 
 #: src/applet-dialogs.c:510
 #, c-format
 msgid "802.11 Wi-Fi (%s)"
-msgstr "802.11 와이파이(%s)"
+msgstr "802.11 와이파이 (%s)"
 
 #: src/applet-dialogs.c:517
 #, c-format
@@ -896,7 +927,7 @@ msgstr "속도"
 
 #: src/applet-dialogs.c:604
 msgid "Security"
-msgstr "보안:"
+msgstr "보안"
 
 #. --- IPv4 ---
 #: src/applet-dialogs.c:629 src/applet-dialogs.c:892
@@ -919,7 +950,7 @@ msgstr "핫스팟"
 
 #: src/applet-dialogs.c:736 src/libnma/nma-bar-code-widget.c:157
 msgid "Password"
-msgstr "암호:"
+msgstr "암호"
 
 #: src/applet-dialogs.c:866
 msgid "VPN Type"
@@ -964,11 +995,12 @@ msgstr ""
 #: src/applet-dialogs.c:1132
 msgid ""
 "Notification area applet for managing your network devices and connections."
-msgstr "네트워크 장치와 연결을 관리하는 알림 영역 애플릿."
+msgstr ""
+"네트워크 장치와 연결을 관리하는 알림 영역 애플릿."
 
 #: src/applet-dialogs.c:1134
 msgid "NetworkManager Website"
-msgstr "네트워크 관리 웹사이트"
+msgstr "NetworkManager 웹사이트"
 
 #: src/applet-dialogs.c:1138
 msgid "translator-credits"
@@ -986,15 +1018,16 @@ msgstr ""
 
 #: src/applet-dialogs.c:1153
 msgid "Missing resources"
-msgstr "빠진 자료"
+msgstr "누락된 리소스"
 
 #: src/applet-dialogs.c:1178
 msgid "Mobile broadband network password"
 msgstr "모바일 광대역 네트워크 암호"
 
 #: src/applet-dialogs.c:1187
+#, c-format
 msgid "A password is required to connect to “%s”."
-msgstr "'%s'에 연결하려면 암호가 필요합니다."
+msgstr "“%s”에 연결하려면 암호가 필요합니다."
 
 #: src/applet-dialogs.c:1202
 msgid "Password:"
@@ -1010,10 +1043,11 @@ msgstr "SIM PIN 잠금해제가 필요합니다"
 
 #. FIXME: some warning about # of times you can enter incorrect PIN
 #: src/applet-dialogs.c:1487
+#,format
 msgid ""
 "The mobile broadband device “%s” requires a SIM PIN code before it can be "
 "used."
-msgstr "'%s' 모바일 광대역 장치를 사용하려면 SIM PIN 코드가 필요합니다."
+msgstr "모바일 광대역 장치 “%s”를 사용하려면 SIM PIN 코드가 필요합니다."
 
 #. Translators: PIN code entry label
 #: src/applet-dialogs.c:1489
@@ -1035,10 +1069,11 @@ msgstr "SIM PUK 잠금 해제가 필요합니다"
 
 #. FIXME: some warning about # of times you can enter incorrect PUK
 #: src/applet-dialogs.c:1498
+#,format
 msgid ""
 "The mobile broadband device “%s” requires a SIM PUK code before it can be "
 "used."
-msgstr "'%s' 모바일 광대역 장치를 사용하려면 SIM PUK 코드가 필요합니다."
+msgstr "모바일 광대역 장치 “%s”를 사용하려면 SIM PUK 코드가 필요합니다."
 
 #. Translators: PUK code entry label
 #: src/applet-dialogs.c:1500
@@ -1062,11 +1097,12 @@ msgstr "PIN/PUK 코드 표시"
 
 #: src/applet-vpn-request.c:426
 msgid "Connection had no VPN setting"
-msgstr "연결 정보"
+msgstr "연결에 가상 사설망 설정이 없음"
 
 #: src/applet-vpn-request.c:476
+#,format
 msgid "Failed to write connection to VPN UI: %s (%d)"
-msgstr "연결 활성화하는 데 실패"
+msgstr "VPN UI에 대한 연결을 작성하지 못했습니다: %s (%d)"
 
 #: src/applet-vpn-request.c:484
 msgid "Failed to write connection to VPN UI: incomplete write"
@@ -1078,7 +1114,7 @@ msgid ""
 "IP addresses identify your computer on the network. Click the “Add” button "
 "to add an IP address."
 msgstr ""
-"네트워크에서 컴퓨터를 식별하는 IP 주소. \"추가\" 단추를 눌러 IP 주소를 추가하"
+"네트워크에서 컴퓨터를 식별하는 IP 주소. “추가” 단추를 눌러 IP 주소를 추가하"
 "십시오."
 
 #: src/connection-editor/ce-ip4-routes.ui:113
@@ -1123,7 +1159,7 @@ msgstr "참이면 이 연결은 기본 네트워크 연결로 결코 사용되�
 
 #: src/connection-editor/ce-new-connection.ui:65
 msgid "C_reate…"
-msgstr "만들기…"
+msgstr "만들기(_R)…"
 
 #: src/connection-editor/ce-new-connection.ui:120
 msgid "Choose a Connection Type"
@@ -1145,7 +1181,7 @@ msgstr ""
 #: src/connection-editor/ce-page-infiniband.ui:50
 #: src/connection-editor/ce-page-wifi.ui:139
 msgid "_Device"
-msgstr "장치(_D):"
+msgstr "장치(_D)"
 
 #: src/connection-editor/ce-page-bond.ui:24
 #: src/connection-editor/ce-page-team.ui:434
@@ -1188,12 +1224,12 @@ msgstr "ARP"
 
 #: src/connection-editor/ce-page-bond.ui:91
 msgid "Bonded _connections"
-msgstr "본딩 연결(_C):"
+msgstr "본딩 연결(_C)"
 
 #: src/connection-editor/ce-page-bond.ui:105
 #: src/connection-editor/ce-page-wifi.ui:400
 msgid "M_ode"
-msgstr "모드(_O):"
+msgstr "모드(_O)"
 
 #: src/connection-editor/ce-page-bond.ui:194
 #: src/connection-editor/ce-page-bridge.ui:134
@@ -1204,7 +1240,7 @@ msgstr "편집(_E)"
 
 #: src/connection-editor/ce-page-bond.ui:238
 msgid "Monitoring _frequency"
-msgstr "감시 주기(_F):"
+msgstr "감시 주기(_F)"
 
 #: src/connection-editor/ce-page-bond.ui:272
 #: src/connection-editor/ce-page-bond.ui:422
@@ -1216,15 +1252,15 @@ msgstr "밀리초"
 #: src/connection-editor/ce-page-bridge.ui:192
 #: src/connection-editor/ce-page-team.ui:293
 msgid "_Interface name"
-msgstr "인터페이스 이름(_I):"
+msgstr "인터페이스 이름(_I)"
 
 #: src/connection-editor/ce-page-bond.ui:316
 msgid "_Link Monitoring"
-msgstr "연결 감시(_L):"
+msgstr "링크 감시(_L)"
 
 #: src/connection-editor/ce-page-bond.ui:347
 msgid "ARP _targets"
-msgstr "ARP 대상(_T):"
+msgstr "ARP 대상(_T)"
 
 #: src/connection-editor/ce-page-bond.ui:361
 msgid ""
@@ -1235,15 +1271,15 @@ msgstr ""
 
 #: src/connection-editor/ce-page-bond.ui:373
 msgid "Link _up delay"
-msgstr "연결 지연 시간(_U):"
+msgstr "연결 지연 시간(_U)"
 
 #: src/connection-editor/ce-page-bond.ui:387
 msgid "Link _down delay"
-msgstr "해제 지연 시간(_D):"
+msgstr "해제 지연 시간(_D)"
 
 #: src/connection-editor/ce-page-bond.ui:481
 msgid "_Primary"
-msgstr "기본(_P):"
+msgstr "기본(_P)"
 
 #: src/connection-editor/ce-page-bond.ui:495
 msgid ""
@@ -1260,7 +1296,7 @@ msgstr ""
 #: src/connection-editor/ce-page-vlan.ui:87
 #: src/connection-editor/ce-page-wifi.ui:111
 msgid "_MTU"
-msgstr "MTU(_M):"
+msgstr "MTU(_M)"
 
 #: src/connection-editor/ce-page-bond.ui:540
 #: src/connection-editor/ce-page-ethernet.ui:223
@@ -1273,28 +1309,28 @@ msgstr "바이트"
 
 #: src/connection-editor/ce-page-bridge-port.ui:42
 msgid "Path _cost"
-msgstr "경로 비용(_C):"
+msgstr "경로 비용(_C)"
 
 #: src/connection-editor/ce-page-bridge-port.ui:55
 #: src/connection-editor/ce-page-bridge.ui:178
 msgid "_Priority"
-msgstr "우선 순위(_P):"
+msgstr "우선 순위(_P)"
 
 #: src/connection-editor/ce-page-bridge-port.ui:97
 msgid "_Hairpin mode"
-msgstr "헤어핀 모드(_H):"
+msgstr "헤어핀 모드(_H)"
 
 #: src/connection-editor/ce-page-bridge.ui:62
 msgid "Bridged _connections"
-msgstr "브릿지 연결(_C):"
+msgstr "브릿지 연결(_C)"
 
 #: src/connection-editor/ce-page-bridge.ui:218
 msgid "_Forward delay"
-msgstr "앞으로 지연 시간(_F):"
+msgstr "앞으로 지연 시간(_F)"
 
 #: src/connection-editor/ce-page-bridge.ui:232
 msgid "_Hello time"
-msgstr "최초 통신 시간(_H):"
+msgstr "최초 통신 시간(_H)"
 
 #: src/connection-editor/ce-page-bridge.ui:252
 msgid "STP forwarding delay, in seconds"
@@ -1313,7 +1349,7 @@ msgstr "STP hello 시간 (초)"
 
 #: src/connection-editor/ce-page-bridge.ui:328
 msgid "Enable I_GMP snooping"
-msgstr "네트워크 사용(_N)"
+msgstr "IGMP 스누핑 사용(_G)"
 
 #: src/connection-editor/ce-page-bridge.ui:332
 msgid ""
@@ -1340,12 +1376,12 @@ msgid ""
 "STP priority for this bridge. Lower values are “better”; the lowest priority "
 "bridge will be elected the root bridge."
 msgstr ""
-"이 브리지에 대한 STP 우선 순위. 낮은 값은 \"더 좋음\"입니다. 가장 낮은 우선 "
+"이 브리지에 대한 STP 우선 순위. 낮은 값은 “더 좋음”입니다. 가장 낮은 우선 "
 "순위 브리지가 루트 브리지로 선출됩니다."
 
 #: src/connection-editor/ce-page-bridge.ui:378
 msgid "_Max age"
-msgstr "최대 기간(_M):"
+msgstr "최대 기간(_M)"
 
 #: src/connection-editor/ce-page-bridge.ui:398
 msgid "STP maximum message age, in seconds"
@@ -1353,7 +1389,7 @@ msgstr "STP 최대 메시지 수명 (초)"
 
 #: src/connection-editor/ce-page-bridge.ui:434
 msgid "_Aging time"
-msgstr "유지 시간(_A):"
+msgstr "유지 시간(_A)"
 
 #: src/connection-editor/ce-page-bridge.ui:454
 msgid "The Ethernet MAC address aging time, in seconds"
@@ -1361,7 +1397,7 @@ msgstr "이더넷 MAC 주소 에이징 시간 (초)"
 
 #: src/connection-editor/ce-page-bridge.ui:490
 msgid "Group _forward mask"
-msgstr ""
+msgstr "Group _forward mask(_F)"
 
 #: src/connection-editor/ce-page-bridge.ui:504
 msgid ""
@@ -1427,47 +1463,48 @@ msgstr "HW 주소"
 #: src/connection-editor/ce-page.c:330
 #, c-format
 msgid "invalid %s for %s (%s)"
-msgstr "무효의 %s ...에 대한 %s (%s)"
+msgstr "invalid %s for %s (%s)"
 
 #: src/connection-editor/ce-page.c:334
 #, c-format
 msgid "invalid %s (%s)"
-msgstr "무효의 %s (%s)"
+msgstr "invalid %s (%s)"
 
 #: src/connection-editor/ce-page.c:374
 #, c-format
 msgid "invalid interface-name for %s (%s): "
-msgstr "에 대한 잘못된 인터페이스 이름 %s (%s) : "
+msgstr "유효하지 않은 인터페이스 이름 %s (%s): "
 
 #: src/connection-editor/ce-page.c:378
+#, c-format
 msgid "invalid interface-name (%s): "
-msgstr "가상 LAN 인터페이스 이름(_N):"
+msgstr "유효하지 않은 인터페이스 이름 (%s):"
 
 #: src/connection-editor/ce-page.c:557
 msgid "can’t parse device name"
-msgstr "장치 이름을 구문 분석 할 수 없습니다."
+msgstr "장치 이름을 파싱 할 수 없습니다."
 
 #: src/connection-editor/ce-page.c:575
 msgid "invalid hardware address"
-msgstr "하드웨어 주소:"
+msgstr "유효하지 않은 하드웨어 주소"
 
 #: src/connection-editor/ce-page.c:597
 #, c-format
 msgid "invalid %s (%s): "
-msgstr "무효의 %s (%s) : "
+msgstr "유효하지 않은 %s (%s): "
 
 #: src/connection-editor/ce-page.c:598 src/connection-editor/ce-page.c:603
 msgid "device"
-msgstr "모든 장치"
+msgstr "장치"
 
 #: src/connection-editor/ce-page.c:602
 #, c-format
 msgid "invalid %s (%s) "
-msgstr "무효의 %s (%s) "
+msgstr "유효하지 않은 %s (%s) "
 
 #: src/connection-editor/ce-page-dcb.ui:16
 msgid "_Use Data Center Bridging (DCB) for this connection"
-msgstr "이 연결에 데이터 센터 브릿지(DCB) 사용"
+msgstr "이 연결에 데이터 센터 브릿지(DCB) 사용(_U)"
 
 #: src/connection-editor/ce-page-dcb.ui:49
 msgid "FCoE"
@@ -1509,7 +1546,7 @@ msgstr "우선 순위"
 #: src/connection-editor/ce-page-dcb.ui:336
 #: src/connection-editor/ce-page-dcb.ui:401
 msgid "Options…"
-msgstr "옵션..."
+msgstr "옵션…"
 
 #: src/connection-editor/ce-page-dcb.ui:352
 msgid "Priority Groups"
@@ -1541,7 +1578,7 @@ msgstr "우선순위마다 우선순위 일시중지를 전송할지 지정합�
 #: src/connection-editor/ce-page-dcb.ui:2154
 #: src/connection-editor/ce-page-dcb.ui:2486
 msgid "0"
-msgstr "0:"
+msgstr "0"
 
 #: src/connection-editor/ce-page-dcb.ui:694
 #: src/connection-editor/ce-page-dcb.ui:1135
@@ -1550,7 +1587,7 @@ msgstr "0:"
 #: src/connection-editor/ce-page-dcb.ui:2194
 #: src/connection-editor/ce-page-dcb.ui:2536
 msgid "1"
-msgstr "1:"
+msgstr "1"
 
 #: src/connection-editor/ce-page-dcb.ui:735
 #: src/connection-editor/ce-page-dcb.ui:1184
@@ -1559,7 +1596,7 @@ msgstr "1:"
 #: src/connection-editor/ce-page-dcb.ui:2234
 #: src/connection-editor/ce-page-dcb.ui:2586
 msgid "2"
-msgstr "2:"
+msgstr "2"
 
 #: src/connection-editor/ce-page-dcb.ui:776
 #: src/connection-editor/ce-page-dcb.ui:1233
@@ -1568,7 +1605,7 @@ msgstr "2:"
 #: src/connection-editor/ce-page-dcb.ui:2274
 #: src/connection-editor/ce-page-dcb.ui:2636
 msgid "3"
-msgstr "3:"
+msgstr "3"
 
 #: src/connection-editor/ce-page-dcb.ui:817
 #: src/connection-editor/ce-page-dcb.ui:1282
@@ -1577,7 +1614,7 @@ msgstr "3:"
 #: src/connection-editor/ce-page-dcb.ui:2314
 #: src/connection-editor/ce-page-dcb.ui:2686
 msgid "4"
-msgstr "4:"
+msgstr "4"
 
 #: src/connection-editor/ce-page-dcb.ui:858
 #: src/connection-editor/ce-page-dcb.ui:1331
@@ -1586,7 +1623,7 @@ msgstr "4:"
 #: src/connection-editor/ce-page-dcb.ui:2354
 #: src/connection-editor/ce-page-dcb.ui:2736
 msgid "5"
-msgstr "5:"
+msgstr "5"
 
 #: src/connection-editor/ce-page-dcb.ui:899
 #: src/connection-editor/ce-page-dcb.ui:1380
@@ -1595,7 +1632,7 @@ msgstr "5:"
 #: src/connection-editor/ce-page-dcb.ui:2394
 #: src/connection-editor/ce-page-dcb.ui:2786
 msgid "6"
-msgstr "6:"
+msgstr "6"
 
 #: src/connection-editor/ce-page-dcb.ui:940
 #: src/connection-editor/ce-page-dcb.ui:1429
@@ -1604,27 +1641,27 @@ msgstr "6:"
 #: src/connection-editor/ce-page-dcb.ui:2434
 #: src/connection-editor/ce-page-dcb.ui:2836
 msgid "7"
-msgstr "7:"
+msgstr "7"
 
 #: src/connection-editor/ce-page-dcb.ui:1069
 msgid "Traffic Class"
-msgstr "트래픽 클래스:"
+msgstr "트래픽 클래스"
 
 #: src/connection-editor/ce-page-dcb.ui:1473
 msgid "Strict Bandwidth"
-msgstr "엄격한 대역폭:"
+msgstr "엄격한 대역폭"
 
 #: src/connection-editor/ce-page-dcb.ui:1805
 msgid "Priority Bandwidth"
-msgstr "우선 순위 대역폭:"
+msgstr "우선 순위 대역폭"
 
 #: src/connection-editor/ce-page-dcb.ui:2137
 msgid "Group Bandwidth"
-msgstr "모음 대역폭:"
+msgstr "모음 대역폭"
 
 #: src/connection-editor/ce-page-dcb.ui:2469
 msgid "Group ID"
-msgstr "그룹 아이디:"
+msgstr "그룹 아이디"
 
 #: src/connection-editor/ce-page-dcb.ui:2881
 msgid "Enter the priority group ID for each User Priority."
@@ -1658,7 +1695,7 @@ msgstr "사용자 우선순위마다 트래픽 클래스 지정합니다."
 #: src/wireless-security/eap-method-simple.ui:21
 #: src/wireless-security/ws-leap.ui:21
 msgid "_Username"
-msgstr "사용자 이름(_U):"
+msgstr "사용자 이름(_U)"
 
 #: src/connection-editor/ce-page-dsl.ui:33
 msgid "Username used to authenticate with the PPPoE service."
@@ -1674,7 +1711,7 @@ msgstr ""
 
 #: src/connection-editor/ce-page-dsl.ui:59
 msgid "_Service"
-msgstr "서비스(_S):"
+msgstr "서비스(_S)"
 
 #: src/connection-editor/ce-page-dsl.ui:71
 #: src/libnma/nma-file-cert-chooser.c:340
@@ -1696,15 +1733,15 @@ msgstr "PPPoE 서비스 인증에 사용되는 암호입니다."
 #: src/wireless-security/ws-leap.ui:35 src/wireless-security/ws-sae.ui:20
 #: src/wireless-security/ws-wpa-psk.ui:20
 msgid "_Password"
-msgstr "암호(_P):"
+msgstr "암호(_P)"
 
 #: src/connection-editor/ce-page-dsl.ui:116
 msgid "PPP _interface"
-msgstr "상위 인터페이스(_P):"
+msgstr "PPP 인터페이스(_I)"
 
 #: src/connection-editor/ce-page-dsl.ui:130
 msgid "P_arent interface"
-msgstr "상위 인터페이스(_P):"
+msgstr "상위 인터페이스(_A)"
 
 #: src/connection-editor/ce-page-dsl.ui:144
 msgid "An arbitrary name to assign to the newly created PPP interface."
@@ -1716,7 +1753,7 @@ msgstr "PPP 연결이 설정 될 인터페이스입니다."
 
 #: src/connection-editor/ce-page-dsl.ui:171
 msgid "C_laim interface"
-msgstr "상위 인터페이스(_P):"
+msgstr "클레임 인터페이스(_L)"
 
 #: src/connection-editor/ce-page-dsl.ui:175
 msgid ""
@@ -1725,6 +1762,9 @@ msgid ""
 "option can only be used for Ethernet interfaces. nm-applet is able to "
 "activate the connection only if this option is selected."
 msgstr ""
+"이 옵션을 선택하면, 연결은 인터페이스를 독점적으로 제어할 수 있으며, 다른 연결은 활성화할 수 없습니다."
+"이 옵션은 이더넷 인터페이스에만 사용할 수 있다는 점에 유의하십시오."
+"nm-applet은 이 옵션을 선택한 경우에만 연결을 활성화할 수 있습니다."
 
 #: src/connection-editor/ce-page-ethernet.ui:17
 #: src/connection-editor/ce-page-ethernet.ui:77
@@ -1772,11 +1812,11 @@ msgstr "10 Gb/s"
 
 #: src/connection-editor/ce-page-ethernet.ui:60
 msgid "Half"
-msgstr "절반"
+msgstr "반이중 통신(Half Duplex)"
 
 #: src/connection-editor/ce-page-ethernet.ui:63
 msgid "Full"
-msgstr "전체 "
+msgstr "전이중 통신(Full Duplex)"
 
 #: src/connection-editor/ce-page-ethernet.ui:74
 #: src/connection-editor/page-ip6.c:148
@@ -1792,12 +1832,12 @@ msgstr "수동"
 
 #: src/connection-editor/ce-page-ethernet.ui:97
 msgid "_Port"
-msgstr "포트(_P):"
+msgstr "포트(_P)"
 
 #: src/connection-editor/ce-page-ethernet.ui:156
 #: src/connection-editor/ce-page-wifi.ui:169
 msgid "C_loned MAC address"
-msgstr "복제한 MAC 주소(_L):"
+msgstr "복제된 MAC 주소(_L)"
 
 #: src/connection-editor/ce-page-ethernet.ui:242
 msgid "Wake on LAN"
@@ -1805,48 +1845,48 @@ msgstr "Wake-on-LAN"
 
 #: src/connection-editor/ce-page-ethernet.ui:258
 msgid "De_fault"
-msgstr "기본"
+msgstr "Default(_F)"
 
 #: src/connection-editor/ce-page-ethernet.ui:274
 msgid "_Ignore"
-msgstr "무시(_I)"
+msgstr "Ignore(_I)"
 
 #: src/connection-editor/ce-page-ethernet.ui:290
 msgid "_Phy"
-msgstr "_Phy"
+msgstr "_Phy(_P)"
 
 #: src/connection-editor/ce-page-ethernet.ui:305
 msgid "_Unicast"
-msgstr "유니캐스트"
+msgstr "Unicast(_U)"
 
 #: src/connection-editor/ce-page-ethernet.ui:320
 msgid "Mul_ticast"
-msgstr "멀티캐스트"
+msgstr "Multicast(_T)"
 
 #: src/connection-editor/ce-page-ethernet.ui:335
 msgid "_Broadcast"
-msgstr "브로드캐스트"
+msgstr "Broadcast(_B)"
 
 #: src/connection-editor/ce-page-ethernet.ui:350
 msgid "_Arp"
-msgstr "_Arp"
+msgstr "Arp(_A)"
 
 #: src/connection-editor/ce-page-ethernet.ui:365
 msgid "Ma_gic"
-msgstr "Ma_gic"
+msgstr "Magic(_G)"
 
 #: src/connection-editor/ce-page-ethernet.ui:388
 msgid "_Wake on LAN password"
-msgstr "Wake-on-LAN 비밀번호(_W):"
+msgstr "Wake-on-LAN 암호(_W)"
 
 #: src/connection-editor/ce-page-ethernet.ui:402
 msgid ""
 "Wake-on-LAN password (an Ethernet MAC). It is only valid for magic packets."
-msgstr "Wake-on-LAN 암호 (이더넷 MAC). 마법 패킷에만 유효합니다."
+msgstr "Wake-on-LAN 암호 (이더넷 MAC).\n이 암호는 오직 매직 패킷(Magic Packets)에만 유효합니다."
 
 #: src/connection-editor/ce-page-ethernet.ui:414
 msgid "Lin_k negotiation"
-msgstr "포트 설정(_K)"
+msgstr "연결 협상(_K)"
 
 #: src/connection-editor/ce-page-ethernet.ui:428
 msgid ""
@@ -1854,13 +1894,13 @@ msgid ""
 "will be forced without checking the device compatibility. If unsure, leave "
 "here “Ignore” or pick “Automatic”."
 msgstr ""
-"장치 링크 협상. \"Manual\"을 선택하면 장치 호환성을 확인하지 않고 \"Speed"
-"\"및 \"Duplex\"값이 강제로 설정됩니다. 확실하지 않으면 \"무시\"또는 \"자동"
-"\"을 선택하십시오."
+"장치의 연결 협상. “수동”을 선택시 장치 호환성을 확인하지 않고 아래의 "
+"“속도” 및 “이중통신모드”가 강제로 설정됩니다."
+"확실하지 않으면 “무시”또는 “자동”을 선택하십시오."
 
 #: src/connection-editor/ce-page-ethernet.ui:448
 msgid "_Speed"
-msgstr "속도(_S):"
+msgstr "속도(_S)"
 
 #: src/connection-editor/ce-page-ethernet.ui:462
 msgid ""
@@ -1868,12 +1908,12 @@ msgid ""
 "“Automatic” options are not selected. Before specifying a speed value be "
 "sure your device supports it."
 msgstr ""
-"정적 링크 협상의 속도 값입니다. \"무시\"및 \"자동\"옵션이 선택되지 않은 경우"
-"에만 필요합니다. 속도 값을 지정하기 전에 장치가이를 지원하는지 확인하십시오."
+"연결 협상의 속도 값으로써 “무시”및 “자동”옵션이 선택되지 않은 경우"
+"에만 필요합니다. 속도 값을 지정하기 전에 장치의 지원 여부를 확인하십시오."
 
 #: src/connection-editor/ce-page-ethernet.ui:482
 msgid "Duple_x"
-msgstr "전이중 연결(full duplex)(_X)"
+msgstr "이중통신모드(_X)"
 
 #: src/connection-editor/ce-page-ethernet.ui:496
 msgid ""
@@ -1881,16 +1921,16 @@ msgid ""
 "“Automatic” options are not selected. Before specifying a duplex mode be "
 "sure your device supports it."
 msgstr ""
-"정적 링크 협상을위한 이중 값. \"무시\"및 \"자동\"옵션이 선택되지 않은 경우에"
-"만 필요합니다. 양면 모드를 지정하기 전에 장치가 지원하는지 확인하십시오."
+"연결 협상의 이중통신모드로써 “무시”및 “자동”옵션이 선택되지 않은 경우에"
+"만 필요합니다. 이중통신모드를 지정하기 전에 장치의 지원 여부를 확인하십시오."
 
 #: src/connection-editor/ce-page-general.ui:29
 msgid "Yes"
-msgstr "연결"
+msgstr "사용"
 
 #: src/connection-editor/ce-page-general.ui:32
 msgid "No"
-msgstr "안함"
+msgstr "사용안함"
 
 #: src/connection-editor/ce-page-general.ui:65
 msgid "All _users may connect to this network"
@@ -1902,11 +1942,11 @@ msgstr "이 연결을 사용할 때 자동으로 가상 사설망에 연결(_V)"
 
 #: src/connection-editor/ce-page-general.ui:96
 msgid "Firewall _zone"
-msgstr "방화벽 구역(_Z):"
+msgstr "방화벽 구역(_Z)"
 
 #: src/connection-editor/ce-page-general.ui:121
 msgid "_Metered connection"
-msgstr "데이터 통신 연결(_T):"
+msgstr "데이터 통신 연결(_M)"
 
 #: src/connection-editor/ce-page-general.ui:134
 msgid ""
@@ -1915,10 +1955,13 @@ msgid ""
 "“No”) to indicate to applications, or “Automatic” to use a default value "
 "based on the connection type and other heuristics."
 msgstr ""
+"앱 에게 데이터 통신 연결 여부를 알려줌으로써, 앱이 데이터 사용량을 제한하도록 합니다."
+"“사용” 혹은 “사용안함”을 선택하거나 연결 유형 및 다른 기타 휴리스틱에 따라 기본값을 "
+"사용하려면 “자동”을 선택하십시오."
 
 #: src/connection-editor/ce-page-general.ui:150
 msgid "Connect _automatically with priority"
-msgstr "자동으로 우선 순위 연결"
+msgstr "우선 순위로 자동 연결"
 
 #: src/connection-editor/ce-page-general.ui:167
 msgid ""
@@ -1926,15 +1969,15 @@ msgid ""
 "numbers are preferred when selecting profiles for automatic activation. "
 "Default value is 0."
 msgstr ""
-"자동 활성화를위한 연결 우선 순위. 더 높은 번호의 연결은 자동 활성화를위한 프"
-"로파일을 선택할 때 선호됩니다. 기본값은 0입니다."
+"자동 활성화를 위한 연결 우선 순위. 자동 활성화를 위한 프로파일 선택시 "
+"더 높은 숫자로 연결하는 것이 좋습니다. 기본값은 0입니다."
 
 #: src/connection-editor/ce-page.h:95
 msgid ""
 "IP addresses identify your computer on the network. Click the “Add” button "
 "to add static IP address to be configured in addition to the automatic ones."
 msgstr ""
-"네트워크에서 컴퓨터를 식별하는 IP 주소. \"추가\" 단추를 눌러 IP 주소를 추가하"
+"네트워크에서 컴퓨터를 식별하는 IP 주소. “추가” 단추를 눌러 IP 주소를 추가하"
 "십시오."
 
 #: src/connection-editor/ce-page.h:100
@@ -1945,12 +1988,12 @@ msgid ""
 "automatically."
 msgstr ""
 "IP 주소는 네트워크상의 컴퓨터를 식별하고 다른 컴퓨터에 배포되는 주소 범위를 "
-"결정합니다. IP 주소를 추가하려면 \"추가\"버튼을 클릭하십시오. 주소가 제공되"
+"결정합니다. IP 주소를 추가하려면 “추가” 버튼을 클릭하십시오. 주소가 제공되"
 "지 않으면 범위가 자동으로 결정됩니다."
 
 #: src/connection-editor/ce-page.h:105
 msgid "Additional static addresses"
-msgstr "주소만 자동"
+msgstr "추가 고정 주소"
 
 #: src/connection-editor/ce-page.h:106
 msgid "Addresses"
@@ -1958,7 +2001,7 @@ msgstr "주소"
 
 #: src/connection-editor/ce-page.h:107
 msgid "Address (optional)"
-msgstr "주소 (선택 사항)"
+msgstr "주소 (선택)"
 
 #. IP-over-InfiniBand "datagram mode"
 #: src/connection-editor/ce-page-infiniband.ui:17
@@ -1972,7 +2015,7 @@ msgstr "연결"
 
 #: src/connection-editor/ce-page-infiniband.ui:37
 msgid "_Transport mode"
-msgstr "전송 모드(_T):"
+msgstr "전송 모드(_T)"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:17
 msgid "IPIP"
@@ -2012,7 +2055,7 @@ msgstr "VTI6"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:61
 msgid "Device name"
-msgstr "장치 이름 + 번호"
+msgstr "장치 이름"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:85
 msgid "Parent device"
@@ -2040,7 +2083,7 @@ msgstr "출력 키"
 
 #: src/connection-editor/ce-page-ip-tunnel.ui:245
 msgid "MTU"
-msgstr "MTU(_M):"
+msgstr "MTU"
 
 #: src/connection-editor/ce-page-ip4.ui:15
 #: src/connection-editor/ce-page-ip6.ui:15
@@ -2061,7 +2104,7 @@ msgstr "다른 컴퓨터와 공유"
 #: src/connection-editor/ce-page-ip4.ui:47
 #: src/connection-editor/ce-page-ip6.ui:78
 msgid "_Method"
-msgstr "방식(_M):"
+msgstr "방식(_M)"
 
 #: src/connection-editor/ce-page-ip4.ui:202
 msgid ""
@@ -2069,8 +2112,8 @@ msgid ""
 "your computer’s configuration. If you wish to use a DHCP client identifier, "
 "enter it here."
 msgstr ""
-"DHCP 클라이언트 ID를 이용해 네트워크 관리에서 컴퓨터 설정을 개별적으로 지정"
-"할 수 있습니다. DHCP 클라이언트 ID를 사용하고 싶다면, 여기 입력하십시오."
+"DHCP 클라이언트 ID는 네트워크 관리자가 이 컴퓨터 설정을 구성하도록 허용합니다."
+"DHCP 클라이언트 ID를 사용하시려면 여기 입력하십시오."
 
 #: src/connection-editor/ce-page-ip4.ui:215
 #: src/connection-editor/ce-page-ip6.ui:233
@@ -2083,19 +2126,19 @@ msgstr ""
 
 #: src/connection-editor/ce-page-ip4.ui:228
 msgid "D_HCP client ID"
-msgstr "D_HCP 클라이언트 ID:"
+msgstr "D_HCP 클라이언트 ID(_H)"
 
 #: src/connection-editor/ce-page-ip4.ui:242
 #: src/connection-editor/ce-page-ip6.ui:246
 #: src/connection-editor/page-ip4.c:359 src/connection-editor/page-ip6.c:347
 msgid "S_earch domains"
-msgstr "검색 도메인(_E):"
+msgstr "검색 도메인(_E)"
 
 #: src/connection-editor/ce-page-ip4.ui:256
 #: src/connection-editor/ce-page-ip6.ui:260
 #: src/connection-editor/page-ip4.c:350 src/connection-editor/page-ip6.c:338
 msgid "DNS ser_vers"
-msgstr "DNS 서버(_V):"
+msgstr "DNS 서버(_V)"
 
 #: src/connection-editor/ce-page-ip4.ui:270
 msgid ""
@@ -2114,8 +2157,8 @@ msgid ""
 "When connecting to IPv6-capable networks, allows the connection to complete "
 "if IPv4 configuration fails but IPv6 configuration succeeds."
 msgstr ""
-"IPv6가 가능한 네트워크에 접속할 때, 이 연결이 IPv4 설정이 실패하도라도 IPv6 "
-"설정에 성공시 연결을 마무리합니다."
+"IPv6지원 네트워크 연결 시, IPv4 설정이 실패하더라도 IPv6 "
+"설정에는 성공했다면 연결을 완료하도록 허용합니다."
 
 #: src/connection-editor/ce-page-ip4.ui:333
 #: src/connection-editor/ce-page-ip6.ui:401
@@ -2156,7 +2199,7 @@ msgstr ""
 
 #: src/connection-editor/ce-page-ip6.ui:287
 msgid "IPv6 _privacy extensions"
-msgstr "IPv6 개인 보안 확장(_P):"
+msgstr "IPv6 개인 보안 확장(_P)"
 
 #: src/connection-editor/ce-page-ip6.ui:319
 msgid "IPv6 address _generation mode"
@@ -2171,8 +2214,8 @@ msgid ""
 "When connecting to IPv4-capable networks, allows the connection to complete "
 "if IPv6 configuration fails but IPv4 configuration succeeds."
 msgstr ""
-"IPv4 가능한 네트워크에 연결할 때, 이 연결이 IPv6 설정은 실패하고, IPv4 설정"
-"은 성공한 경우라도 연결을 마무리합니다."
+"IPv4지원 네트워크에 연결 시, IPv6 설정이 실패하더라도 IPv4 "
+"설정에는 성공했다면 연결을 완료하도록 허용합니다."
 
 #: src/connection-editor/ce-page-macsec.ui:12
 msgid "PSK"
@@ -2189,11 +2232,11 @@ msgstr "검사"
 
 #: src/connection-editor/ce-page-macsec.ui:38
 msgid "Strict"
-msgstr "엄격한"
+msgstr "검사(엄격하게)"
 
 #: src/connection-editor/ce-page-macsec.ui:58
 msgid "_Device name"
-msgstr "장치 이름 + 번호"
+msgstr "장치 이름(_D)"
 
 #: src/connection-editor/ce-page-macsec.ui:71
 msgid "The name of the MACsec device."
@@ -2201,7 +2244,7 @@ msgstr "MACsec 장치의 이름입니다."
 
 #: src/connection-editor/ce-page-macsec.ui:85
 msgid "_Parent device"
-msgstr "부모 장치"
+msgstr "부모 장치(_P)"
 
 #: src/connection-editor/ce-page-macsec.ui:98
 msgid ""
@@ -2219,11 +2262,11 @@ msgstr ""
 
 #: src/connection-editor/ce-page-macsec.ui:117
 msgid "Keys"
-msgstr ""
+msgstr "키"
 
 #: src/connection-editor/ce-page-macsec.ui:135
 msgid "_Mode"
-msgstr ""
+msgstr "모드(_M)"
 
 #: src/connection-editor/ce-page-macsec.ui:148
 msgid ""
@@ -2236,16 +2279,16 @@ msgstr ""
 "다."
 
 #: src/connection-editor/ce-page-macsec.ui:168
-msgid "C_AK"
-msgstr ""
+msgid "CAK"
+msgstr "CAK"
 
 #: src/connection-editor/ce-page-macsec.ui:181
 msgid "The pre-shared Connectivity Association Key"
 msgstr "미리 공유 된 연결 연결 키"
 
 #: src/connection-editor/ce-page-macsec.ui:193
-msgid "C_KN"
-msgstr ""
+msgid "CKN"
+msgstr "CKN"
 
 #: src/connection-editor/ce-page-macsec.ui:206
 msgid " The pre-shared Connectivity-association Key Name"
@@ -2256,15 +2299,15 @@ msgid "Parameters"
 msgstr "매개 변수"
 
 #: src/connection-editor/ce-page-macsec.ui:234
-msgid "_Validation"
-msgstr "검증"
+msgid "Validation"
+msgstr "유효성"
 
 #: src/connection-editor/ce-page-macsec.ui:247
 msgid "Specifies the validation mode for incoming frames"
 msgstr "수신 프레임에 대한 유효성 검사 모드를 지정합니다."
 
 #: src/connection-editor/ce-page-macsec.ui:266
-msgid "_SCI port"
+msgid "SCI port"
 msgstr "SCI 포트"
 
 #: src/connection-editor/ce-page-macsec.ui:279
@@ -2272,7 +2315,7 @@ msgid "The port component of the SCI (Secure Channel Identifier)"
 msgstr "SCI (보안 채널 식별자)"
 
 #: src/connection-editor/ce-page-macsec.ui:291
-msgid "_Encrypt"
+msgid "Encrypt"
 msgstr "암호화"
 
 #: src/connection-editor/ce-page-macsec.ui:296
@@ -2286,7 +2329,7 @@ msgstr "기본"
 
 #: src/connection-editor/ce-page-mobile.ui:48
 msgid "Nu_mber"
-msgstr "번호(_M):"
+msgstr "번호(_M)"
 
 #: src/connection-editor/ce-page-mobile.ui:142
 msgid "Advanced"
@@ -2294,19 +2337,19 @@ msgstr "고급"
 
 #: src/connection-editor/ce-page-mobile.ui:165
 msgid "_APN"
-msgstr "_APN:"
+msgstr "_APN(_A)"
 
 #: src/connection-editor/ce-page-mobile.ui:179
 msgid "N_etwork ID"
-msgstr "네트워크 이름(_E):"
+msgstr "네트워크 아이디(_E)"
 
 #: src/connection-editor/ce-page-mobile.ui:221
 msgid "Change…"
-msgstr "바꾸기..."
+msgstr "바꾸기…"
 
 #: src/connection-editor/ce-page-mobile.ui:242
 msgid "P_IN"
-msgstr "PIN(_I):"
+msgstr "PIN(_I)"
 
 #: src/connection-editor/ce-page-mobile.ui:266
 msgid "Allow _roaming if home network is not available"
@@ -2315,7 +2358,7 @@ msgstr "홈 네트워크가 사용 불가능할 경우 로밍을 허용(_R)"
 #: src/connection-editor/ce-page-mobile.ui:303
 #: src/libnma/nma-pkcs11-cert-chooser.c:441
 msgid "Sho_w passwords"
-msgstr "암호 보이기(_W)"
+msgstr "암호 표시(_W)"
 
 #: src/connection-editor/ce-page-ppp.ui:24
 msgid "Authentication"
@@ -2323,7 +2366,7 @@ msgstr "인증"
 
 #: src/connection-editor/ce-page-ppp.ui:53
 msgid "Allowed methods"
-msgstr "허용된 방식:"
+msgstr "허용된 방식"
 
 #: src/connection-editor/ce-page-ppp.ui:89
 msgid "Configure _Methods…"
@@ -2347,11 +2390,11 @@ msgstr "상태가 있는 MPPE 사용(_S)"
 
 #: src/connection-editor/ce-page-ppp.ui:225
 msgid "Allow _BSD data compression"
-msgstr "_BSD 데이터 압축을 허용"
+msgstr "BSD 데이터 압축을 허용(_B)"
 
 #: src/connection-editor/ce-page-ppp.ui:240
 msgid "Allow _Deflate data compression"
-msgstr "_Deflate 데이터 압축을 허용"
+msgstr "Deflate 데이터 압축을 허용(_D)"
 
 #: src/connection-editor/ce-page-ppp.ui:255
 msgid "Use TCP _header compression"
@@ -2380,7 +2423,7 @@ msgstr "브라우저 클라이언트 / 스키마에만이 프록시 구성을 �
 
 #: src/connection-editor/ce-page-proxy.ui:52
 msgid "PAC URL"
-msgstr ""
+msgstr "PAC URL"
 
 #: src/connection-editor/ce-page-proxy.ui:64
 msgid "PAC script"
@@ -2392,16 +2435,16 @@ msgstr "PAC 스크립트를 가져올 URL입니다."
 
 #: src/connection-editor/ce-page-proxy.ui:86
 msgid "Import script from a file…"
-msgstr "파일에서 팀 설정 가져오기(_I)..."
+msgstr "파일에서 스크립트 가져오기(_I)…"
 
 #: src/connection-editor/ce-page-proxy.ui:101
 msgid "Method"
-msgstr "방식(_M):"
+msgstr "방식"
 
 #: src/connection-editor/ce-page-team-port.ui:47
 #: src/connection-editor/ce-page-team.ui:401
 msgid "Ad_vanced…"
-msgstr "고급"
+msgstr "고급(_V)…"
 
 #: src/connection-editor/ce-page-team-port.ui:108
 msgid "Set by master"
@@ -2429,7 +2472,7 @@ msgstr "팀 고급 옵션"
 
 #: src/connection-editor/ce-page-team-port.ui:225
 msgid "_Queue ID"
-msgstr "큐 ID"
+msgstr "큐 ID(_Q)"
 
 #: src/connection-editor/ce-page-team-port.ui:239
 #: src/connection-editor/ce-page-team.ui:663
@@ -2450,7 +2493,7 @@ msgstr "액티브 백업 러너 옵션"
 
 #: src/connection-editor/ce-page-team-port.ui:271
 msgid "_Port priority"
-msgstr "우선 순위(_P):"
+msgstr "우선 순위(_P)"
 
 #: src/connection-editor/ce-page-team-port.ui:284
 #: src/connection-editor/ce-page-team.ui:713
@@ -2467,7 +2510,7 @@ msgstr "포트 우선 순위. 숫자가 높을수록 우선 순위가 높아집�
 
 #: src/connection-editor/ce-page-team-port.ui:297
 msgid "Port _sticky"
-msgstr "Port _sticky"
+msgstr "Port _sticky(_S)"
 
 #: src/connection-editor/ce-page-team-port.ui:301
 msgid "Do not unselect the port if a better one becomes available."
@@ -2475,15 +2518,15 @@ msgstr "더 나은 포트를 사용할 수 있다면 포트를 선택 해제하�
 
 #: src/connection-editor/ce-page-team-port.ui:316
 msgid "LACP runner options"
-msgstr "LACP 러너 옵션"
+msgstr "LACP runner 옵션"
 
 #: src/connection-editor/ce-page-team-port.ui:332
 msgid "_LACP port priority"
-msgstr "우선 순위(_P):"
+msgstr "LACP 포트 우선순위(_L)"
 
 #: src/connection-editor/ce-page-team-port.ui:346
 msgid "LACP port _key"
-msgstr "비밀키(_K):"
+msgstr "비밀키(_K)"
 
 #: src/connection-editor/ce-page-team-port.ui:359
 #: src/connection-editor/ce-page-team.ui:676
@@ -2519,22 +2562,22 @@ msgstr "LACP 표준에 따른 포트 키. 같은 키로 포트를 집계하는 �
 #: src/connection-editor/ce-page-team-port.ui:416
 #: src/connection-editor/ce-page-team.ui:1143
 msgid "_Link watcher"
-msgstr "링크 감시자"
+msgstr "링크 감시자(_L)"
 
 #: src/connection-editor/ce-page-team-port.ui:431
 #: src/connection-editor/ce-page-team.ui:1158
 msgid "_Up delay"
-msgstr "연결 지연 시간(_U):"
+msgstr "연결 지연 시간(_U)"
 
 #: src/connection-editor/ce-page-team-port.ui:446
 #: src/connection-editor/ce-page-team.ui:1173
 msgid "_Down delay"
-msgstr "해제 지연 시간(_D):"
+msgstr "해제 지연 시간(_D)"
 
 #: src/connection-editor/ce-page-team-port.ui:461
 #: src/connection-editor/ce-page-team.ui:1188
 msgid "Send _interval"
-msgstr "상위 인터페이스(_P):"
+msgstr "보내기 간격(_I)"
 
 #: src/connection-editor/ce-page-team-port.ui:476
 #: src/connection-editor/ce-page-team.ui:1203
@@ -2544,17 +2587,17 @@ msgstr "첫 전송 이전 지연"
 #: src/connection-editor/ce-page-team-port.ui:491
 #: src/connection-editor/ce-page-team.ui:1218
 msgid "_Maximum missed replies"
-msgstr "누락 된 최대 응답"
+msgstr "누락 된 최대 응답(_M)"
 
 #: src/connection-editor/ce-page-team-port.ui:506
 #: src/connection-editor/ce-page-team.ui:1233
 msgid "_Source host"
-msgstr "ARP 대상(_T):"
+msgstr "소스 호스트(_S)"
 
 #: src/connection-editor/ce-page-team-port.ui:521
 #: src/connection-editor/ce-page-team.ui:1248
 msgid "_Target host"
-msgstr "ARP 대상(_T):"
+msgstr "타겟 호스트(_T)"
 
 #: src/connection-editor/ce-page-team-port.ui:535
 #: src/connection-editor/ce-page-team.ui:1262
@@ -2582,7 +2625,7 @@ msgstr "요청에 목적지 주소로 채워질 IP 주소로 변환 될 호스�
 #: src/connection-editor/ce-page-team-port.ui:570
 #: src/connection-editor/ce-page-team.ui:1297
 msgid "Ignore invalid packets from _active ports"
-msgstr "_ 활성 포트에서 잘못된 패킷 무시"
+msgstr "활성 포트로부터 유효하지 않은 패킷을 무시"
 
 #: src/connection-editor/ce-page-team-port.ui:574
 #: src/connection-editor/ce-page-team.ui:1301
@@ -2596,7 +2639,7 @@ msgstr ""
 #: src/connection-editor/ce-page-team-port.ui:587
 #: src/connection-editor/ce-page-team.ui:1314
 msgid "Ignore invalid packets from i_nactive ports"
-msgstr "i_nactive 포트에서 잘못된 패킷을 무시하십시오."
+msgstr "비활성 포트로부터 유효하지 않은 패킷을 무시(_N)"
 
 #: src/connection-editor/ce-page-team-port.ui:591
 #: src/connection-editor/ce-page-team.ui:1318
@@ -2610,7 +2653,7 @@ msgstr ""
 #: src/connection-editor/ce-page-team-port.ui:604
 #: src/connection-editor/ce-page-team.ui:1331
 msgid "S_end on inactive ports"
-msgstr "비활성 포트의 S_end"
+msgstr "비활성 포트의 S_end(_E)"
 
 #: src/connection-editor/ce-page-team-port.ui:608
 #: src/connection-editor/ce-page-team.ui:1335
@@ -2657,12 +2700,12 @@ msgstr "링크 감시자"
 #: src/connection-editor/ce-page-team-port.ui:790
 #: src/connection-editor/ce-page-team.ui:1517
 msgid "Im_port team configuration from a file…"
-msgstr "파일에서 팀 설정 가져오기(_I)..."
+msgstr "파일에서 팀 설정 가져오기(_P)…"
 
 #: src/connection-editor/ce-page-team-port.ui:826
 #: src/connection-editor/ce-page-team.ui:1553
 msgid "Edit _JSON configuration"
-msgstr "_JSON 설정 수정:"
+msgstr "JSON 설정 편집(_J)"
 
 #: src/connection-editor/ce-page-team-port.ui:845
 #: src/connection-editor/ce-page-team.ui:1572
@@ -2679,7 +2722,7 @@ msgstr "최우선 순위 (안정)"
 
 #: src/connection-editor/ce-page-team.ui:23
 msgid "Bandwidth"
-msgstr "모음 대역폭:"
+msgstr "대역폭"
 
 #: src/connection-editor/ce-page-team.ui:27
 msgid "Highest number of ports"
@@ -2703,7 +2746,7 @@ msgstr "활성에서 팀 장치로"
 
 #: src/connection-editor/ce-page-team.ui:174
 msgid "_Teamed connections"
-msgstr "팀 연결(_T):"
+msgstr "팀 연결(_T)"
 
 #: src/connection-editor/ce-page-team.ui:442
 msgid "Load balance"
@@ -2729,7 +2772,7 @@ msgstr "가상 LAN"
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version 6.1, document hammer-cli-foreman
 #: src/connection-editor/ce-page-team.ui:501
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: src/connection-editor/ce-page-team.ui:505
 msgid "Any L3 protocol"
@@ -2753,23 +2796,23 @@ msgstr "모든 L4 프로토콜"
 
 #: src/connection-editor/ce-page-team.ui:604
 msgid "_Peer notification count"
-msgstr ""
+msgstr "피어(Peer) 통지 수(_P)"
 
 #: src/connection-editor/ce-page-team.ui:619
 msgid "Peer _notification interval"
-msgstr ""
+msgstr "피어(Peer) 통지 간격(_N)"
 
 #: src/connection-editor/ce-page-team.ui:634
 msgid "_Multicast rejoin count"
-msgstr ""
+msgstr "멀티캐스트 재 결합 수(_M)"
 
 #: src/connection-editor/ce-page-team.ui:649
 msgid "Multicast _rejoin interval"
-msgstr ""
+msgstr "멀티캐스트 재 결합 간격(_R)"
 
 #: src/connection-editor/ce-page-team.ui:740
 msgid "_Hardware Address"
-msgstr "하드웨어 주소:"
+msgstr "하드웨어 주소(_H)"
 
 #: src/connection-editor/ce-page-team.ui:753
 msgid ""
@@ -2780,11 +2823,11 @@ msgstr ""
 
 #: src/connection-editor/ce-page-team.ui:799
 msgid "_Runner"
-msgstr ""
+msgstr "Runner(_R)"
 
 #: src/connection-editor/ce-page-team.ui:814
 msgid "_Hardware address policy"
-msgstr "하드웨어 주소:"
+msgstr "하드웨어 주소(_H)"
 
 #: src/connection-editor/ce-page-team.ui:828
 msgid "Name of runner to be used."
@@ -2800,19 +2843,19 @@ msgstr ""
 
 #: src/connection-editor/ce-page-team.ui:867
 msgid "Send LACPDU frames _periodically"
-msgstr "_ 주기적으로 LACPDU 프레임 전송"
+msgstr "주기적으로 LACPDU 프레임 전송(_P)"
 
 #: src/connection-editor/ce-page-team.ui:871
 msgid ""
 "If checked, LACPDU frames are sent along the configured links periodically. "
 "If not, it acts as “speak when spoken to”."
 msgstr ""
-"선택하면 LACPDU 프레임이 구성된 링크를 따라 주기적으로 전송됩니다. 그렇지 않"
-"은 경우, \"말할 때 말할 수있는\"역할을합니다."
+"선택하면 LACPDU 프레임이 구성된 링크에 따라 주기적으로 전송됩니다. 그렇지 않"
+"은 경우, “통신이 있을때만 응답” 하는 방식으로 동작합니다."
 
 #: src/connection-editor/ce-page-team.ui:884
 msgid "Send a LACPDU frame _every second"
-msgstr "LACPDU 프레임 전송 _ 초"
+msgstr "매초 마다 LACPDU 프레임 전송(_E)"
 
 #: src/connection-editor/ce-page-team.ui:888
 msgid ""
@@ -2825,15 +2868,15 @@ msgstr ""
 
 #: src/connection-editor/ce-page-team.ui:904
 msgid "_System priority"
-msgstr "우선 순위(_P):"
+msgstr "우선 순위(_S)"
 
 #: src/connection-editor/ce-page-team.ui:919
 msgid "_Minimum ports"
-msgstr "최소 포트"
+msgstr "최소 포트(_M)"
 
 #: src/connection-editor/ce-page-team.ui:934
 msgid "_Aggregator selection policy"
-msgstr "집계 선택 정책"
+msgstr "집계 선택 정책(_A)"
 
 #: src/connection-editor/ce-page-team.ui:948
 msgid "System priority, value can be 0 – 65535."
@@ -2859,7 +2902,7 @@ msgstr "패킷 Tx 해시 계산에 사용해야하는 조각 유형 (문자열) 
 
 #: src/connection-editor/ce-page-team.ui:1036
 msgid "_Fields for transmission hash"
-msgstr "전송 해시 용 _ 필드"
+msgstr "전송 해시 용 필드(_F)"
 
 #: src/connection-editor/ce-page-team.ui:1052
 msgid "In tenths of a second. Periodic interval between rebalancing."
@@ -2873,31 +2916,31 @@ msgstr ""
 
 #: src/connection-editor/ce-page-team.ui:1086
 msgid "Transmission _balancing interval"
-msgstr "전송 출력(_W):"
+msgstr "전송 출력 간격(_B)"
 
 #: src/connection-editor/ce-page-team.ui:1101
 msgid "_Transmission balancer"
-msgstr "전송 출력(_W):"
+msgstr "전송 출력(_T)"
 
 #: src/connection-editor/ce-page-team.ui:1120
 msgid "Runner"
-msgstr ""
+msgstr "Runner"
 
 #: src/connection-editor/ce-page-vlan.ui:28
 msgid "_Parent interface"
-msgstr "상위 인터페이스(_P):"
+msgstr "상위 인터페이스(_P)"
 
 #: src/connection-editor/ce-page-vlan.ui:41
 msgid "VLAN inter_face name"
-msgstr "가상 LAN 인터페이스 이름(_N):"
+msgstr "가상 LAN 인터페이스 이름(_F)"
 
 #: src/connection-editor/ce-page-vlan.ui:55
 msgid "Cloned MAC _address"
-msgstr "복제한 MAC 주소(_C):"
+msgstr "복제한 MAC 주소(_A)"
 
 #: src/connection-editor/ce-page-vlan.ui:140
 msgid "VLAN _id"
-msgstr "가상 LAN 아이디(_I):"
+msgstr "가상 LAN 아이디(_I)"
 
 #: src/connection-editor/ce-page-vlan.ui:197
 msgid "Flags"
@@ -2905,19 +2948,19 @@ msgstr "플래그"
 
 #: src/connection-editor/ce-page-vlan.ui:213
 msgid "_Reorder headers"
-msgstr "_ 헤더 헤더 다시 정렬"
+msgstr "헤더 재정렬(_R)"
 
 #: src/connection-editor/ce-page-vlan.ui:228
 msgid "_GVRP"
-msgstr "_GVRP"
+msgstr "_GVRP(_G)"
 
 #: src/connection-editor/ce-page-vlan.ui:243
 msgid "_Loose binding"
-msgstr "_Loose 바인딩"
+msgstr "Loose 바인딩(_L)"
 
 #: src/connection-editor/ce-page-vlan.ui:258
 msgid "M_VRP"
-msgstr "M_VRP"
+msgstr "M_VRP(_V)"
 
 #. In context, this means "concatenate the device name and the VLAN ID number together"
 #: src/connection-editor/ce-page-vlan.ui:285
@@ -2931,7 +2974,7 @@ msgstr "\"vlan\" + 번호"
 
 #: src/connection-editor/ce-page-wifi-security.ui:29
 msgid "S_ecurity"
-msgstr "보안(_E):"
+msgstr "보안(_E)"
 
 #: src/connection-editor/ce-page-wifi.ui:35
 msgid "A (5 GHz)"
@@ -2955,7 +2998,7 @@ msgstr "mW"
 
 #: src/connection-editor/ce-page-wifi.ui:222
 msgid "Transmission po_wer"
-msgstr "전송 출력(_W):"
+msgstr "전송 출력(_W)"
 
 #: src/connection-editor/ce-page-wifi.ui:256
 msgid "Mb/s"
@@ -2963,28 +3006,28 @@ msgstr "Mb/s"
 
 #: src/connection-editor/ce-page-wifi.ui:275
 msgid "_Rate"
-msgstr "레이트(_R):"
+msgstr "Rate(_R)"
 
 #: src/connection-editor/ce-page-wifi.ui:311
 msgid "_BSSID"
-msgstr "BSSID(_B):"
+msgstr "BSSID(_B)"
 
 #: src/connection-editor/ce-page-wifi.ui:336
 msgid "C_hannel"
-msgstr "채널(_H):"
+msgstr "채널(_H)"
 
 #: src/connection-editor/ce-page-wifi.ui:368
 msgid "Ban_d"
-msgstr "밴드(_D):"
+msgstr "밴드(_D)"
 
 #: src/connection-editor/ce-page-wifi.ui:414
 msgid "SS_ID"
-msgstr "SSID(_I):"
+msgstr "SSID(_I)"
 
 #: src/connection-editor/ce-polkit.c:49
 #: src/connection-editor/ce-polkit-button.c:60
 msgid "No polkit authorization to perform the action"
-msgstr "조치를 수행하기위한 폴 키트 승인이 없습니다."
+msgstr "액션 수행을 위한 폴킷(polkit) 권한이 없음"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:76
 msgid "Allowed Authentication Methods"
@@ -2992,15 +3035,15 @@ msgstr "허용된 인증 방식"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:97
 msgid "_EAP"
-msgstr "_EAP"
+msgstr "_EAP(_E)"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:101
 msgid "Extensible Authentication Protocol"
-msgstr "Extensible Authentication Protocol"
+msgstr "확장 가능 인증 프로토콜"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:113
 msgid "_PAP"
-msgstr "_PAP"
+msgstr "_PAP(_P)"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:117
 msgid "Password Authentication Protocol"
@@ -3008,27 +3051,27 @@ msgstr "암호 인증 프로토콜"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:129
 msgid "C_HAP"
-msgstr "C_HAP"
+msgstr "C_HAP(_H)"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:133
 msgid "Challenge Handshake Authentication Protocol"
-msgstr "Challenge Handshake Authentication Protocol"
+msgstr "Challenge-Handshake 인증 프로토콜"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:145
 msgid "_MSCHAP"
-msgstr "_MSCHAP"
+msgstr "_MSCHAP(_M)"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:149
 msgid "Microsoft Challenge Handshake Authentication Protocol"
-msgstr "Microsoft Challenge Handshake Authentication Protocol"
+msgstr "Microsoft 용 Challenge-Handshake 인증 프로토콜"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:161
 msgid "MSCHAP v_2"
-msgstr "MSCHAP v_2"
+msgstr "MSCHAP v_2(_2)"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:165
 msgid "Microsoft Challenge Handshake Authentication Protocol version 2"
-msgstr "Microsoft Challenge Handshake Authentication Protocol version 2"
+msgstr "Microsoft 용 Challenge-Handshake 인증 프로토콜 버전 2"
 
 #: src/connection-editor/ce-ppp-auth-methods.ui:179
 msgid ""
@@ -3094,15 +3137,12 @@ msgstr "가상 사설망"
 
 #: src/connection-editor/connection-helpers.c:190
 msgid "No VPN service type."
-msgstr ""
+msgstr "가상 사설망 서비스 종류 없음"
 
 #: src/connection-editor/connection-helpers.c:195
 msgid "The VPN plugin failed to import the VPN connection correctly: "
 msgstr ""
-"가상 사설망 플러그인이 가상 사설망 연결을 정상적으로 가져오는 데 실패했습니"
-"다\n"
-"\n"
-"오류: 가상 사설망 서비스 유형이 없음"
+"가상 사설망 플러그인이 가상 사설망 연결을 정상적으로 가져오는 데 실패했습니다\n"
 
 #: src/connection-editor/connection-helpers.c:279
 #: src/connection-editor/page-proxy.c:104 src/connection-editor/page-team.c:327
@@ -3127,21 +3167,21 @@ msgstr "가상"
 #: src/connection-editor/connection-helpers.c:490
 #: src/connection-editor/connection-helpers.c:492
 msgid "Import a saved VPN configuration…"
-msgstr "저장한 가상 사설망 설정 가져오기..."
+msgstr "저장한 가상 사설망 설정 가져오기…"
 
 #: src/connection-editor/connection-helpers.c:522
 msgid ""
 "The connection editor dialog could not be initialized due to an unknown "
 "error."
-msgstr "연결 에디터 창을 알려지지 않은 오류 때문에 열 수 없습니다."
+msgstr "알 수 없는 오류로 인해 연결 편집 창을 초기화 할 수 없습니다."
 
 #: src/connection-editor/connection-helpers.c:531
 msgid "Could not create new connection"
-msgstr "새로운 연결을 만들 수 없음"
+msgstr "새 연결 생성 실패"
 
 #: src/connection-editor/connection-helpers.c:694
 msgid "Connection delete failed"
-msgstr "연결 제거가 실패했습니다"
+msgstr "연결 제거 실패"
 
 #: src/connection-editor/connection-helpers.c:742
 #, c-format
@@ -3150,11 +3190,11 @@ msgstr "%s 연결을 정말로 제거하시겠습니까?"
 
 #: src/connection-editor/gtk/menus.ui:6
 msgid "_New Connection"
-msgstr "새로 연결(_N)"
+msgstr "새 연결(_N)"
 
 #: src/connection-editor/gtk/menus.ui:13
 msgid "_Quit"
-msgstr "종료"
+msgstr "종료(_Q)"
 
 #: src/connection-editor/ip4-routes-dialog.c:683
 #: src/connection-editor/ip6-routes-dialog.c:704
@@ -3190,25 +3230,25 @@ msgstr "%s 편집"
 
 #: src/connection-editor/nm-connection-editor.c:100
 msgid "Editing un-named connection"
-msgstr "이름 없는 연결을 편집"
+msgstr "이름 없는 연결 편집"
 
 #: src/connection-editor/nm-connection-editor.c:120
 msgid "Missing connection name"
-msgstr "연결 이름(_N):"
+msgstr "누락된 연결 이름"
 
 #: src/connection-editor/nm-connection-editor.c:336
 msgid "Editor initializing…"
-msgstr "에디터 초기화 중 오류"
+msgstr "에디터 초기화…"
 
 #: src/connection-editor/nm-connection-editor.c:343
 #: src/connection-editor/nm-connection-list.c:457
 msgid "Connection cannot be modified"
-msgstr "연결을 추가하는 데 실패했습니다"
+msgstr "연결을 수정할 수 없음"
 
 #: src/connection-editor/nm-connection-editor.c:358
 #, c-format
 msgid "Invalid setting %s: %s"
-msgstr "설정이 잘못되었습니다. %s: %s"
+msgstr "유효하지 않은 설정 %s: %s"
 
 #: src/connection-editor/nm-connection-editor.c:434
 msgid ""
@@ -3232,31 +3272,31 @@ msgstr "이 컴퓨터의 모든 사용자에게 이 연결을 적용하도록 �
 
 #: src/connection-editor/nm-connection-editor.c:585
 msgid "Could not create connection"
-msgstr "연결을 만들 수 없음"
+msgstr "연결을 생성할 수 없음"
 
 #: src/connection-editor/nm-connection-editor.c:585
 msgid "Could not edit connection"
-msgstr "연결을 변경할 수 없음"
+msgstr "연결을 수정할 수 없음"
 
 #: src/connection-editor/nm-connection-editor.c:587
 msgid "Unknown error creating connection editor dialog."
-msgstr "연결 편집 대화 창 만들기에 알 수 없는 오류."
+msgstr "연결 편집 대화상자 생성시 알 수 없는 오류."
 
 #: src/connection-editor/nm-connection-editor.c:728
 msgid ""
 "Warning: the connection contains some properties not supported by the "
 "editor. They will be cleared upon save."
 msgstr ""
-"경고 : 연결에는 편집기에서 지원하지 않는 일부 속성이 포함되어 있습니다. 그들"
-"은 구원받을 때 지워질 것입니다."
+"경고 : 이 연결에는 편집기에서 지원하지 않는 일부 속성이 포함되어 있습니다."
+"그 속성들은 저장 시 지워질 것입니다."
 
 #: src/connection-editor/nm-connection-editor.c:748
 msgid "Error initializing editor"
-msgstr "에디터 초기화 중 오류"
+msgstr "에디터 초기화 오류"
 
 #: src/connection-editor/nm-connection-editor.c:1155
 msgid "Connection add failed"
-msgstr "연결을 추가하는 데 실패했습니다"
+msgstr "연결 추가 실패"
 
 #: src/connection-editor/nm-connection-editor.ui:35
 msgid "Fix"
@@ -3266,15 +3306,16 @@ msgstr "고치다"
 msgid ""
 "Security labels may prevent some files from being used with certificate "
 "authentication."
-msgstr "참이면 CA 인증서가 EAP 인증이 되었는지 경고를 하지 않습니다."
+msgstr ""
+"보안 레이블로 인해 일부 파일이 인증서 인증에 사용되지 않을 수 있습니다."
 
 #: src/connection-editor/nm-connection-editor.ui:110
 msgid "Connection _name"
-msgstr "연결 이름(_N):"
+msgstr "연결 이름(_N)"
 
 #: src/connection-editor/nm-connection-editor.ui:170
 msgid "_Export…"
-msgstr "내보내기(_E)..."
+msgstr "내보내기(_E)…"
 
 #: src/connection-editor/nm-connection-editor.ui:260
 msgid "File Relabel"
@@ -3282,14 +3323,14 @@ msgstr "파일 레이블"
 
 #: src/connection-editor/nm-connection-editor.ui:291
 msgid "_Relabel"
-msgstr "_Relabel"
+msgstr "레이블 재 지정(_R)"
 
 #: src/connection-editor/nm-connection-editor.ui:320
 msgid ""
 "The following files are not labelled for use with certificate "
 "authentication. Do you wish to adjust the labels?"
 msgstr ""
-"다음 파일은 인증서 인증에 사용할 레이블이 없습니다. 라벨을 조정 하시겠습니까?"
+"다음 파일은 인증서 인증에 사용할 레이블이 없습니다. 레이블을 재 조정 하시겠습니까?"
 
 #: src/connection-editor/nm-connection-editor.ui:347
 msgid "Relabel"
@@ -3341,7 +3382,7 @@ msgstr[0] "%d년 전"
 
 #: src/connection-editor/nm-connection-list.c:459
 msgid "Connection cannot be deleted"
-msgstr "연결을 삭제할 수 없습니다."
+msgstr "연결을 삭제할 수 없음"
 
 #: src/connection-editor/nm-connection-list.c:462
 msgid "Select a connection to edit"
@@ -3362,11 +3403,11 @@ msgstr "마지막 사용"
 
 #: src/connection-editor/nm-connection-list.c:836
 msgid "Edit the selected connection"
-msgstr "선택한 연결을 고칩니다"
+msgstr "선택한 연결 편집"
 
 #: src/connection-editor/nm-connection-list.c:837
 msgid "Authenticate to edit the selected connection"
-msgstr "선택된 연결을 변경하도록 인증합니다"
+msgstr "선택된 연결을 편집하도록 인증"
 
 #: src/connection-editor/nm-connection-list.c:842
 msgid "Delete the selected connection"
@@ -3378,41 +3419,44 @@ msgstr "선택한 연결을 삭제하도록 인증"
 
 #: src/connection-editor/nm-connection-list.c:1053
 msgid "Unrecognized connection type"
-msgstr "지원하지 않는 모바일 광대역 연결 종류."
+msgstr "인식할 수 없는 연결 종류"
 
 #: src/connection-editor/nm-connection-list.c:1058
+#, c-format
 msgid "Don’t know how to import “%s” connections"
-msgstr "'%s' 연결을 만드는 방법을 알지 못합니다"
+msgstr "“%s” 연결 가져오기 방법을 알 수 없음"
 
 #: src/connection-editor/nm-connection-list.c:1062
 msgid "Error importing connection"
-msgstr "연결을 편집하는데 오류"
+msgstr "연결 가져오기 오류"
 
 #: src/connection-editor/nm-connection-list.c:1069
 #: src/connection-editor/nm-connection-list.c:1084
 #: src/connection-editor/nm-connection-list.c:1087
 msgid "Error creating connection"
-msgstr "연결을 만드는데 오류"
+msgstr "연결 생성 오류"
 
 #: src/connection-editor/nm-connection-list.c:1069
 msgid "Connection type not specified."
-msgstr "연결을 추가하는 데 실패했습니다"
+msgstr "연결 종류가 명시되지 않았습니다."
 
 #: src/connection-editor/nm-connection-list.c:1085
 msgid "No VPN plugins are installed."
 msgstr "VPN 플러그인을 하나도 설치하지 않았습니다."
 
 #: src/connection-editor/nm-connection-list.c:1088
+#, c-format
 msgid "Don’t know how to create “%s” connections"
-msgstr "'%s' 연결을 만드는 방법을 알지 못합니다"
+msgstr "“%s” 연결 생성 방법을 알 수 없음"
 
 #: src/connection-editor/nm-connection-list.c:1122
 msgid "Error editing connection"
-msgstr "연결을 편집하는데 오류"
+msgstr "연결 편집 오류"
 
 #: src/connection-editor/nm-connection-list.c:1123
+#, c-format
 msgid "Did not find a connection with UUID “%s”"
-msgstr "UUID가 '%s'인 연결을 찾을 수 없습니다"
+msgstr "UUID가 “%s”인 연결을 찾을 수 없습니다"
 
 #: src/connection-editor/nm-connection-list.ui:7
 msgid "Network Connections"
@@ -3436,11 +3480,11 @@ msgstr "이 연결에 802.1X 보안을 사용(_X)"
 
 #: src/connection-editor/page-bluetooth.c:44
 msgid "MAC address of the Bluetooth device. Example: 00:11:22:33:44:55"
-msgstr "Bluetooth 장치의 MAC 주소입니다. 예 : 00 : 11 : 22 : 33 : 44 : 55"
+msgstr "블루투스 장치의 MAC 주소입니다. 예 : 00 : 11 : 22 : 33 : 44 : 55"
 
 #: src/connection-editor/page-bluetooth.c:108
 msgid "Could not load Bluetooth user interface."
-msgstr "DCB 사용자 인터페이스를 읽어들일 수 없습니다."
+msgstr "블루투스 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-bluetooth.c:156
 #, c-format
@@ -3448,12 +3492,13 @@ msgid "invalid Bluetooth device (%s)"
 msgstr "잘못된 블루투스 기기 (%s)"
 
 #: src/connection-editor/page-bluetooth.c:239
+#, c-format
 msgid "Bluetooth connection %d"
 msgstr "블루투스 네트워크 연결 %d"
 
 #: src/connection-editor/page-bluetooth.c:290
 msgid "Bluetooth Type"
-msgstr "블루투스"
+msgstr "블루투스 타입"
 
 #: src/connection-editor/page-bluetooth.c:308
 msgid "Select the type of the Bluetooth connection profile."
@@ -3461,11 +3506,11 @@ msgstr "Bluetooth 연결 프로파일의 유형을 선택하십시오."
 
 #: src/connection-editor/page-bluetooth.c:313
 msgid "_Personal Area Network"
-msgstr "이더넷 네트워크"
+msgstr "개인 영역 네트워크(_P)"
 
 #: src/connection-editor/page-bluetooth.c:318
 msgid "_Dial-Up Network"
-msgstr "와이파이 네트워크"
+msgstr "Dial-Up 네트워크(_D)"
 
 #: src/connection-editor/page-bond.c:432
 msgid "Could not load bond user interface."
@@ -3473,7 +3518,7 @@ msgstr "본딩 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-bond.c:551
 msgid "primary"
-msgstr "주요"
+msgstr "주"
 
 #: src/connection-editor/page-bond.c:606
 #, c-format
@@ -3514,7 +3559,7 @@ msgstr "DSL 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-dsl.c:306
 msgid "missing parent interface"
-msgstr "부모 인터페이스가 누락되었습니다."
+msgstr "상위 인터페이스 누락."
 
 #: src/connection-editor/page-dsl.c:351
 #, c-format
@@ -3545,7 +3590,7 @@ msgstr "이더넷 장치"
 #: src/connection-editor/page-ethernet.c:502
 #: src/connection-editor/page-vlan.c:723 src/connection-editor/page-wifi.c:557
 msgid "cloned MAC"
-msgstr "복제한 MAC 주소(_L):"
+msgstr "복제한 MAC 주소"
 
 #: src/connection-editor/page-ethernet.c:506
 msgid "Wake-on-LAN password"
@@ -3602,9 +3647,10 @@ msgstr "인피니밴드 네트워크 연결 %d"
 
 #: src/connection-editor/page-ip-tunnel.c:161
 msgid "Could not load IP tunnel user interface."
-msgstr "IPv4 사용자 인터페이스를 읽어들일 수 없습니다."
+msgstr "IP 터널 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-ip-tunnel.c:275
+#, c-format
 msgid "IP tunnel connection %d"
 msgstr "IP 터널 연결 %d"
 
@@ -3642,11 +3688,11 @@ msgstr "연결-로컬 연결만"
 
 #: src/connection-editor/page-ip4.c:348 src/connection-editor/page-ip6.c:336
 msgid "Additional DNS ser_vers"
-msgstr "추가 DNS 서버(_V):"
+msgstr "추가 DNS 서버(_V)"
 
 #: src/connection-editor/page-ip4.c:357 src/connection-editor/page-ip6.c:345
 msgid "Additional s_earch domains"
-msgstr "추가 검색 도메인(_E):"
+msgstr "추가 검색 도메인(_E)"
 
 #: src/connection-editor/page-ip4.c:1019
 #, c-format
@@ -3664,22 +3710,22 @@ msgstr "IPv4 사용자 인터페이스를 읽어들일 수 없습니다."
 #: src/connection-editor/page-ip4.c:1304
 #, c-format
 msgid "IPv4 address “%s” invalid"
-msgstr "IPv4 주소 \"%s\"invalid"
+msgstr "IPv4 주소 “%s” invalid"
 
 #: src/connection-editor/page-ip4.c:1312
 #, c-format
 msgid "IPv4 address netmask “%s” invalid"
-msgstr "IPv4 주소 넷 마스크 \"%s\"invalid"
+msgstr "IPv4 주소 넷 마스크 “%s” invalid"
 
 #: src/connection-editor/page-ip4.c:1321
 #, c-format
 msgid "IPv4 gateway “%s” invalid"
-msgstr "IPv4 게이트웨이 \"%s\"invalid"
+msgstr "IPv4 게이트웨이 “%s” invalid"
 
 #: src/connection-editor/page-ip4.c:1364
 #, c-format
 msgid "IPv4 DNS server “%s” invalid"
-msgstr "IPv4 DNS 서버 \"%s\"invalid"
+msgstr "IPv4 DNS 서버 “%s” invalid"
 
 #: src/connection-editor/page-ip6.c:172
 msgid "Automatic, DHCP only"
@@ -3701,22 +3747,22 @@ msgstr "IPv6 사용자 인터페이스를 읽어들일 수 없습니다."
 #: src/connection-editor/page-ip6.c:1304
 #, c-format
 msgid "IPv6 address “%s” invalid"
-msgstr "IPv6 주소 \"%s\"invalid"
+msgstr "IPv6 주소 “%s” invalid"
 
 #: src/connection-editor/page-ip6.c:1312
 #, c-format
 msgid "IPv6 prefix “%s” invalid"
-msgstr "IPv6 접두어 \"%s\"invalid"
+msgstr "IPv6 접두어 “%s” invalid"
 
 #: src/connection-editor/page-ip6.c:1321
 #, c-format
 msgid "IPv6 gateway “%s” invalid"
-msgstr "IPv6 게이트웨이 \"%s\"invalid"
+msgstr "IPv6 게이트웨이 “%s” invalid"
 
 #: src/connection-editor/page-ip6.c:1363
 #, c-format
 msgid "IPv6 DNS server “%s” invalid"
-msgstr "IPv6 DNS 서버 \"%s\"invalid"
+msgstr "IPv6 DNS 서버 “%s” invalid"
 
 #: src/connection-editor/page-macsec.c:175
 msgid "Could not load MACsec user interface."
@@ -3733,15 +3779,17 @@ msgid "Duplicate slaves"
 msgstr "슬레이브 중복"
 
 #: src/connection-editor/page-master.c:222
+#, c-format
 msgid "Slaves “%s” and “%s” both apply to device “%s”"
-msgstr "'%s' 및 '%s' 슬레이브가 모두 '%s' 장치에 적용됩니다"
+msgstr "“%s” 및 “%s” 슬레이브가 모두 “%s” 장치에 적용됩니다"
 
 #: src/connection-editor/page-master.c:233
+#, c-format
 msgid ""
 "Slaves “%s” and “%s” apply to different virtual ports (“%s” and “%s”) of the "
 "same physical device."
 msgstr ""
-"'%s' 및 '%s' 슬레이브가 같은 물리적 장치의 다른 가상 포트('%s' 및 '%s')에 적"
+"“%s” 및 “%s” 슬레이브가 같은 물리적 장치의 다른 가상 포트(“%s” 및 “%s”)에 적"
 "용됩니다."
 
 #: src/connection-editor/page-master.c:357
@@ -3772,13 +3820,13 @@ msgstr ""
 
 #: src/connection-editor/page-mobile.c:555
 msgid "My provider uses _GSM-based technology (i.e. GPRS, EDGE, UMTS, HSDPA)"
-msgstr "통신사가 _GSM 기반의 기술을 사용합니다(예: GPRS, EDGE, UMTS, HSDPA)"
+msgstr "통신사가 _GSM 기반의 기술을 사용합니다(예: GPRS, EDGE, UMTS, HSDPA)(_G)"
 
 #. Translators: CDMA has 'D' accelerator key; 'C' collides with 'Cancel' button.
 #. You may need to change it according to your language.
 #: src/connection-editor/page-mobile.c:562
 msgid "My provider uses C_DMA-based technology (i.e. 1xRTT, EVDO)"
-msgstr "통신사가 C_DMA 기반의 기술을 사용합니다(예: 1xRTT, EVDO)"
+msgstr "통신사가 C_DMA 기반의 기술을 사용합니다(예: 1xRTT, EVDO)(_D)"
 
 #: src/connection-editor/page-mobile.c:572 src/libnma/nma-mobile-wizard.c:142
 #: src/mb-menu-item.c:36 src/mobile-helpers.c:268
@@ -3820,7 +3868,7 @@ msgstr "없음"
 #: src/connection-editor/page-ppp.c:182
 #, c-format
 msgid "Editing PPP authentication methods for %s"
-msgstr "%s에 대한 PPP 인증 방법을 변경하십시오"
+msgstr "%s에 대한 PPP 인증 방식 편집"
 
 #: src/connection-editor/page-ppp.c:264
 msgid "PPP Settings"
@@ -3867,12 +3915,13 @@ msgstr "팀 포트 사용자 인터페이스를 읽어들일 수 없습니다."
 #. * second is a connection name (eg, "Auto Ethernet").
 #.
 #: src/connection-editor/page-vlan.c:399
+#, c-format
 msgid "%s (via “%s”)"
-msgstr "%s (\"%s\" 통해)"
+msgstr "%s (“%s” 통해)"
 
 #: src/connection-editor/page-vlan.c:411
 msgid "New connection…"
-msgstr "네트워크 연결 없음"
+msgstr "새 연결…"
 
 #: src/connection-editor/page-vlan.c:577
 msgid "Could not load vlan user interface."
@@ -3888,20 +3937,22 @@ msgid "VLAN connection %d"
 msgstr "가상 LAN 연결 %d"
 
 #: src/connection-editor/page-vpn.c:50
+#, c-format
 msgid "Could not load editor VPN plugin for “%s” (%s)."
-msgstr "'%s'에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
+msgstr "“%s”에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
 
 #: src/connection-editor/page-vpn.c:51
 msgid "unknown failure"
-msgstr "알려지지 않은 실패"
+msgstr "알 수 없는 실패"
 
 #: src/connection-editor/page-vpn.c:88
 msgid "Could not load VPN user interface."
 msgstr "가상 사설망 사용자 인터페이스를 읽어들일 수 없습니다."
 
 #: src/connection-editor/page-vpn.c:103
+#, c-format
 msgid "Could not find VPN plugin for “%s”."
-msgstr "'%s'에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
+msgstr "“%s”에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
 
 #: src/connection-editor/page-vpn.c:185
 #, c-format
@@ -3927,7 +3978,7 @@ msgid ""
 "This option locks this connection to the Wi-Fi access point (AP) specified "
 "by the BSSID entered here. Example: 00:11:22:33:44:55"
 msgstr ""
-"이 선택 사항은 이 연결이 여기 입력한 BSSID로 지정되는 와이파이 억세스 포인트"
+"이 선택 사항은 이 연결이 여기 입력한 BSSID로 지정되는 와이파이 엑세스 포인트"
 "(AP)에만 국한되도록 고정합니다. 예: 00:11:22:33:44:55"
 
 #: src/connection-editor/page-wifi.c:74
@@ -3988,13 +4039,12 @@ msgstr "기업용 WPA 또는 WPA2"
 #: src/connection-editor/page-wifi-security.c:421
 #: src/libnma/nma-wifi-dialog.c:1024
 msgid "WPA3 Personal"
-msgstr "개인용 WPA 또는 WPA2"
+msgstr "개인용 WPA3"
 
 #: src/connection-editor/page-wifi-security.c:464
 msgid "Could not load Wi-Fi security user interface; missing Wi-Fi setting."
 msgstr ""
-"와이파이 보안 사용자 인터페이스를 읽어들일 수 없습니다. 와이파이 설정이 없습"
-"니다."
+"와이파이 보안 사용자 인터페이스를 읽어들일 수 없습니다. 와이파이 설정이 없습니다."
 
 #: src/connection-editor/page-wifi-security.c:475
 msgid "Wi-Fi Security"
@@ -4014,7 +4064,7 @@ msgstr "Ad-Hoc 모드와 호환되지 않는 보안"
 
 #: src/connection-editor/vpn-helpers.c:118
 msgid "A file named “%s” already exists."
-msgstr "이름이 \"%s\"인 파일이 이미 있습니다."
+msgstr "이름이 “%s”인 파일이 이미 있습니다."
 
 #: src/connection-editor/vpn-helpers.c:120
 msgid "_Replace"
@@ -4035,13 +4085,13 @@ msgid ""
 "\n"
 "Error: %s."
 msgstr ""
-"'%s' 가상 사설망 연결을 %s 파일에 내보낼 수 없습니다.\n"
+"“%s” 가상 사설망 연결을 %s 파일에 내보낼 수 없습니다.\n"
 "\n"
 "오류: %s"
 
 #: src/connection-editor/vpn-helpers.c:195
 msgid "Export VPN connection…"
-msgstr "가상 사설망 연결 내보내기..."
+msgstr "가상 사설망 연결 내보내기…"
 
 #: src/gsm-unlock.ui:42
 msgid "_Unlock"
@@ -4062,41 +4112,46 @@ msgstr "종료(_C)"
 
 #: src/libnma/nma-bar-code-widget.ui:36
 msgid "Scan with your phone or <a href=\"nma:print\">Print</a>"
-msgstr ""
+msgstr "Scan with your phone or <a href=\"nma:print\">Print</a>"
 
 #: src/libnma/nma-file-cert-chooser.c:101
 #: src/libnma/nma-pkcs11-cert-chooser.c:139
 msgid "No certificate set"
-msgstr "CA 인증서 불필요(_R)"
+msgstr "인증서 셋이 없음"
 
 #: src/libnma/nma-file-cert-chooser.c:119
 #: src/libnma/nma-pkcs11-cert-chooser.c:163
 msgid "No key set"
-msgstr "키가 설정되지 않았습니다."
+msgstr "키가 설정되지 않음"
 
 #: src/libnma/nma-file-cert-chooser.c:239
 #: src/libnma/nma-pkcs11-cert-chooser.c:369
+#, c-format
 msgid "Choose a key for %s Certificate"
-msgstr "개인 인증서 선택..."
+msgstr "%s 인증서의 키 선택"
 
 #: src/libnma/nma-file-cert-chooser.c:243
 #: src/libnma/nma-pkcs11-cert-chooser.c:373
+#, c-format
 msgid "%s private _key"
-msgstr "비밀키(_K):"
+msgstr "%s 비밀키(_K)"
 
 #: src/libnma/nma-file-cert-chooser.c:247
 #: src/libnma/nma-pkcs11-cert-chooser.c:377
+#, c-format
 msgid "%s key _password"
-msgstr "비밀키 암호(_P):"
+msgstr "%s 비밀키 암호(_P)"
 
 #: src/libnma/nma-file-cert-chooser.c:251
+#, c-format
 msgid "Choose %s Certificate"
-msgstr "개인 인증서 선택..."
+msgstr "%s 인증서 선택"
 
 #: src/libnma/nma-file-cert-chooser.c:255
 #: src/libnma/nma-pkcs11-cert-chooser.c:385
+#, c-format
 msgid "%s _certificate"
-msgstr "사용자 인증서(_U):"
+msgstr "%s 인증서(_C)"
 
 #: src/libnma/nma-mobile-providers.c:976 src/libnm-gtk/nm-mobile-wizard.c:1063
 msgid "My country is not listed"
@@ -4109,7 +4164,7 @@ msgstr "목록에없음"
 
 #: src/libnma/nma-mobile-wizard.c:479 src/libnm-gtk/nm-mobile-wizard.c:544
 msgid "My plan is not listed…"
-msgstr "내 요금제가 목록에 없습니다..."
+msgstr "내 요금제가 목록에 없습니다…"
 
 #: src/libnma/nma-mobile-wizard.c:651 src/libnm-gtk/nm-mobile-wizard.c:710
 msgid "Provider"
@@ -4165,7 +4220,7 @@ msgstr "모바일 광대역 연결을 설정"
 
 #: src/libnma/nma-mobile-wizard.ui:188
 msgid "Country or region:"
-msgstr "국가 혹은 지역"
+msgstr "국가 혹은 지역:"
 
 #: src/libnma/nma-mobile-wizard.ui:228 src/libnm-gtk/nm-mobile-wizard.c:1113
 msgid "Choose your Provider’s Country or Region"
@@ -4197,7 +4252,7 @@ msgstr "요금제 선택(_S):"
 
 #: src/libnma/nma-mobile-wizard.ui:365 src/libnm-gtk/nm-mobile-wizard.c:467
 msgid "Selected plan _APN (Access Point Name):"
-msgstr "요금제 _APN(억세스 포인트 이름):"
+msgstr "요금제 _APN (엑세스 포인트 이름)(_A):"
 
 #: src/libnma/nma-mobile-wizard.ui:415 src/libnm-gtk/nm-mobile-wizard.c:487
 msgid ""
@@ -4245,7 +4300,7 @@ msgid ""
 msgstr ""
 "선택한 설정을 사용해 모바일 광대역 통신사에 연결합니다. 만약 연결이 실패하거"
 "나 네트워크에 연결할 수 없다면, 설정을 여러번 다시 검토하십시오. 모바일 광대"
-"역 연결 설정을 변경하려면, 시스템 >> 기본 설정 메뉴에서 \"네트워크 연결\"을 "
+"역 연결 설정을 변경하려면, 시스템→ 기본 설정 메뉴에서 “네트워크 연결”을 "
 "선택하십시오."
 
 #: src/libnma/nma-mobile-wizard.ui:589 src/libnm-gtk/nm-mobile-wizard.c:248
@@ -4262,8 +4317,9 @@ msgid "Key in %s"
 msgstr "열쇠 입력 %s"
 
 #: src/libnma/nma-cert-chooser-button.c:162
+#, c-format
 msgid "Certificate in %s"
-msgstr "CA 인증서(_A):"
+msgstr "Certificate in %s"
 
 #: src/libnma/nma-cert-chooser-button.c:181
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.c:169
@@ -4282,23 +4338,23 @@ msgstr "취소 "
 
 #: src/libnma/nma-cert-chooser-button.c:460
 msgid "Select from file…"
-msgstr "파일에서 선택 ..."
+msgstr "파일에서 선택…"
 
 #: src/libnma/nma-pkcs11-cert-chooser.c:381
 msgid "Choose a %s Certificate"
-msgstr "개인 인증서 선택..."
+msgstr "인증서 선택"
 
 #: src/libnma/nma-pkcs11-cert-chooser.c:389
 msgid "%s certificate _password"
-msgstr "사용자 인증서(_U):"
+msgstr "인증서 암호(_P)"
 
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.c:241
 msgid "Error logging in: "
-msgstr "로그인 오류 : "
+msgstr "로깅 오류: "
 
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.c:263
 msgid "Error opening a session: "
-msgstr "연결을 편집하는데 오류"
+msgstr "세션 열기 오류: "
 
 #: src/libnma/nma-pkcs11-cert-chooser-dialog.ui:20
 msgid "_Unlock token"
@@ -4309,9 +4365,8 @@ msgid "Issued By"
 msgstr "발급자"
 
 #: src/libnma/nma-pkcs11-token-login-dialog.c:132
-#, c-format
 msgid "Enter %s PIN"
-msgstr "들어가다 %s 핀"
+msgstr "PIN 입력"
 
 #: src/libnma/nma-pkcs11-token-login-dialog.ui:35
 msgid "_Login"
@@ -4319,15 +4374,15 @@ msgstr "로그인(_L)"
 
 #: src/libnma/nma-pkcs11-token-login-dialog.ui:82
 msgid "_Remember PIN"
-msgstr "PIN 기억하기"
+msgstr "PIN 기억하기(_R)"
 
 #: src/libnma/nma-ui-utils.c:36 src/libnm-gtk/nm-ui-utils.c:601
 msgid "Store the password only for this user"
-msgstr "이 사용자에 대해서만 암호 저장(_U)"
+msgstr "이 사용자에 대해서만 암호 저장"
 
 #: src/libnma/nma-ui-utils.c:37 src/libnm-gtk/nm-ui-utils.c:602
 msgid "Store the password for all users"
-msgstr "모든 사용자에 대해 암호 저장(_A)"
+msgstr "모든 사용자에 대해 암호 저장"
 
 #: src/libnma/nma-ui-utils.c:38 src/libnm-gtk/nm-ui-utils.c:603
 msgid "Ask for this password every time"
@@ -4335,17 +4390,17 @@ msgstr "매번 이 암호 물어보기"
 
 #: src/libnma/nma-ui-utils.c:39 src/libnm-gtk/nm-ui-utils.c:604
 msgid "The password is not required"
-msgstr "'%s'에 연결하려면 암호가 필요합니다."
+msgstr "암호 불필요"
 
 #: src/libnma/nma-vpn-password-dialog.ui:73
 #: src/libnm-gtk/nm-vpn-password-dialog.c:233
 msgid "Sh_ow passwords"
-msgstr "암호 보이기(_O)"
+msgstr "암호 표시(_O)"
 
 #: src/libnma/nma-vpn-password-dialog.ui:130
 #: src/libnm-gtk/nm-vpn-password-dialog.c:97
 msgid "_Tertiary Password:"
-msgstr "보조 암호(_S):"
+msgstr "3차 암호(_T):"
 
 #: src/libnma/nma-vpn-password-dialog.ui:144
 #: src/libnm-gtk/nm-vpn-password-dialog.c:94
@@ -4359,11 +4414,11 @@ msgstr "암호(_P):"
 
 #: src/libnma/nma-wifi-dialog.c:114 src/libnm-gtk/nm-wifi-dialog.c:127
 msgid "Click to connect"
-msgstr "연결 끊김"
+msgstr "연결하려면 클릭 "
 
 #: src/libnma/nma-wifi-dialog.c:445 src/libnm-gtk/nm-wifi-dialog.c:451
 msgid "New…"
-msgstr "새로운…"
+msgstr "새 연결…"
 
 #: src/libnma/nma-wifi-dialog.c:923 src/libnm-gtk/nm-wifi-dialog.c:891
 msgctxt "Wifi/wired security"
@@ -4382,7 +4437,7 @@ msgstr "만들기(_R)"
 msgid ""
 "Passwords or encryption keys are required to access the Wi-Fi network “%s”."
 msgstr ""
-"와이파이 네트워크 '%s'에 연결하려면 암호 또는 암호화 키가 있어야 합니다."
+"와이파이 네트워크 “%s”에 연결하려면 암호 또는 암호화 키가 있어야 합니다."
 
 #: src/libnma/nma-wifi-dialog.c:1201 src/libnm-gtk/nm-wifi-dialog.c:1138
 msgid "Wi-Fi Network Authentication Required"
@@ -4406,7 +4461,7 @@ msgstr "연결하려는 와이파이 네트워크의 이름을 입력하십시�
 
 #: src/libnma/nma-wifi-dialog.c:1213 src/libnm-gtk/nm-wifi-dialog.c:1150
 msgid "Connect to Hidden Wi-Fi Network"
-msgstr "감춰진 와이파이 네트워크에 연결"
+msgstr "숨겨진 와이파이 네트워크에 연결"
 
 #: src/libnma/nma-wifi-dialog.c:1215 src/libnm-gtk/nm-wifi-dialog.c:1152
 msgid "Hidden Wi-Fi network"
@@ -4420,15 +4475,15 @@ msgstr "연결하려는 숨겨진 와이파이 네트워크의 이름과 보안 
 
 #: src/libnma/wifi.ui:97
 msgid "Wi-Fi _security"
-msgstr "와이파이 보안(_S):"
+msgstr "와이파이 보안(_S)"
 
 #: src/libnma/wifi.ui:154
 msgid "C_onnection"
-msgstr "연결(_C):"
+msgstr "연결(_O)"
 
 #: src/libnma/wifi.ui:179
 msgid "Wi-Fi _adapter"
-msgstr "와이파이 어댑터(_A):"
+msgstr "와이파이 어댑터(_A)"
 
 #: src/libnm-gtk/nm-mobile-wizard.c:735
 msgid "I can’t find my provider and I wish to enter it _manually:"
@@ -4484,7 +4539,7 @@ msgid ""
 "case, you have to edit the connection with nm-connection-editor first"
 msgstr ""
 "암호가 누락되었거나 연결이 유효하지 않습니다. 후자의 경우 먼저 nm-connection-"
-"editor를 사용하여 연결을 편집해야합니다"
+"editor를 실행하여 연결을 편집해야합니다"
 
 #: src/libnm-gtk/wifi.ui:97
 msgid "Wi-Fi _security:"
@@ -4496,7 +4551,7 @@ msgstr "네트워크 이름(_N):"
 
 #: src/libnm-gtk/wifi.ui:154
 msgid "C_onnection:"
-msgstr "연결(_C):"
+msgstr "연결(_O):"
 
 #: src/libnm-gtk/wifi.ui:179
 msgid "Wi-Fi _adapter:"
@@ -4569,11 +4624,11 @@ msgstr "등록되지 않음"
 #: src/mb-menu-item.c:127
 #, c-format
 msgid "Home network (%s)"
-msgstr "가정 네트워크(%s)"
+msgstr "홈 네트워크(%s)"
 
 #: src/mb-menu-item.c:129
 msgid "Home network"
-msgstr "가정 네트워크"
+msgstr "홈 네트워크"
 
 #: src/mb-menu-item.c:137
 msgid "searching"
@@ -4581,7 +4636,7 @@ msgstr "검색중"
 
 #: src/mb-menu-item.c:140
 msgid "registration denied"
-msgstr "등록이 거부되었습니다"
+msgstr "등록 거부"
 
 #: src/mb-menu-item.c:145 src/mb-menu-item.c:151
 #, c-format
@@ -4603,8 +4658,9 @@ msgid "Roaming network"
 msgstr "로밍 네트워크"
 
 #: src/mobile-helpers.c:316
+#, c-format
 msgid "PIN code for SIM card “%s” on “%s”"
-msgstr "'%2$s'의 SIM 카드 '%1$s'에 대한 PIM 코드"
+msgstr "“%s”의 SIM 카드 “%s”에 대한 PIN 코드"
 
 #: src/mobile-helpers.c:449
 msgid "PIN code required"
@@ -4615,8 +4671,9 @@ msgid "PIN code is needed for the mobile broadband device"
 msgstr "PIN 코드가 모바일 광대역 장치를 위해 필요합니다"
 
 #: src/mobile-helpers.c:607
+#, c-format
 msgid "Mobile broadband connection “%s” active: (%d%%%s%s)"
-msgstr "모바일 광대역 연결 '%s' 사용 중: (%d%%%s%s)"
+msgstr "모바일 광대역 연결 “%s” 사용 중: (%d%%%s%s)"
 
 #: src/mobile-helpers.c:610
 msgid "roaming"
@@ -4630,7 +4687,7 @@ msgstr "%s 연결"
 
 #: src/utils/utils.c:544
 msgid "PEM certificates (*.pem, *.crt, *.cer)"
-msgstr "DEP 혹은 PEM 인증서(*.det, *.pem, *.crt, *.cer)"
+msgstr "PEM 인증서(*.det, *.pem, *.crt, *.cer)"
 
 #: src/utils/utils.c:556
 msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
@@ -4642,15 +4699,15 @@ msgstr "802.1X 보안에서 정의되지 않은 오류 (wpa-eap)"
 
 #: src/wireless-security/eap-method.c:351
 msgid "no CA certificate selected"
-msgstr "CA 인증서 불필요(_R)"
+msgstr "선택한 CA 인증서가 없음"
 
 #: src/wireless-security/eap-method.c:356
 msgid "selected CA certificate file does not exist"
-msgstr "선택한 CA 인증서 파일이 존재하지 않습니다."
+msgstr "선택된 CA 인증서 파일이 없음"
 
 #: src/wireless-security/eap-method-fast.c:59
 msgid "missing EAP-FAST PAC file"
-msgstr "EAP-FAST PAC 파일이 누락되었습니다."
+msgstr "EAP-FAST PAC 파일 누락"
 
 #: src/wireless-security/eap-method-fast.c:256
 #: src/wireless-security/eap-method-peap.c:319
@@ -4660,7 +4717,7 @@ msgstr "GTC"
 
 #: src/wireless-security/eap-method-fast.c:395
 msgid "Choose a PAC file"
-msgstr "PAC 파일 선택..."
+msgstr "PAC 파일 선택"
 
 #: src/wireless-security/eap-method-fast.c:402
 msgid "PAC files (*.pac)"
@@ -4686,21 +4743,21 @@ msgstr "둘 다"
 #: src/wireless-security/eap-method-peap.ui:48
 #: src/wireless-security/eap-method-ttls.ui:119
 msgid "Anony_mous identity"
-msgstr "익명 사용(_M):"
+msgstr "익명 사용(_M)"
 
 #: src/wireless-security/eap-method-fast.ui:74
 msgid "PAC _file"
-msgstr "PAC 파일(_F):"
+msgstr "PAC 파일(_F)"
 
 #: src/wireless-security/eap-method-fast.ui:113
 #: src/wireless-security/eap-method-peap.ui:121
 #: src/wireless-security/eap-method-ttls.ui:77
 msgid "_Inner authentication"
-msgstr "내부 인증(_I):"
+msgstr "내부 인증(_I)"
 
 #: src/wireless-security/eap-method-fast.ui:142
 msgid "Allow automatic PAC pro_visioning"
-msgstr "자동 PAC 인증 허용(_V)"
+msgstr "자동 PAC 프로비저닝 허용(_V)"
 
 #: src/wireless-security/eap-method-leap.c:53
 msgid "missing EAP-LEAP username"
@@ -4732,7 +4789,7 @@ msgstr "CA 인증서 불필요(_R)"
 
 #: src/wireless-security/eap-method-peap.ui:89
 msgid "PEAP _version"
-msgstr "PEAP 버전(_V):"
+msgstr "PEAP 버전(_V)"
 
 #: src/wireless-security/eap-method-peap.ui:168
 #: src/wireless-security/eap-method-tls.ui:62
@@ -4744,7 +4801,7 @@ msgstr "서버 인증서 이름의 접미사입니다."
 #: src/wireless-security/eap-method-tls.ui:63
 #: src/wireless-security/eap-method-ttls.ui:134
 msgid "_Domain"
-msgstr "도메인"
+msgstr "도메인(_D)"
 
 #: src/wireless-security/eap-method-simple.c:77
 msgid "missing EAP username"
@@ -4756,7 +4813,7 @@ msgstr "누락 된 EAP 암호"
 
 #: src/wireless-security/eap-method-simple.c:107
 msgid "missing EAP client Private Key passphrase"
-msgstr ""
+msgstr "missing EAP client Private Key passphrase"
 
 #: src/wireless-security/eap-method-simple.ui:103
 msgid "P_rivate Key Passphrase"
@@ -4764,7 +4821,7 @@ msgstr "WEP 128비트 열쇠글"
 
 #: src/wireless-security/eap-method-simple.ui:128
 msgid "Sh_ow passphrase"
-msgstr "암호 보이기(_O)"
+msgstr "암호 표시(_O)"
 
 #: src/wireless-security/eap-method-tls.c:51
 msgid "missing EAP-TLS identity"
@@ -4772,11 +4829,11 @@ msgstr "EAP-TLS 신원 누락"
 
 #: src/wireless-security/eap-method-tls.c:243
 msgid "no user certificate selected"
-msgstr "CA 인증서 불필요(_R)"
+msgstr "선택된 사용자 인증서 없음"
 
 #: src/wireless-security/eap-method-tls.c:248
 msgid "selected user certificate file does not exist"
-msgstr "선택한 사용자 인증서 파일이 존재하지 않습니다."
+msgstr "선택된 사용자의 인증서 파일이 없음"
 
 #: src/wireless-security/eap-method-tls.c:268
 msgid "no key selected"
@@ -4784,11 +4841,11 @@ msgstr "선택된 키 없음"
 
 #: src/wireless-security/eap-method-tls.c:273
 msgid "selected key file does not exist"
-msgstr "선택한 키 파일이 존재하지 않습니다."
+msgstr "선택된 키 파일이 없음"
 
 #: src/wireless-security/eap-method-tls.ui:20
 msgid "I_dentity"
-msgstr "인증 정보(_D):"
+msgstr "인증 정보(_D)"
 
 #: src/wireless-security/eap-method-ttls.c:324
 msgid "MSCHAPv2 (no EAP)"
@@ -4796,7 +4853,7 @@ msgstr "MSCHAPv2 (no EAP)"
 
 #: src/wireless-security/wireless-security.c:58
 msgid "Unknown error validating 802.1X security"
-msgstr "802.1X 보안을 확인하는 알 수없는 오류"
+msgstr "802.1X 보안 확인중 알 수 없는 오류"
 
 #: src/wireless-security/wireless-security.c:423
 msgid "TLS"
@@ -4821,29 +4878,29 @@ msgstr "보호되는 EAP (PEAP)"
 
 #: src/wireless-security/wireless-security.c:509
 msgid "Externally configured"
-msgstr ""
+msgstr "Externally configured"
 
 #: src/wireless-security/ws-dynamic-wep.ui:31
 #: src/wireless-security/ws-wep-key.ui:97
 #: src/wireless-security/ws-wpa-eap.ui:31
 msgid "Au_thentication"
-msgstr "인증(_T):"
+msgstr "인증(_T)"
 
 #: src/wireless-security/ws-leap.c:51
 msgid "missing leap-username"
-msgstr "누락 된 사용자 이름"
+msgstr "누락 된 LEAP 사용자 이름"
 
 #: src/wireless-security/ws-leap.c:69
 msgid "missing leap-password"
-msgstr "누락 된 도약 - 암호"
+msgstr "누락 된 LEAP 암호"
 
 #: src/wireless-security/ws-sae.c:57
 msgid "missing password"
-msgstr "누락 된 EAP 암호"
+msgstr "누락 된 암호"
 
 #: src/wireless-security/ws-sae.ui:48 src/wireless-security/ws-wpa-psk.ui:48
 msgid "_Type"
-msgstr "형식(_T):"
+msgstr "형식(_T)"
 
 #: src/wireless-security/ws-wep-key.c:100
 msgid "missing wep-key"
@@ -4891,7 +4948,7 @@ msgstr "1 (기본값)"
 
 #: src/wireless-security/ws-wep-key.ui:54
 msgid "_Key"
-msgstr "키(_K):"
+msgstr "키(_K)"
 
 #: src/wireless-security/ws-wep-key.ui:80
 msgid "Sho_w key"
@@ -4899,7 +4956,7 @@ msgstr "키 표시(_W)"
 
 #: src/wireless-security/ws-wep-key.ui:129
 msgid "WEP inde_x"
-msgstr "WEP 인덱스(_X):"
+msgstr "WEP 인덱스(_X)"
 
 #: src/wireless-security/ws-wpa-psk.c:63
 #, c-format
