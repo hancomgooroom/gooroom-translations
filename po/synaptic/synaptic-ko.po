@@ -3790,6 +3790,16 @@ msgstr "<i>완료</i>"
 msgid "<i>Can't close while running</i>"
 msgstr "<i>작동중에는 닫을 수 없음</i>"
 
+#: ../gtk/rgmainwindow.cc:3375
+msgid ""
+"Nothing to install/upgrade\n\n"
+"Please select the \"Mark all Upgrades\" "
+"button or some packages to install/upgrade."
+msgstr ""
+"설치 / 업그레이드 할 것이 없습니다.\n\n"
+"설치 / 업그레이드 할 \"모든 업그레이드 표시\" "
+"단추 또는 일부 패키지를 선택하십시오."
+
 #~ msgid "Available Version"
 #~ msgstr "사용 가능한 버전"
 
