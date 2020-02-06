@@ -40,6 +40,7 @@ nm-applet
 #network-manager-applet
 synaptic
 polkit-1
+gtk30
 )
 
 # Gooroom
