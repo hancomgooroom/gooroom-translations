@@ -3141,8 +3141,7 @@ msgstr "가상 사설망 서비스 종류 없음"
 
 #: src/connection-editor/connection-helpers.c:195
 msgid "The VPN plugin failed to import the VPN connection correctly: "
-msgstr ""
-"가상 사설망 플러그인이 가상 사설망 연결을 정상적으로 가져오는 데 실패했습니다\n"
+msgstr "가상 사설망 플러그인이 가상 사설망 연결을 정상적으로 가져오는데 실패: "
 
 #: src/connection-editor/connection-helpers.c:279
 #: src/connection-editor/page-proxy.c:104 src/connection-editor/page-team.c:327
@@ -3939,7 +3938,7 @@ msgstr "가상 LAN 연결 %d"
 #: src/connection-editor/page-vpn.c:50
 #, c-format
 msgid "Could not load editor VPN plugin for “%s” (%s)."
-msgstr "“%s”에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
+msgstr "“%s”에 대한 가상 사설망 플러그인 편집을 읽어들일 수 없습니다. (%s)"
 
 #: src/connection-editor/page-vpn.c:51
 msgid "unknown failure"
@@ -3952,7 +3951,7 @@ msgstr "가상 사설망 사용자 인터페이스를 읽어들일 수 없습니
 #: src/connection-editor/page-vpn.c:103
 #, c-format
 msgid "Could not find VPN plugin for “%s”."
-msgstr "“%s”에 대한 가상 사설망 플러그인 서비스를 찾을 수 없습니다."
+msgstr "“%s”에 대한 가상 사설망 플러그인을 찾을 수 없습니다."
 
 #: src/connection-editor/page-vpn.c:185
 #, c-format
