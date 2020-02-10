@@ -540,6 +540,16 @@ msgstr "내용"
 msgid "Show and install available updates"
 msgstr "이용 가능한 업데이트를 보여주고, 설치합니다"
 
+msgid "Error Launching Program"
+msgstr "프로그램 실행 에러"
+
+msgid ""
+"Can't execute Synpatic Package Manager.\n"
+"This software is prohibited to run."
+msgstr ""
+"패키지 관리자를 실행할 수 없습니다.\n"
+"실행 금지 소프트웨어 입니다."
+
 #~ msgid "Icons"
 #~ msgstr "아이콘"
 
