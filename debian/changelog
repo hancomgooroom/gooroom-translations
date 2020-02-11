@@ -1,3 +1,29 @@
+gooroom-translations (20191130+grm2u3) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [d38442b3] Added synaptic-ko.po
+
+  [ junsungc ]
+  * [ed566ae2] [Bug: 1828] Updated nm-applet.po
+
+  [ cjheo ]
+  * [c5285e9a] Update translation nm-applet-ko.po
+  * [dce8fffb] Update translation for nm-applet
+  * [f86076ab] Update translation for nm-applet
+  * [bf46a129] Update korean translation for gooroom-update and nm-applet
+
+  [ HaeRyong Jeong ]
+  * [acb64fd3] [Bug:1951] Update translation synaptic-ko.po
+  * [8f00e8bf] [Bug: 1821] Updated nm-applet.po
+
+  [ donghun ]
+  * [9c17e826] [Bug:1903,1908] Added polkit-1-ko.po
+  * [46761ac1] [Bug:1947] Added gtk30-ko.po
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 11 Feb 2020 11:31:28 +0900
+
 gooroom-translations (20191130+grm2u2) unstable; urgency=medium
 
   * Initial Release 
