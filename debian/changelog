@@ -1,3 +1,12 @@
+gooroom-translations (20191130+grm2u4) unstable; urgency=medium
+
+  [ JeongHaeRyong ]
+  * [8ad7e594] [Bug: 1959, 1960, 1961] Added system-config-printer-ko.po
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 20 Feb 2020 19:22:52 +0900
+
 gooroom-translations (20191130+grm2u3) unstable; urgency=medium
 
   [ jongkyung.woo ]
