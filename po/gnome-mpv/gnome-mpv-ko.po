@@ -226,7 +226,7 @@ msgstr "이전 장"
 msgid "Toggle Fullscreen"
 msgstr "전체화면 전환"
 
-#: src/gmpv_controller.c:787 src/gmpv_view.c:1429
+#: src/gmpv_controller.c:787 src/gmpv_view.c:1408 src/gmpv_view.c:1429
 msgid "Error"
 msgstr "오류"
 
@@ -378,9 +378,13 @@ msgstr "추가(_A)…"
 msgid "Add _Location…"
 msgstr "위치 추가(_L)…"
 
+#: src/gmpv_playlist_widget.c:545
+msgid "_Delete"
+msgstr "삭제(_D)"
+
 #: src/gmpv_playlist_widget.c:544
 msgid "_Shuffle"
-msgstr "셔플"
+msgstr "셔플(_S)"
 
 #: src/gmpv_playlist_widget.c:548
 msgid "Loop _File"
@@ -799,6 +803,10 @@ msgstr "자막 트랙 불러오기…"
 #: src/gmpv_view.c:1403
 msgid "Save Playlist"
 msgstr "재생목록 저장"
+
+#: src/gmpv_view.c:1410
+msgid "Cannot save an empty playlist"
+msgstr "빈 플레이리스트는 저장할 수 없습니다."
 
 #: src/gmpv_view.c:1468
 msgid "A GTK frontend for MPV"
