@@ -3,6 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: gooroom <gooroom@gooroom.kr>
 Build-Depends: debhelper (>= 5)
+Conflicts: locales-all
 Standards-Version: 3.7.2
 
 Package: gooroom-translations
