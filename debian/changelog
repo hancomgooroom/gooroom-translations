@@ -1,3 +1,16 @@
+gooroom-translations (20191130+grm2u5) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [1e667ccd] [Bug:1520, 2072] Updated gnome-mpv-ko.po
+  * [e93940fa] Updated shadow-ko.po
+
+  [ JeongHaeRyong ]
+  * [ba10dbdf] [Bug:1917] add system language ko,en files
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 12 May 2020 15:20:45 +0900
+
 gooroom-translations (20191130+grm2u4) unstable; urgency=medium
 
   [ JeongHaeRyong ]
