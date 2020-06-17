@@ -550,6 +550,15 @@ msgstr ""
 "패키지 관리자를 실행할 수 없습니다.\n"
 "실행 금지 소프트웨어 입니다."
 
+msgid "_Refresh"
+msgstr "새로 고침(_R)"
+
+msgid "_Preferences"
+msgstr "기본 설정(_P)"
+
+msgid "_Quit"
+msgstr "끝내기(_Q)"
+
 #~ msgid "Icons"
 #~ msgstr "아이콘"
 
