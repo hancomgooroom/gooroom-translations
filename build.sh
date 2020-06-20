@@ -31,6 +31,7 @@ debian_po=(
 gnome-flashback
 gnome-mpv
 gnome-panel
+gnome-screenshot
 galculator
 glib20
 grub
