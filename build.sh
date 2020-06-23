@@ -44,6 +44,7 @@ polkit-1
 gtk30
 system-config-printer
 shadow
+metacity
 )
 
 # Gooroom
