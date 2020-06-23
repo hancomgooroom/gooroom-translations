@@ -195,8 +195,13 @@ msgstr "파일 인덱싱을 계산하는 중 ..."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:312
 #: usr/lib/live-installer/frontend/gtk_interface.py:398
+#: usr/lib/live-installer/partitioning.py:531
 msgid "Cancel"
 msgstr "취소"
+
+#: usr/lib/live-installer/partitioning.py:532
+msgid "Ok"
+msgstr "확인"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:312
 msgid "Open"
