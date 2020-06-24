@@ -1397,7 +1397,7 @@ msgstr "이더넷 MAC 주소 에이징 시간 (초)"
 
 #: src/connection-editor/ce-page-bridge.ui:490
 msgid "Group _forward mask"
-msgstr "Group _forward mask(_F)"
+msgstr "그룹 전송 마스크(_F)"
 
 #: src/connection-editor/ce-page-bridge.ui:504
 msgid ""
@@ -2653,7 +2653,7 @@ msgstr ""
 #: src/connection-editor/ce-page-team-port.ui:604
 #: src/connection-editor/ce-page-team.ui:1331
 msgid "S_end on inactive ports"
-msgstr "비활성 포트의 S_end(_E)"
+msgstr "비활성 포트로 전송(_E)"
 
 #: src/connection-editor/ce-page-team-port.ui:608
 #: src/connection-editor/ce-page-team.ui:1335
