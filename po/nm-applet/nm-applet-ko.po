@@ -4982,3 +4982,11 @@ msgstr "연결 끊김 - 오프라인 상태"
 #: ../src/applet.c:2298
 msgid "Wireless network"
 msgstr "무선 네트워크"
+
+#: ../src/applet.c:2301
+msgid "Ethernet network"
+msgstr "이더넷 네트워크"
+
+#: ../src/applet.c:2304
+msgid "Modem network"
+msgstr "모뎀 네트워크"
