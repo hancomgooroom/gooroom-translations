@@ -1,0 +1,1600 @@
+# GNOME Korea translation of nm-openvpn.
+# Copyright (C) 2007 THE nm-openvpn'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nm-openvpn package.
+# Young-Ho Cha <ganadist@gmail.com>, 2007.
+# Namhyung Kim <namhyung@gmail.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nm-openvpn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-23 18:22+0900\n"
+"PO-Revision-Date: 2011-02-27 15:45+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-openvpn.metainfo.xml.in.h:1
+msgid "OpenVPN client"
+msgstr "OpenVPN"
+
+#: ../appdata/network-manager-openvpn.metainfo.xml.in.h:2
+msgid "Client for OpenVPN virtual private networks"
+msgstr "OpenVPN 가상 개인 네트워크 클라이언트"
+
+#: ../appdata/network-manager-openvpn.metainfo.xml.in.h:3
+msgid "Support for configuring OpenVPN virtual private network connections."
+msgstr "OpenVPN 가상 개인 네트워크 연결 설정 지원."
+
+#: ../appdata/network-manager-openvpn.metainfo.xml.in.h:4
+msgid "OpenVPN is a popular and flexible free-software VPN solution."
+msgstr "OpenVPN은 범용성있는 free-software VPN 솔루션입니다."
+
+#: ../appdata/network-manager-openvpn.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../auth-dialog/main.c:175
+#, c-format
+msgid "Authenticate VPN %s"
+msgstr "VPN 인증 %s"
+
+#: ../auth-dialog/main.c:182 ../properties/nm-openvpn-dialog.ui.h:14
+msgid "Password:"
+msgstr "암호:"
+
+#: ../auth-dialog/main.c:189
+msgid "Certificate password:"
+msgstr "인증서 암호:"
+
+#: ../auth-dialog/main.c:196
+msgid "HTTP proxy password:"
+msgstr "프록시 암호:"
+
+#: ../auth-dialog/main.c:234
+msgid "Authenticate VPN"
+msgstr "VPN 인증"
+
+#: ../auth-dialog/main.c:243
+msgid "Certificate pass_word:"
+msgstr "인증서 암호(_w):"
+
+#: ../auth-dialog/main.c:249
+msgid "_HTTP proxy password:"
+msgstr "프록시 암호(_H):"
+
+#: ../auth-dialog/main.c:516
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr "가상 사설 네트워크 '%s'에 접근할 때 인증이 필요합니다."
+
+#: ../properties/import-export.c:181
+#, c-format
+msgid "option %s expects between %u and %u argument"
+msgid_plural "option %s expects between %u and %u arguments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../properties/import-export.c:186
+#, c-format
+msgid "option %s expects no arguments"
+msgstr "옵션 %s는 전달인자를 받지 않습니다."
+
+#: ../properties/import-export.c:188
+#, c-format
+msgid "option %s expects exactly one argument"
+msgid_plural "option %s expects exactly %u arguments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../properties/import-export.c:217
+#, c-format
+msgid "argument %s of “%s” can not be empty"
+msgstr "전달인자 %s가 필요합니다. (%s의 전달인자)"
+
+#: ../properties/import-export.c:219
+#, c-format
+msgid "argument of “%s” can not be empty"
+msgstr "%s는 전달 인자가 필요합니다."
+
+#: ../properties/import-export.c:235
+#, c-format
+msgid "argument %s of “%s” must be UTF-8 encoded"
+msgstr "전달인자 %s는 UTF-8로 인코딩 되어야합니다. (%s의 전달인자)"
+
+#: ../properties/import-export.c:237
+#, c-format
+msgid "argument of “%s” must be UTF-8 encoded"
+msgstr "전달인자 %s는 UTF-8로 인코딩 되어야합니다."
+
+#: ../properties/import-export.c:261
+#, c-format
+msgid "invalid %uth argument to “%s” where number expected"
+msgstr "유효하지 않은 %u번째 전달인자가 숫자를 입력받는 %s에 전달되었습니다."
+
+#. we don't support these special destinations, as they currently cannot be expressed
+#. * in a connection.
+#: ../properties/import-export.c:302
+#, c-format
+msgid "unsupported %uth argument %s to “%s”"
+msgstr "지원하는 않는 %u번째 전달인자 %s가 %s에 전달되었습니다."
+
+#. we also don't support specifing a FQDN.
+#: ../properties/import-export.c:320
+#, c-format
+msgid ""
+"unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+"address supported"
+msgstr "지원하지 않는 %u번째 인자가 %s에 전달되었습니다."
+
+#: ../properties/import-export.c:327
+#, c-format
+msgid "invalid %uth argument to “%s” where IPv4 address expected"
+msgstr "유효하지 않은 %u번째 인자가 IPv4 주소를 전달 받는 %s에 전달되었습니다."
+
+#: ../properties/import-export.c:352
+#, c-format
+msgid "invalid %uth key-direction argument to “%s”"
+msgstr "유효하지 않은 %u번째 키-방향 인자가 %s에 전달되었습니다."
+
+#: ../properties/import-export.c:366
+#, c-format
+msgid "invalid %uth argument to “%s”"
+msgstr "유효하지 않은 %u번째 인자가 %s에 전달되었습니다."
+
+#: ../properties/import-export.c:481
+#, c-format
+msgid "unterminated %s at position %lld"
+msgstr "%s가 %lld 위치에서 끝나지 않았습니다."
+
+#: ../properties/import-export.c:482
+msgid "double quote"
+msgstr "큰따옴표"
+
+#: ../properties/import-export.c:482
+msgid "single quote"
+msgstr "작은따옴표"
+
+#: ../properties/import-export.c:498
+#, c-format
+msgid "trailing escaping backslash at position %lld"
+msgstr ""
+
+#: ../properties/import-export.c:628
+#, c-format
+msgid "unable to read HTTP proxy auth file"
+msgstr "HTTP 프록시 인증 파일을 읽을 수 없습니다."
+
+#: ../properties/import-export.c:646
+#, c-format
+msgid "cannot read user/password from HTTP proxy auth file"
+msgstr "HTTP 프록시 인증 파일에서 사용자/비밀번호를 읽을 수 없습니다."
+
+#: ../properties/import-export.c:654
+#, c-format
+msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+msgstr ""
+"HTTP 프록시 인증 파일의 사용자/비밀번호는 UTF-8 으로 인코딩 되어야합니다."
+
+#: ../properties/import-export.c:716
+#, c-format
+msgid "“%s” is not a directory"
+msgstr "%s는 디렉토리가 아닙니다."
+
+#: ../properties/import-export.c:724
+#, c-format
+msgid "cannot create “%s” directory"
+msgstr "%s 디렉토리를 생성할 수 없습니다."
+
+#: ../properties/import-export.c:744
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file (%s)"
+msgstr "<%s> blob(line: %ld)을 %s 파일에 쓸 수 없습니다."
+
+#: ../properties/import-export.c:761
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file “%s”"
+msgstr "<%s> blob(line: %ld)을 %s 파일에 쓸 수 없습니다."
+
+#: ../properties/import-export.c:930
+#, c-format
+msgid "unsupported mtu-disc argument"
+msgstr "지원하지 않는 mtu-disc 인자입니다."
+
+#: ../properties/import-export.c:946
+#, c-format
+msgid "unsupported crl-verify argument"
+msgstr "지원하지 않는 crl 검증 인자입니다."
+
+#: ../properties/import-export.c:964 ../properties/import-export.c:1351
+#, c-format
+msgid "invalid option"
+msgstr "유효하지 않은 연결 형식입니다."
+
+#: ../properties/import-export.c:1014
+#, c-format
+msgid "unsupported comp-lzo argument"
+msgstr "지원하지 않는 comp-lzo 인자입니다."
+
+#: ../properties/import-export.c:1112
+#, c-format
+msgid "remote cannot contain space"
+msgstr "원격 호출에 공백을 포함할 수 없습니다."
+
+#: ../properties/import-export.c:1116
+#, c-format
+msgid "remote cannot contain comma"
+msgstr "원격 호출에 쉼표를 포함할 수 없습니다."
+
+#: ../properties/import-export.c:1127
+#, c-format
+msgid "remote expects protocol type like “udp” or “tcp”"
+msgstr "원격 호출 프로토콜은 upd나 tcp를 사용해야 합니다."
+
+#: ../properties/import-export.c:1335
+#, c-format
+msgid "invalid verify-x509-name type"
+msgstr "유효하지 않은 x509 검증 이름입니다."
+
+#: ../properties/import-export.c:1479
+#, c-format
+msgid "unsupported blob/xml element"
+msgstr "지원하지 않는 blob/xml 요소입니다."
+
+#: ../properties/import-export.c:1508
+#, c-format
+msgid "unterminated blob element <%s>"
+msgstr "끝나지 않는 blob 요소입니다. <%s>"
+
+#: ../properties/import-export.c:1564
+#, c-format
+msgid "configuration error: %s (line %ld)"
+msgstr "설정 오류: %s (line %ld)"
+
+#: ../properties/import-export.c:1565
+msgid "unknown or unsupported option"
+msgstr "알 수 없거나 지원하지 않는 옵션입니다."
+
+#: ../properties/import-export.c:1580
+msgid "The file to import wasn’t a valid OpenVPN client configuration"
+msgstr "유효하지 않은 OpenVPN 설정 파일입니다."
+
+#: ../properties/import-export.c:1588
+msgid "The file to import wasn’t a valid OpenVPN configure (no remote)"
+msgstr "유효하지 않은 OpenVPN 설정 파일입니다."
+
+#: ../properties/import-export.c:1831
+msgid "missing path argument"
+msgstr "경로 전달 인자가 없습니다."
+
+#: ../properties/import-export.c:1841
+msgid "connection is not a valid OpenVPN connection"
+msgstr "유효하지 않은 OpenVPN 설정 파일입니다."
+
+#: ../properties/import-export.c:1850
+msgid "connection was incomplete (missing gateway)"
+msgstr "연결이 불완전합니다. (게이트웨이 없음)"
+
+#: ../properties/import-export.c:2200
+#, c-format
+msgid "failed to write file: %s"
+msgstr "파일 %s(으)로 저장 실패"
+
+#: ../properties/nm-openvpn-editor-plugin.c:44
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: ../properties/nm-openvpn-editor-plugin.c:45
+msgid "Compatible with the OpenVPN server."
+msgstr "OpenVPN 서버와 호환됩니다."
+
+#: ../properties/nm-openvpn-editor.c:278
+msgid "Choose an OpenVPN static key…"
+msgstr "OpenVPN 고정 키를 선택하십시오..."
+
+#: ../properties/nm-openvpn-editor.c:296 ../properties/nm-openvpn-editor.c:906
+#: ../properties/nm-openvpn-editor.c:1701
+#: ../properties/nm-openvpn-dialog.ui.h:1
+msgid "None"
+msgstr "없음"
+
+#: ../properties/nm-openvpn-editor.c:680
+msgid "OpenVPN Static Keys (*.key)"
+msgstr "OpenVPN 고정 키 (*.key)"
+
+#: ../properties/nm-openvpn-editor.c:828 ../properties/nm-openvpn-editor.c:923
+msgid "Default"
+msgstr "기본값"
+
+#: ../properties/nm-openvpn-editor.c:907
+msgid "RSA MD-4"
+msgstr "RSA MD-4"
+
+#: ../properties/nm-openvpn-editor.c:908
+msgid "MD-5"
+msgstr "MD-5"
+
+#: ../properties/nm-openvpn-editor.c:909
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#: ../properties/nm-openvpn-editor.c:910
+msgid "SHA-224"
+msgstr "SHA-224"
+
+#: ../properties/nm-openvpn-editor.c:911
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#: ../properties/nm-openvpn-editor.c:912
+msgid "SHA-384"
+msgstr "SHA-384"
+
+#: ../properties/nm-openvpn-editor.c:913
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#: ../properties/nm-openvpn-editor.c:914
+msgid "RIPEMD-160"
+msgstr "RIPEMD-160"
+
+#: ../properties/nm-openvpn-editor.c:972
+msgid "Don’t verify certificate identification"
+msgstr "인증서 검증 하지 않음"
+
+#: ../properties/nm-openvpn-editor.c:978
+msgid "Verify whole subject exactly"
+msgstr "대상 전체를 검증"
+
+#: ../properties/nm-openvpn-editor.c:984
+msgid "Verify name exactly"
+msgstr "이름을 검증"
+
+#: ../properties/nm-openvpn-editor.c:990
+msgid "Verify name by prefix"
+msgstr "이름의 접두사로 검증"
+
+#: ../properties/nm-openvpn-editor.c:996
+msgid "Verify subject partially (legacy mode, strongly discouraged)"
+msgstr "대상을 부분적으로 검증"
+
+#: ../properties/nm-openvpn-editor.c:1109
+#: ../properties/nm-openvpn-editor.c:1180
+msgid "Server"
+msgstr "서버"
+
+#: ../properties/nm-openvpn-editor.c:1114
+#: ../properties/nm-openvpn-editor.c:1185
+msgid "Client"
+msgstr "클라이언트"
+
+#: ../properties/nm-openvpn-editor.c:1507
+#: ../properties/nm-openvpn-dialog.ui.h:36
+msgid "Not required"
+msgstr "불필요"
+
+#: ../properties/nm-openvpn-editor.c:1509
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ../properties/nm-openvpn-editor.c:1511
+msgid "SOCKS"
+msgstr "SOCKS"
+
+#: ../properties/nm-openvpn-editor.c:1630
+msgid "TUN"
+msgstr "TUN"
+
+#: ../properties/nm-openvpn-editor.c:1632
+msgid "TAP"
+msgstr "TAP"
+
+#. interface name is max 15 chars
+#: ../properties/nm-openvpn-editor.c:1639
+msgid "(automatic)"
+msgstr "(자동 입력)"
+
+#: ../properties/nm-openvpn-editor.c:1763
+msgid "ping-exit"
+msgstr "종료 ping"
+
+#: ../properties/nm-openvpn-editor.c:1765
+msgid "ping-restart"
+msgstr "재시작 ping"
+
+#: ../properties/nm-openvpn-editor.c:2431
+msgid "Certificates (TLS)"
+msgstr "인증서 (TLS)"
+
+#: ../properties/nm-openvpn-editor.c:2442
+msgid "Password"
+msgstr "암호"
+
+#: ../properties/nm-openvpn-editor.c:2456
+msgid "Password with Certificates (TLS)"
+msgstr "암호 및 인증서 (TLS)"
+
+#: ../properties/nm-openvpn-editor.c:2469
+msgid "Static Key"
+msgstr "고정 키"
+
+#: ../properties/nm-openvpn-editor.c:2633
+msgid "could not load UI widget"
+msgstr "UI 위젯을 불러올 수 없습니다."
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "object class '%s'는 '%s'라는 속성이 없습니다."
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "'%s' 속성은 수정될 수 없습니다. (object class '%s')"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr "속성 %s를 재설정 할 수 없습니다. (object %s의 속성)"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"'%s::%s'는 유효하지 않은 속성 이름입니다. '%s'는 GObject의 subtype이 아닙니"
+"다."
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "알 수 없는 편집 플러그인 이름: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "유실된 플러그인 파일 %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "불러올 수 없는 편집 플러그인: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "%s 초기 값을 %s 플러그인으로부터 불러올 수 없습니다."
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "편집 객체 생성 중 알 수 없는 오류"
+
+#: ../shared/utils.c:159
+#, c-format
+msgid "invalid delimiter character '%c'"
+msgstr "유효하지 않은 구분 문자 '%c'"
+
+#: ../shared/utils.c:166
+#, c-format
+msgid "invalid non-utf-8 character"
+msgstr "유효하지 않은 non-utf-8 문자"
+
+#: ../shared/utils.c:194
+#, c-format
+msgid "empty host"
+msgstr "호스트 없음"
+
+#: ../shared/utils.c:204
+#, c-format
+msgid "invalid port"
+msgstr "유효하지 않은 포트번호"
+
+#: ../shared/utils.c:215
+#, c-format
+msgid "invalid protocol"
+msgstr "유효하지 않은 프로토콜"
+
+#: ../src/nm-openvpn-service.c:426
+#, c-format
+msgid "invalid address “%s”"
+msgstr "유효하지 않은 주소 '%s'"
+
+#: ../src/nm-openvpn-service.c:438
+#, c-format
+msgid "invalid integer property “%s” or out of range [%d -> %d]"
+msgstr "유효하지 않은 integer 값 '%s' 혹은 범위를 벗어난 값 [%d -> %d]"
+
+#. Translators: keep "yes" and "no" untranslated!
+#: ../src/nm-openvpn-service.c:449
+#, c-format
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr "유효하지 않은 boolean 값 '%s' (yes / no가 아님)"
+
+#: ../src/nm-openvpn-service.c:456
+#, c-format
+msgid "unhandled property “%s” type %s"
+msgstr "처리되지 않은 속성 값 '%s' 형식 %s"
+
+#: ../src/nm-openvpn-service.c:467
+#, c-format
+msgid "property “%s” invalid or not supported"
+msgstr "유효하지 않거나 지원하지 않는 속성 값 '%s'"
+
+#: ../src/nm-openvpn-service.c:483
+msgid "No VPN configuration options."
+msgstr "VPN 설정 옵션이 없습니다."
+
+#: ../src/nm-openvpn-service.c:921
+msgid "A username is required."
+msgstr "사용자 이름이 필요합니다."
+
+#: ../src/nm-openvpn-service.c:925
+msgid "A password is required."
+msgstr "비밀번호가 필요합니다."
+
+#: ../src/nm-openvpn-service.c:928
+msgid "A username and password are required."
+msgstr "사용자 이름과 비밀번호가 필요합니다."
+
+#: ../src/nm-openvpn-service.c:950
+msgid "A private key password is required."
+msgstr "개인 키 비밀번호가 필요합니다."
+
+#: ../src/nm-openvpn-service.c:963
+msgid "An HTTP Proxy username is required."
+msgstr "HTTP 프록시 사용자 이름이 필요합니다."
+
+#: ../src/nm-openvpn-service.c:967
+msgid "An HTTP Proxy password is required."
+msgstr "HTTP 프록시 비밀번호가 필요합니다."
+
+#: ../src/nm-openvpn-service.c:970
+msgid "An HTTP Proxy username and password are required."
+msgstr "HTTP 프록시 사용자 이름과 비밀번호가 필요합니다."
+
+#: ../src/nm-openvpn-service.c:1337 ../src/nm-openvpn-service.c:2088
+#: ../src/nm-openvpn-service.c:2123
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN 설정 옵션이 잘못되어서 로그인 실패했습니다."
+
+#: ../src/nm-openvpn-service.c:1346 ../src/nm-openvpn-service.c:2097
+msgid "Invalid connection type."
+msgstr "유효하지 않은 연결 형식입니다."
+
+#: ../src/nm-openvpn-service.c:1364
+msgid "Could not find the openvpn binary."
+msgstr "openvpn 바이너리를 찾을 수 없습니다."
+
+#: ../src/nm-openvpn-service.c:1412
+#, c-format
+msgid "Invalid port number “%s”."
+msgstr "유효하지 않은 포트 번호 '%s'."
+
+#: ../src/nm-openvpn-service.c:1432
+#, c-format
+msgid "Invalid proto “%s”."
+msgstr "유효하지 않은 프로토콜 형식 '%s'."
+
+#: ../src/nm-openvpn-service.c:1471
+#, c-format
+msgid "Invalid proxy type “%s”."
+msgstr "유효하지 않은 프록시 형식 '%s'."
+
+#: ../src/nm-openvpn-service.c:1521
+#, c-format
+msgid "Invalid ping duration “%s”."
+msgstr "유효하지 않은 ping 주기 %s"
+
+#: ../src/nm-openvpn-service.c:1534
+#, c-format
+msgid "Invalid ping-exit duration “%s”."
+msgstr "유효하지 않은 종료 ping 주기 %s"
+
+#: ../src/nm-openvpn-service.c:1547
+#, c-format
+msgid "Invalid ping-restart duration “%s”."
+msgstr "유효하지 않은 재시작 ping 주기 %s"
+
+#: ../src/nm-openvpn-service.c:1560
+#, c-format
+msgid "Invalid connect timeout “%s”."
+msgstr "잘못된 연결 시간 초과 “%s”."
+
+#: ../src/nm-openvpn-service.c:1585
+#, c-format
+msgid "Invalid max-routes argument “%s”."
+msgstr "유효하지 않은 최대 라우팅 인자 %s"
+
+#: ../src/nm-openvpn-service.c:1629
+#, c-format
+msgid "Invalid keysize “%s”."
+msgstr "유효하지 않은 키 크기 '%s'."
+
+#: ../src/nm-openvpn-service.c:1682
+#, c-format
+msgid "Invalid configuration with tls-remote and verify-x509-name."
+msgstr "tls-remote와 x509이름 검증에 유효하지 않은 설정입니다."
+
+#: ../src/nm-openvpn-service.c:1695
+#, c-format
+msgid "Invalid verify-x509-name."
+msgstr "유효하지 않은 x509 검증 이름."
+
+#: ../src/nm-openvpn-service.c:1718
+#, c-format
+msgid "Invalid reneg seconds “%s”."
+msgstr "유효하지 않은 재인증 주기 '%s'초."
+
+#: ../src/nm-openvpn-service.c:1748
+#, c-format
+msgid "Invalid TUN MTU size “%s”."
+msgstr "유효하지 않은 TUN MTU 크기 '%s'."
+
+#: ../src/nm-openvpn-service.c:1761
+#, c-format
+msgid "Invalid fragment size “%s”."
+msgstr "유효하지 않은 fragment 크기 '%s'."
+
+#: ../src/nm-openvpn-service.c:1867
+#, c-format
+msgid "Unknown connection type “%s”."
+msgstr "알 수 없는 연결 형식입니다 '%s'."
+
+#: ../src/nm-openvpn-service.c:1885
+#, c-format
+msgid "User “%s” not found, check NM_OPENVPN_USER."
+msgstr "사용자 %s를 찾을 수 없습니다. NM_OPENVPN_USER를 확인하세요."
+
+#: ../src/nm-openvpn-service.c:1897
+#, c-format
+msgid "Group “%s” not found, check NM_OPENVPN_GROUP."
+msgstr "그룹 %s를 찾을 수 없습니다. NM_OPENVPN_GROUP을 확인하세요."
+
+#: ../src/nm-openvpn-service.c:2136
+msgid "Unhandled pending authentication."
+msgstr "보류된 인증이 처리되지 않았습니다."
+
+#: ../src/nm-openvpn-service.c:2254
+msgid "Don’t quit when VPN connection terminates"
+msgstr "VPN 연결이 종료되면 대기합니다."
+
+#: ../src/nm-openvpn-service.c:2255
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "상세 디버그 로그 활성화 (비밀번호가 노출될 수 있습니다.)"
+
+#: ../src/nm-openvpn-service.c:2256
+msgid "D-Bus name to use for this instance"
+msgstr "사용할 D-Bus 이름"
+
+#: ../src/nm-openvpn-service.c:2282
+msgid ""
+"nm-openvpn-service provides integrated OpenVPN capability to NetworkManager."
+msgstr "nm-openvpn-service는 NetworkMange에 통합된 OpenVPN 기능을 제공합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:2
+msgid "TLS-Auth"
+msgstr "TLS 인증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:3
+msgid "TLS-Crypt"
+msgstr "TLS-암호화"
+
+#: ../properties/nm-openvpn-dialog.ui.h:4
+msgid "No"
+msgstr "아니오"
+
+#: ../properties/nm-openvpn-dialog.ui.h:5
+msgid "Maybe"
+msgstr "불확실"
+
+#: ../properties/nm-openvpn-dialog.ui.h:6
+msgid "Yes"
+msgstr "예"
+
+#: ../properties/nm-openvpn-dialog.ui.h:7
+msgid "General"
+msgstr "일반"
+
+#: ../properties/nm-openvpn-dialog.ui.h:8
+msgid "_Gateway:"
+msgstr "게이트웨이(_G):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:9
+msgid ""
+"Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:"
+"tcp). You can specify multiple hosts for redundancy (use commas or spaces as "
+"delimiters).\n"
+"config: remote"
+msgstr "원격 게이트웨이, 포트번호와 프로토콜 지정 가능."
+
+#: ../properties/nm-openvpn-dialog.ui.h:11
+msgid "Authentication"
+msgstr "인증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:12
+msgid "CA"
+msgstr ""
+
+#: ../properties/nm-openvpn-dialog.ui.h:13
+msgid "User"
+msgstr "사용자"
+
+#: ../properties/nm-openvpn-dialog.ui.h:15
+msgid "User name:"
+msgstr "사용자 이름:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:16
+msgid ""
+"Password passed to OpenVPN when prompted for it.\n"
+"config: auth-user-pass"
+msgstr "OpenVPN에 필요시 비밀번호가 전달됩니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:18
+msgid ""
+"Username passed to OpenVPN when prompted for it. If omitted, use the name of "
+"the system user that activates the connection.\n"
+"config: auth-user-pass"
+msgstr "OpenVPN에 필요시 사용자이름이 전달됩니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:20
+msgid "Remote IP Address:"
+msgstr "원격 IP 주소:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:21
+msgid "Local IP Address:"
+msgstr "로컬 IP 주소:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:22
+msgid "Key Direction:"
+msgstr "키 방향:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:23
+msgid "Static Key:"
+msgstr "고정 키:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:24
+msgid ""
+"Pre-shared file for Static Key encryption mode (non-TLS).\n"
+"config: static <file>"
+msgstr "고정 키 암호화 방식을 위해 공유된 파일."
+
+#: ../properties/nm-openvpn-dialog.ui.h:26
+msgid ""
+"IP address of the remote VPN endpoint.\n"
+"config: ifconfig <l> <rn>"
+msgstr "원격 VPN 엔드 포인트 IP 주소."
+
+#: ../properties/nm-openvpn-dialog.ui.h:28
+msgid ""
+"IP address of the local VPN endpoint.\n"
+"config: ifconfig <l> <rn>"
+msgstr "로컬 VPN 엔드 포인트 IP 주소."
+
+#: ../properties/nm-openvpn-dialog.ui.h:30
+msgid ""
+"Direction for Static Key encryption mode (non-TLS).\n"
+"If key direction is used, it must be the opposite of that used on the VPN "
+"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+"you are unsure what value to use, contact your system administrator.\n"
+"config: static <file> [direction]"
+msgstr "고정 키 암호화 방식에 사용되는 방향."
+
+#: ../properties/nm-openvpn-dialog.ui.h:33
+msgid "Type:"
+msgstr "형식:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:34
+msgid "Select an authentication mode."
+msgstr "인증 방식을 선택하세요."
+
+#: ../properties/nm-openvpn-dialog.ui.h:35
+msgid "Ad_vanced…"
+msgstr "고급(_v)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:37
+msgid "OpenVPN Advanced Options"
+msgstr "OpenVPN 고급 옵션"
+
+#: ../properties/nm-openvpn-dialog.ui.h:38
+msgid "Use custom gateway p_ort:"
+msgstr "사용자 지정 게이트웨이 포트(_o):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:39
+msgid ""
+"TCP/UDP port number for peer. (Default value when there is no port for "
+"gateway).\n"
+"config: port"
+msgstr "TCP/UDP 포트 번호."
+
+#: ../properties/nm-openvpn-dialog.ui.h:41
+msgid "Use custom _renegotiation interval:"
+msgstr "사용자 지정 재인증 주기:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:42
+msgid ""
+"Renegotiate data channel key after the specified number of seconds.\n"
+"config: reneg-sec"
+msgstr "특정 주기 후 데이터 채널 키 재요청"
+
+#: ../properties/nm-openvpn-dialog.ui.h:44
+msgid "Use L_ZO data compression"
+msgstr "LZO 압축 사용(_Z)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:45
+msgid ""
+"Use fast LZO compression.\n"
+"config: comp-lzo"
+msgstr "빠른 LZO 압축 사용."
+
+#: ../properties/nm-openvpn-dialog.ui.h:47
+msgid ""
+"Select the LZO data compression mode.\n"
+"config: comp-lzo"
+msgstr "LZO 압축 방식 선택"
+
+#: ../properties/nm-openvpn-dialog.ui.h:49
+msgid "Use a _TCP connection"
+msgstr "TCP 연결 사용(_T)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:50
+msgid ""
+"Use TCP for communicating with remote host.\n"
+"(This is a default setting only used when no protocol is specified for the "
+"gateway.)\n"
+"config: proto tcp-client | udp"
+msgstr "원격 호스트와 TCP로 통신합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:53
+msgid "Set virtual _device type:"
+msgstr "가상 장치 형식 설정(_d):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:54
+msgid "Explicitly set virtual device type and name (TUN/TAP)."
+msgstr "가상 장치 형식과 이름 설정.(TUN/TAP)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:55
+msgid ""
+"Explicitly set virtual device type (TUN/TAP).\n"
+"config: dev-type tun | tap"
+msgstr "가상 장치 형식 설정 (TUN/TAP)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:57
+msgid " and _name:"
+msgstr " 그리고 이름(_n):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:58
+msgid ""
+"Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+"“tap”).\n"
+"config: dev <name>"
+msgstr "TUN/TAP 가상 장치에 사용자 지정 이름을 사용합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:60
+msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+msgstr "사용자 지정 터널 MTU(_U):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:61
+msgid ""
+"Take the TUN device MTU to be the specified value and derive the link MTU "
+"from it.\n"
+"config: tun-mtu"
+msgstr "TUN 장치 MTU를 특정 값으로 설정하고 MTU 링크를 얻습니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:63
+msgid "Use custom UDP _fragment size:"
+msgstr "사용자 지정 UDP fragment 크기:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:64
+msgid ""
+"Enable internal datagram fragmentation with this maximum size.\n"
+"config: fragment"
+msgstr "내부 데이터그램 최대 크기를 사용합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:66
+msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+msgstr "터널 TCP segment 크기 제한 [MSS] (_S)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:67
+msgid ""
+"Restrict tunnel TCP MSS.\n"
+"config: mssfix"
+msgstr "터널 TCP MSS 제한."
+
+#: ../properties/nm-openvpn-dialog.ui.h:69
+msgid "Rando_mize remote hosts"
+msgstr "무작위 원격 호스트"
+
+#: ../properties/nm-openvpn-dialog.ui.h:70
+msgid ""
+"Randomize the order of gateways list (remote) as a kind of basic load-"
+"balancing measure.\n"
+"config: remote-random"
+msgstr "게이트웨이 순서를 무작위로 정합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:72
+msgid "IPv6 tun link"
+msgstr "IPv6 터널 링크"
+
+#: ../properties/nm-openvpn-dialog.ui.h:73
+msgid ""
+"Build a tun link capable of forwarding IPv6 traffic\n"
+"config: tun-ipv6"
+msgstr "IPv6 포워딩이 가능한 터널 링크를 생성합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:75
+msgid "Specify _exit or restart ping:"
+msgstr "종료 혹은 재시작 Ping 설정(_e):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:76
+msgid ""
+"Exit or restart after n seconds pass without reception of a ping or other "
+"packet from remote.\n"
+"config: ping-exit | ping-restart <n>"
+msgstr "원격에 ping이나 packet 전송 없이 n초가 지나면 종료하거나 재시작합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:78
+msgid "Specify pin_g interval:"
+msgstr "Ping 주기 설정(_g):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:79
+msgid ""
+"Ping remote over the TCP/UDP control channel if no packets have been sent "
+"for at least n seconds.\n"
+"config: ping <n>"
+msgstr "n초동안 packet 전송이 없으면 TCP/UDP를 사용하여 Ping을 시도합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:81
+msgid "Accept authenticated packets from any address (F_loat)"
+msgstr "인증된 패킷은 모든 주소에서 받아들입니다. [Float] (_l)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:82
+msgid ""
+"Allow remote peer to change its IP address and/or port number, such as due "
+"to DHCP (this is the default if --remote is not used). --float when "
+"specified with --remote allows an OpenVPN session to initially connect to a "
+"peer at a known address, however if packets arrive from a new address and "
+"pass all authentication tests, the new address will take control of the "
+"session. This is useful when you are connecting to a peer which holds a "
+"dynamic address such as a dial-in user or DHCP client.\n"
+"\n"
+"Essentially, --float tells OpenVPN to accept authenticated packets from any "
+"address, not only the address which was specified in the --remote option.\n"
+"\n"
+"config: float"
+msgstr "원격 peer가 IP 주소/포트 번호를 변경하는 것을 허용합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:87
+msgid "Specify max routes:"
+msgstr "라우팅 최대 값 설정:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:88
+msgid ""
+"Specify the maximum number of routes the server is allowed to specify.\n"
+"config: max-routes <n>"
+msgstr "서버가 허용할 수 있는 최대 라우팅 수를 지정합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:90
+msgid ""
+"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+"Cipher Block Chaining mode).\n"
+"config: cipher"
+msgstr "패킷을 암호화 알고리즘을 사용하여 암호화합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:92
+msgid "Use custom _size of cipher key:"
+msgstr "사용자 지정 암호화 키 크기:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:93
+msgid ""
+"Set cipher key size to a custom value. If unspecified, it defaults to cipher-"
+"specific size.\n"
+"config: keysize <n>"
+msgstr "암호화 키 크기를 사용자 지정 값으로 설정합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:95
+msgid ""
+"Authenticate packets with HMAC using message digest algorithm. The default "
+"is SHA1.\n"
+"config: auth"
+msgstr "패킷을 HMAC 메시지 다이제스트 알고리즘을 사용하여 인증합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:97
+msgid "Ci_pher:"
+msgstr "암호화(_p):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:98
+msgid "_HMAC Authentication:"
+msgstr "HMAC 인증(_H)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:99
+msgid "Disable cipher _negotiation"
+msgstr "암호화된 인증 미사용(_n)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:100
+msgid ""
+"Disable cipher negotiation between client and server.\n"
+"config: ncp-disable"
+msgstr "클라이언트와 서버 간의 암호화된 인증 미사용."
+
+#: ../properties/nm-openvpn-dialog.ui.h:102
+msgid "Verify CRL from file"
+msgstr "CRL을 파일로 검증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:103
+msgid ""
+"Check peer certificate against the specified file in PEM format. A CRL "
+"(certificate revocation list) is used when a particular key is compromised "
+"but when the overall PKI is still intact."
+msgstr "peer 인증서들을 PEM 형식의 특정 파일로 확인합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:104
+msgid "Verify CRL from directory"
+msgstr "CRL을 디렉토리로 검증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:105
+msgid ""
+"Check peer certificate by looking at files in the specified directory. The "
+"directory must contain files named as revoked serial numbers (the files may "
+"be empty, the contents are never read)."
+msgstr "peer 인증서들을 특정 디렉토리 안의 파일들로 확인합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:106
+msgid "Choose CRL file"
+msgstr "CRL 파일 선택"
+
+#: ../properties/nm-openvpn-dialog.ui.h:107
+msgid "Choose CRL directory"
+msgstr "CRL 디렉토리 선택"
+
+#: ../properties/nm-openvpn-dialog.ui.h:108
+msgid "Security"
+msgstr "보안"
+
+#: ../properties/nm-openvpn-dialog.ui.h:109
+msgid "_Subject Match:"
+msgstr "일치 항목(_S):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:110
+msgid ""
+"Subject or Common Name to verify server certificate information against.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr "서버 인증서 정보 검증을 위한 대상 혹은 이름."
+
+#: ../properties/nm-openvpn-dialog.ui.h:114
+msgid "Server _Certificate Check:"
+msgstr "서버 인증서 확인(_C):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:115
+msgid ""
+"Verify server certificate identification.\n"
+"\n"
+"When enabled, connection will only succeed if the server certificate matches "
+"some expected properties.\n"
+"Matching can either apply to the whole certificate subject (all the "
+"fields),\n"
+"or just the Common Name (CN field).\n"
+"\n"
+"The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and "
+"newer. Do not use it anymore.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr "서버 인증서 검증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:125
+msgid "_Verify peer (server) certificate usage signature"
+msgstr "peer (서버) 인증서 사용 서명 검증(_V)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:126
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and "
+"extended key usage based on RFC3280 TLS rules."
+msgstr ""
+"Peer 인증서는 RFC3280 TLS에 기반한 확장된 키 사용으로 서명이 필요합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:127
+msgid "_Remote peer certificate TLS type:"
+msgstr "원격 peer 인증서 TLS 형식(_R):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:128
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and "
+"extended key usage based on RFC3280 TLS rules.\n"
+"config: remote-cert-tls client|server"
+msgstr ""
+"Peer 인증서는 RFC3280 TLS에 기반한 확장된 키 사용으로 서명이 필요합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:130
+msgid "_Verify peer (server) certificate nsCertType designation"
+msgstr "peer (서버) 인증서 nsCertType 지정 검증(_V)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:131
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType "
+"designation."
+msgstr "Peer 인증서는 지정된 nsCertType으로 서명이 필요합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:132
+msgid "_Remote peer certificate nsCert designation:"
+msgstr "원격 peer 인증서 nsCert 지정(_R):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:133
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType "
+"designation.\n"
+"config: ns-cert-type client|server"
+msgstr "Peer 인증서는 지정된 nsCertType으로 서명이 필요합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:135
+msgid "Key _Direction:"
+msgstr "키 방향(_D):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:136
+msgid ""
+"Add an additional layer of HMAC authentication on top of the TLS control "
+"channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+"control channel is also encrypted.\n"
+"config: tls-auth <file> [direction] | tls-crypt <file>"
+msgstr "DoS 공격으로부터 보호하기 위해 HMAC 인증에 layer를 추가합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:138
+msgid ""
+"Direction parameter for static key mode.\n"
+"If key direction is used, it must be the opposite of that used on the VPN "
+"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+"you are unsure what value to use, contact your system administrator.\n"
+"config: tls-auth <file> [direction]"
+msgstr ""
+"고정 키 방식을 위한 방향.\n"
+"키 방향이 사용되면, 키 방향은 VPN peer와 반대 방향으로 설정되어야합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:141
+msgid "Key _File:"
+msgstr "키 파일(_F):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:142
+msgid "Mode:"
+msgstr "방식:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:143
+msgid "Add an additional layer of encryption or HMAC authentication."
+msgstr "암호화 / HMAC 인증에 layer 추가"
+
+#: ../properties/nm-openvpn-dialog.ui.h:144
+msgid "Extra Certificates:"
+msgstr "추가 인증서:"
+
+#: ../properties/nm-openvpn-dialog.ui.h:145
+msgid ""
+"Specify a file containing one or more PEM certs (concatenated together) that "
+"complete the local certificate chain.\n"
+"config: extra-certs <file>"
+msgstr ""
+"로컬 인증서 체인을 위해 다수의 PEM certs가 포함된 하나의 파일을 특정합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:147
+msgid "Additional TLS authentication or encryption"
+msgstr "추가 TLS 인증 혹은 암호화"
+
+#: ../properties/nm-openvpn-dialog.ui.h:148
+msgid "TLS Authentication"
+msgstr "TLS 인증"
+
+#: ../properties/nm-openvpn-dialog.ui.h:149
+msgid ""
+"Proxy type: HTTP or Socks.\n"
+"config: http-proxy or socks-proxy"
+msgstr "프록시 형식: HTTP 혹은 Socks."
+
+#: ../properties/nm-openvpn-dialog.ui.h:151
+msgid "Proxy _Type:"
+msgstr "프록시 형식(_T):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:152
+msgid ""
+"<i>Select this option if your organization requires the use of a proxy "
+"server to access the Internet.</i>"
+msgstr "인터넷 연결을 위해 프록시 서버가 필요하다면 이 옵션을 선택하세요."
+
+#: ../properties/nm-openvpn-dialog.ui.h:153
+msgid "Server _Address:"
+msgstr "서버 주소(_A):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:154
+msgid ""
+"Connect to remote host through a proxy with this address.\n"
+"config: http-proxy or socks-proxy"
+msgstr "원격 호스트와 이 주소와 프록시를 통해 연결합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:156
+msgid "_Port:"
+msgstr "포트(_P):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:157
+msgid ""
+"Connect to remote host through a proxy with this port.\n"
+"config: http-proxy or socks-proxy"
+msgstr "원격 호스트와 이 포트와 프록시를 통해 연결합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:159
+msgid "_Retry indefinitely when errors occur"
+msgstr "오류 밯생 시 무제한 재시도(_R)"
+
+#: ../properties/nm-openvpn-dialog.ui.h:160
+msgid ""
+"Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+"config: http-proxy-retry or socks-proxy-retry"
+msgstr "프록시 오류 발생시 무제한으로 재시도합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:162
+msgid "Proxy _Username:"
+msgstr "프록시 사용자이름(_U):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:163
+msgid "Proxy Passwor_d:"
+msgstr "프록시 암호(_d):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:164
+msgid "HTTP/Socks proxy username passed to OpenVPN when prompted for it."
+msgstr "HTTP/Socks 프록시 사용자이름이 OpenVPN에서 필요로 할 때 전달됩니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:165
+msgid "HTTP/Socks proxy password passed to OpenVPN when prompted for it."
+msgstr "HTTP/Socks 프록시 비밀번호가 OpenVPN에서 필요로 할 때 전달됩니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:166
+msgid "_Show password"
+msgstr "입력 암호 보기(_S):"
+
+#: ../properties/nm-openvpn-dialog.ui.h:167
+msgid "Proxies"
+msgstr "프록시"
+
+#: ../properties/nm-openvpn-dialog.ui.h:168
+msgid "Path mtu discovery"
+msgstr "mtu 발견 경로"
+
+#: ../properties/nm-openvpn-dialog.ui.h:169
+msgid "Connect timeout"
+msgstr "연결 타임 아웃"
+
+#: ../properties/nm-openvpn-dialog.ui.h:170
+msgid ""
+"The timeout in seconds before trying the next server. This timeout includes "
+"proxy and TCP connect timeouts.\n"
+"config: connect-timeout <n> | server-poll-timeout <n>"
+msgstr ""
+"다음 서버에 시도하기 전 타임 아웃. 이 타임 아웃은 프록시와 TCP 연결 타임 아웃"
+"을 포함합니다."
+
+#: ../properties/nm-openvpn-dialog.ui.h:172
+msgid "Misc"
+msgstr ""
+
+#~ msgid "VPN Connection Manager (OpenVPN)"
+#~ msgstr "VPN 연결 관리자 (OpenVPN)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "VPN 연결 더하기, 지우기, 편집"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "개인 인증서를 선택하십시오..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "개인 키를 선택하십시오..."
+
+#~ msgid "Saved"
+#~ msgstr "저장됨"
+
+#~ msgid "Always Ask"
+#~ msgstr "항상 확인"
+
+#~ msgid "Not Required"
+#~ msgstr "불필요"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "인증 기관 인증서를 선택하십시오..."
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM 또는 PKCS#12 인증서 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM 인증서 (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "could not create openvpn object"
+#~ msgstr "openvpn 객체를 생성할 수 없습니다."
+
+#~ msgid "unknown OpenVPN file extension"
+#~ msgstr "알 수 없는 OpenVPN 파일 확장자입니다."
+
+#~ msgid "<b>General</b>"
+#~ msgstr "일반"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>필수 정보</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "입력 암호 보기(_S):"
+
+#~ msgid "Password for private key"
+#~ msgstr "개인 키 암호"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "개인 키 암호:"
+
+#~ msgid "Private Key:"
+#~ msgstr "개인 키:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA 인증서:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "사용자 인증서:"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "추가 TLS 인증 사용"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "유효하지 않은 HMAC 인증입니다."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "고정 키 모드에 필요한 로컬 IP 주소가 없습니다."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "고정 키 모드에 필요한 원격 IP 주소가 없습니다."
+
+#~ msgid ""
+#~ "Could not process the request because the openvpn connection type was "
+#~ "invalid."
+#~ msgstr "openvpn 연결 형식이 유효하지 않으므로 요청을 처리할 수 없습니다."
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "보조 암호(_S):"
+
+#~ msgid "_Domain:"
+#~ msgstr "도메인(_D):"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "익명으로 연결(_A)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "사용자로 연결(_U):"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "이 세션에서 암호 저장(_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "키 모음에 암호 저장(_S)"
+
+#~ msgid "The following OpenVPN connection will be created:"
+#~ msgstr "다음 OpenVPN 연결이 만들어집니다:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "이름:  %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "연결 형식: X.509 인증서"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "인증서:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "키:  %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "연결 형식: 공유키"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "공유키:  %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "원격 IP:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "연결 형식: 암호"
+
+#~ msgid "Username:  %s"
+#~ msgstr "사용자이름:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "연결 형식: X.509 및 암호 인증"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "원격:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "장치: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "프로토콜: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "경로:  %s"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "TLS 인증:  %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "\"편집\" 단추를 눌러서 연결 설정을 바꿀 수 있습니다."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "설정을 가져올 수 없음"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "VPN 설정 파일 '%s'에 올바른 데이터가 들어있지 않습니다."
+
+#~ msgid "Select file to import"
+#~ msgstr "가져올 파일 선택"
+
+#~ msgid "Select CA to use"
+#~ msgstr "사용할 CA 선택"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "사용할 인증서 선택"
+
+#~ msgid "Select key to use"
+#~ msgstr "사용할 키 선택"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "사용할 공유키 선택"
+
+#~ msgid "Select TA to use"
+#~ msgstr "사용할 TA 선택"
+
+#~ msgid "Save as..."
+#~ msgstr "다른 이름으로 저장..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" 파일이 이미 있습니다."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "이를 저장할 파일로 바꾸겠습니까?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "설정 내보내기 실패"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>예: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "CA 파일(_A):"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "연결 이름(_M):"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "저장된 설정 가져오기(_S)..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "사설 네트워크 연결에 붙일 이름. (예: \"학교 VPN\", \"회사 네트워크\")"
+
+#~ msgid "Network"
+#~ msgstr "네트워크"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "이 주소에는 VPN 연결 만 사용(_V):"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "시스템 관리자에게 받은 정보를 입력하십시오. 연결될 때 나타나는 화면에 암호"
+#~ "를 입력하지 마십시오."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an OpenVPN configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "가져올 파일은 OpenVPN 설정파일이 아닙니다.  관리자에게 파일에 대해 문의하"
+#~ "시기 바랍니다."
+
+#~ msgid "Shared _key:"
+#~ msgstr "공유키(_K):"
+
+#~ msgid "Use TA_P device"
+#~ msgstr "TAP 장치 사용(_P)"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "TLS 인증 사용(_T):"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "암호화 사용(_H):"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509 인증서\n"
+#~ "미리 공유된 키\n"
+#~ "암호 인증\n"
+#~ "X.509 및 암호 인증"
+
+#~ msgid "_0"
+#~ msgstr "0(_0)"
+
+#~ msgid "_1"
+#~ msgstr "1(_1)"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "게이트웨이 주소(_G):"
+
+#~ msgid "_Key:"
+#~ msgstr "키(_K):"
+
+#~ msgid "_Local IP:"
+#~ msgstr "로컬 IP(_L):"
+
+#~ msgid "_none"
+#~ msgstr "없음(_N)"
+
+#~ msgid "<b>Connection Name</b>"
+#~ msgstr "<b>연결 이름</b>"
+
+#~ msgid "<b>Optional Information</b>"
+#~ msgstr "<b>기타 정보</b>"
+
+#~ msgid "CA  file:"
+#~ msgstr "CA 파일:"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "사용자 이름과 열쇠글 또는 인증서 열쇠글이 틀려서 로그인 실패했습니다."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "VPN 프로그램을 시작할 수 없어서 로그인 실패했습니다."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr "VPN 프로그램이 VPN 서버에 연결하지 못해서 로그인 실패했습니다."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "VPN 프로그램이 VPN 서버에서 잘못된 설정값을 받아서 로그인 실패했습니다."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "VPN 연결 실패"
