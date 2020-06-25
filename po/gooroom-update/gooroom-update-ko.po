@@ -526,7 +526,7 @@ msgstr "열 설정"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2191
 msgid "Show descriptions"
-msgstr "설명 보이기"
+msgstr "상세 보기"
 
 #: usr/lib/gooroom/gooroomUpdate/gooroomUpdate.py:2199
 msgid "_Help"
