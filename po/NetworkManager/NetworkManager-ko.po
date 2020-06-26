@@ -9349,7 +9349,7 @@ msgstr "연결을 정규화하는 데 예상치 못한 오류가 발생했습니
 #: ../libnm-util/nm-setting-wireless-security.c:890
 #: ../libnm-util/nm-setting-wireless.c:768
 msgid "property is missing"
-msgstr "속성이 누락되어 있습니다 "
+msgstr "속성이 누락되어 있습니다."
 
 #: ../libnm-core/nm-connection.c:2271
 msgid "IP Tunnel"
@@ -10163,7 +10163,7 @@ msgstr ""
 
 #: ../libnm-core/nm-setting-ip6-config.c:283
 msgid "invalid DUID"
-msgstr ""
+msgstr "유효하지 않은 DUID"
 
 #: ../libnm-core/nm-setting-ip6-config.c:295
 msgid "token is not in canonical form"
@@ -10201,21 +10201,21 @@ msgstr "고정 TTL은 경로 MTU 검색이 활성화된 경우에만 허용됩�
 #: ../libnm-core/nm-setting-ip-tunnel.c:453
 #, c-format
 msgid "some flags are invalid for the select mode: %s"
-msgstr ""
+msgstr "선택한 모드 %s에 대해 일부 플래그가 올바르지 않습니다."
 
 #: ../libnm-core/nm-setting-ip-tunnel.c:467
 #, c-format
 msgid "wired setting not allowed for mode %s"
-msgstr ""
+msgstr "%s 모드에서는 유선 설정을 허용하지 않습니다."
 
 #: ../libnm-core/nm-setting-macsec.c:250
 msgid "the key is empty"
-msgstr ""
+msgstr "키가 비어 있습니다."
 
 #: ../libnm-core/nm-setting-macsec.c:261
 #, c-format
 msgid "the key must be %d characters"
-msgstr ""
+msgstr "키는 반드시 %d자 이어야 합니다."
 
 #: ../libnm-core/nm-setting-macsec.c:269
 msgid "the key contains non-hexadecimal characters"
@@ -10225,7 +10225,7 @@ msgstr "IV에 16진수 숫자가 아닌 문자가 있습니다."
 #: ../libnm-core/nm-setting-vlan.c:657 ../libnm-util/nm-setting-vlan.c:580
 #, c-format
 msgid "property is not specified and neither is '%s:%s'"
-msgstr "속성이 지정되어 있지 않고 '%s:%s'도 아닙니다 "
+msgstr "속성이 지정되어 있지 않고 MAC 주소도 아닙니다."
 
 #: ../libnm-core/nm-setting-macsec.c:348
 #, c-format
@@ -10833,19 +10833,19 @@ msgstr ""
 
 #: ../libnm-core/nm-utils.c:4275
 msgid "interface name is too short"
-msgstr ""
+msgstr "인터페이스 이름이 너무 짧습니다."
 
 #: ../libnm-core/nm-utils.c:4284
 msgid "interface name is reserved"
-msgstr ""
+msgstr "인터페이스 이름이 이미 사용중 입니다."
 
 #: ../libnm-core/nm-utils.c:4296
 msgid "interface name contains an invalid character"
-msgstr ""
+msgstr "인터페이스 이름이 유효하지 않은 문자를 포함하고 있습니다."
 
 #: ../libnm-core/nm-utils.c:4302
 msgid "interface name is longer than 15 characters"
-msgstr ""
+msgstr "인터페이스 이름이 15자를 초과합니다."
 
 #: ../libnm-core/nm-utils.c:4951
 msgid "not valid utf-8"
@@ -10853,24 +10853,24 @@ msgstr ""
 
 #: ../libnm-core/nm-utils.c:4972 ../libnm-core/nm-utils.c:5440
 msgid "is not a JSON object"
-msgstr ""
+msgstr "JSON 개체가 아닙니다."
 
 #: ../libnm-core/nm-utils.c:5416 ../libnm-core/nm-utils.c:5756
 msgid "value is NULL"
-msgstr ""
+msgstr "값이 NULL 입니다."
 
 #: ../libnm-core/nm-utils.c:5416 ../libnm-core/nm-utils.c:5756
 msgid "value is empty"
-msgstr ""
+msgstr "값이 비어 있습니다."
 
 #: ../libnm-core/nm-utils.c:5428
 #, c-format
 msgid "invalid JSON at position %d (%s)"
-msgstr ""
+msgstr "%d (%s) 에서 잘못된 JSON"
 
 #: ../libnm-core/nm-utils.c:6075 ../libnm-core/nm-utils.c:6095
 msgid "unterminated escape sequence"
-msgstr ""
+msgstr "완료되지 않은 이스케이프 시퀀스"
 
 #: ../libnm-core/nm-utils.c:6120
 msgid "unknown attribute '%s'"
@@ -10879,7 +10879,7 @@ msgstr "알 수 없는 장치 '%s'."
 #: ../libnm-core/nm-utils.c:6135
 #, c-format
 msgid "missing key-value separator '%c' after '%s'"
-msgstr ""
+msgstr "'% s' 다음에 키값 구분자 '% c'가 누락되었습니다."
 
 #: ../libnm-core/nm-utils.c:6151
 msgid "invalid uint32 value '%s' for attribute '%s'"
@@ -10896,12 +10896,12 @@ msgstr "잘못된 옵션 '%s' 또는 옵션 값 '%s'"
 #: ../libnm-core/nm-utils.c:6180
 #, c-format
 msgid "unsupported attribute '%s' of type '%s'"
-msgstr ""
+msgstr "'% s' 유형의 지원되지 않는 속성 '% s'"
 
 #: ../libnm-core/nm-vpn-editor-plugin.c:296
 #, c-format
 msgid "cannot load plugin \"%s\": %s"
-msgstr ""
+msgstr "플러그인 '%s'를 로딩할 수 없습니다.: %s"
 
 #: ../libnm-core/nm-vpn-editor-plugin.c:307
 #, c-format
@@ -11217,7 +11217,7 @@ msgstr "S390 하위 채널에서 연결과 장치가 다릅니다."
 #: ../libnm/nm-device-ethernet.c:236
 #, c-format
 msgid "Invalid device MAC address %s."
-msgstr ""
+msgstr "잘못된 장치 MAC 주소 % s"
 
 #: ../libnm/nm-device-ethernet.c:241
 msgid "The MACs of the device and the connection do not match."
@@ -11516,27 +11516,27 @@ msgstr "시스템 정책이 영구적인 글로벌 DNS 구성의 수정을 금�
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:27
 msgid "Perform a checkpoint or rollback of interfaces configuration"
-msgstr ""
+msgstr "인터페이스 설정의 체크 포인트 또는 롤백을 실행"
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:28
 msgid "System policy prevents the creation of a checkpoint or its rollback"
-msgstr ""
+msgstr "시스템 정책으로 체크포인트(checkpoint) 혹은 롤백의 생성 방지"
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:29
 msgid "Enable or disable device statistics"
-msgstr ""
+msgstr "장치 통계 활성 및 비활성"
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:30
 msgid "System policy prevents enabling or disabling device statistics"
-msgstr ""
+msgstr "시스템 정책으로 장치 통계의 활성 및 비활성 방지"
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:31
 msgid "Enable or disable connectivity checking"
-msgstr ""
+msgstr "연결 상태 확인 활성 및 비활성화"
 
 #: ../data/org.freedesktop.NetworkManager.policy.in.in.h:32
 msgid "System policy prevents enabling or disabling connectivity checking"
-msgstr ""
+msgstr "시스템 정책으로 연결상태 확인의 활성 및 비활성 방지"
 
 #: ../shared/nm-utils/nm-shared-utils.c:1087
 #, c-format
@@ -11583,7 +11583,7 @@ msgstr ""
 #, c-format
 msgctxt "connection id fallback"
 msgid "%s %u"
-msgstr ""
+msgstr "%s %u"
 
 #: ../src/main.c:180 ../src/main.c:314
 #, c-format
@@ -11734,7 +11734,7 @@ msgstr "연결이 장치와 일치하지 않습니다."
 
 #: ../src/devices/nm-device-6lowpan.c:191
 msgid "6LOWPAN connection"
-msgstr ""
+msgstr "6LOWPAN 연결"
 
 #: ../src/devices/nm-device-bond.c:72
 msgid "Bond connection"
@@ -12119,3 +12119,141 @@ msgstr "알려지지 않은 로그 수준 '%s'"
 #, c-format
 msgid "Unknown log domain '%s'"
 msgstr "알려지지 않은 로그 영역 '%s'"
+
+msgid "connection.interface-name: "
+msgstr "인터페이스(장치) 이름: "
+
+msgid "pppoe.parent: "
+msgstr "상위 인터페이스: "
+
+msgid "pppoe.username: "
+msgstr "사용자 이름: "
+
+msgid "pppoe.service: "
+msgstr "서비스: "
+
+msgid "802-11-wireless.ssid: "
+msgstr "SSID: "
+
+msgid "802-11-wireless.mode: "
+msgstr "모드: "
+
+msgid "802-11-wireless.band: "
+msgstr "밴드: "
+
+msgid "802-11-wireless.channel: "
+msgstr "채널: "
+
+msgid "802-11-wireless.bssid: "
+msgstr "BSSID: "
+
+msgid "802-11-wireless.mac-address: "
+msgstr "주소: "
+
+msgid "802-11-wireless.cloned-mac-address: "
+msgstr "복제된 MAC 주소: "
+
+msgid "802-11-wireless.generate-mac-address-mask: "
+msgstr "802-11-wireless.generate-mac-address-mask: "
+
+msgid "802-11-wireless.mac-address-blacklist: "
+msgstr "802-11-wireless.mac-address-blacklist: "
+
+msgid "802-11-wireless.mtu: "
+msgstr "MTU: "
+
+msgid "802-11-wireless.seed-bssids: "
+msgstr "802-11-wireless.seed-bssids: "
+
+msgid "802-11-wireless.hidden: "
+msgstr "802-11-wireless.hidden: "
+
+msgid "802-11-wireless.powersave: "
+msgstr "802-11-wireless.powersave: "
+
+msgid "802-11-wireless.mac-address-randomization: "
+msgstr "802-11-wireless.mac-address-randomization: "
+
+msgid "802-11-wireless.wake-on-wlan: "
+msgstr "802-11-wireless.wake-on-wlan: "
+
+msgid "bond.options: "
+msgstr "옵션: "
+
+msgid "bridge.forward-delay: "
+msgstr "앞으로 지연 시간: "
+
+msgid "bridge.group-forward-mask: "
+msgstr "그룹 전송 마스크: "
+
+msgid "bridge.priority: "
+msgstr "우선 순위: "
+
+msgid "bridge.hello-time: "
+msgstr "최초 통신 시간: "
+
+msgid "bridge.max-age: "
+msgstr "최대 기간: "
+
+msgid "bridge.ageing-time: "
+msgstr "유지 시간: "
+
+msgid "ip-tunnel.parent: "
+msgstr "부모 장치: "
+
+msgid "ip-tunnel.mode: "
+msgstr "모드: "
+
+msgid "ip-tunnel.local: "
+msgstr "로컬 IP: "
+
+msgid "ip-tunnel.remote: "
+msgstr "리모트 IP: "
+
+msgid "ip-tunnel.ttl: "
+msgstr "MTU: "
+
+msgid "ip-tunnel.input-key: "
+msgstr "입력 키: "
+
+msgid "ip-tunnel.output-key: "
+msgstr "출력 키: "
+
+msgid "ip-tunnel.flags: "
+msgstr "모드: "
+
+msgid "macsec.parent: "
+msgstr "부모 장치: "
+
+msgid "macsec.mka-cak: "
+msgstr "CAK: "
+
+msgid "macsec.mka-ckn: "
+msgstr "CKN: "
+
+msgid "vlan.parent: "
+msgstr "상위 인터페이스: "
+
+msgid "vlan.id: "
+msgstr "가상 LAN 아이디: "
+
+msgid "vlan.flags: "
+msgstr "플래그: "
+
+msgid "gsm.network-id: "
+msgstr "네트워크 아이디: "
+
+msgid "gsm.number: "
+msgstr "번호:"
+
+msgid "gsm.apn: "
+msgstr "APN: "
+
+msgid "gsm.username: "
+msgstr "사용자 이름: "
+
+msgid "cdma.number: "
+msgstr "번호: "
+
+msgid "cdma.username: "
+msgstr "사용자 이름: "

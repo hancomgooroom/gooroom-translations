@@ -3247,7 +3247,7 @@ msgstr "연결을 수정할 수 없음"
 #: src/connection-editor/nm-connection-editor.c:358
 #, c-format
 msgid "Invalid setting %s: %s"
-msgstr "유효하지 않은 설정 %s: %s"
+msgstr "유효하지 않은 설정 %s[%s]"
 
 #: src/connection-editor/nm-connection-editor.c:434
 msgid ""
