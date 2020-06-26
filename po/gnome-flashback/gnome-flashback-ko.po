@@ -511,16 +511,16 @@ msgstr "알려지지 않은 오디오 장치"
 #: gnome-flashback/libautomount-manager/gsd-automount-manager.c:175
 #, c-format
 msgid "Unable to mount %s"
-msgstr "%s 마운트할 수 없습니다"
+msgstr "%s 마운트할 수 없습니다."
 
 #: gnome-flashback/libautomount-manager/gsd-automount-manager.c:288
 #, c-format
 msgid "Unable to open a folder for %s"
-msgstr "%s에 대한 폴더를 열수 없습니다"
+msgstr "%s 폴더를 열 수 없습니다."
 
 #: gnome-flashback/libautomount-manager/gsd-autorun.c:339
 msgid "Ask what to do"
-msgstr "무엇을 할지 질문합니다"
+msgstr "무엇을 할지 질문합니다."
 
 #: gnome-flashback/libautomount-manager/gsd-autorun.c:345
 msgid "Do Nothing"
