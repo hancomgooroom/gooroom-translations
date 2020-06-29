@@ -38,7 +38,6 @@ grub
 libpwquality
 NetworkManager
 nm-applet
-nimf
 #network-manager-applet
 synaptic
 polkit-1
