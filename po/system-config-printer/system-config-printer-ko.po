@@ -243,7 +243,7 @@ msgstr "작업"
 msgid "User"
 msgstr "사용자  "
 
-#: ../jobviewer.py:520 ../troubleshoot/PrintTestPage.py:88
+#: ../jobviewer.py:520 ../troubleshoot/PrintTestPage.py:88 ../ppdippstr.py
 msgid "Document"
 msgstr "문서"
 
@@ -951,17 +951,17 @@ msgstr "인증됨 "
 msgid "Classified"
 msgstr "분류  "
 
-#: ../ppdippstr.py:67
-msgid "Confidential"
-msgstr "기밀 "
+##: ../ppdippstr.py:67
+#msgid "Confidential"
+#msgstr "기밀 "
 
 #: ../ppdippstr.py:68
 msgid "Secret"
 msgstr "비밀 "
 
-#: ../ppdippstr.py:69
-msgid "Standard"
-msgstr "표준 "
+##: ../ppdippstr.py:69
+#msgid "Standard"
+#msgstr "표준 "
 
 #: ../ppdippstr.py:70
 msgid "Top secret"
@@ -1050,7 +1050,7 @@ msgstr ""
 
 #: ../ppdippstr.py:108
 msgid "High-Resolution Photo"
-msgstr ""
+msgstr "고해상도 사진"
 
 #: ../ppdippstr.py:109
 msgid "Fast Draft"
@@ -1078,7 +1078,7 @@ msgstr ""
 
 #: ../ppdippstr.py:118
 msgid "Resolution"
-msgstr ""
+msgstr "해상도"
 
 #: ../ppdippstr.py:120
 msgid "Color Mode"
@@ -1094,12 +1094,11 @@ msgstr ""
 
 #: ../ppdippstr.py:124
 msgid "Quality"
-msgstr ""
+msgstr "품질"
 
 #: ../ppdippstr.py:125
-#, fuzzy
 msgid "High Resolution "
-msgstr "프린터 해상도: "
+msgstr "고해상도: "
 
 #: ../ppdippstr.py:126
 msgid "Paper source"
@@ -1153,9 +1152,9 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: ../ppdippstr.py:140
-msgid "Envelope"
-msgstr ""
+##: ../ppdippstr.py:140
+#msgid "Envelope"
+#msgstr ""
 
 #: ../ppdippstr.py:141
 msgid "Labels"
@@ -1169,21 +1168,17 @@ msgstr ""
 msgid "Heavy"
 msgstr ""
 
-#: ../ppdippstr.py:144
-msgid "Light"
-msgstr ""
+##: ../ppdippstr.py:145
+#msgid "Recycled"
+#msgstr ""
 
-#: ../ppdippstr.py:145
-msgid "Recycled"
-msgstr ""
+##: ../ppdippstr.py:146
+#msgid "Transparency"
+#msgstr ""
 
-#: ../ppdippstr.py:146
-msgid "Transparency"
-msgstr ""
-
-#: ../ppdippstr.py:147
-msgid "Plain Paper"
-msgstr ""
+##: ../ppdippstr.py:147
+#msgid "Plain Paper"
+#msgstr ""
 
 #: ../ppdippstr.py:148
 msgid "Plain"
@@ -1283,9 +1278,9 @@ msgstr "인쇄 설정"
 msgid "Print Settings  (Advanced)"
 msgstr ""
 
-#: ../ppdippstr.py:177
-msgid "Color Settings"
-msgstr ""
+##: ../ppdippstr.py:177
+#msgid "Color Settings"
+#msgstr ""
 
 #: ../ppdippstr.py:178
 msgid "Color Settings (Advanced)"
@@ -1332,10 +1327,6 @@ msgstr ""
 msgid "_Saturation"
 msgstr ""
 
-#: ../ppdippstr.py:191
-msgid "On"
-msgstr ""
-
 #. Options
 #: ../ppdippstr.py:193 ../printerproperties.py:957
 msgid "Installable Options"
@@ -1356,7 +1347,7 @@ msgstr ""
 
 #: ../ppdippstr.py:199
 msgid "Resolution "
-msgstr ""
+msgstr "해상도"
 
 #: ../ppdippstr.py:200
 msgid "Printer Features Common"
@@ -1372,7 +1363,7 @@ msgstr ""
 
 #: ../ppdippstr.py:203
 msgid "Toner Save "
-msgstr ""
+msgstr "토너 절약"
 
 #: ../ppdippstr.py:204
 msgid "ON"
@@ -1384,10 +1375,6 @@ msgstr ""
 
 #: ../ppdippstr.py:206
 msgid "Media Type "
-msgstr ""
-
-#: ../ppdippstr.py:207
-msgid "Collate "
 msgstr ""
 
 #: ../ppdippstr.py:208
@@ -1417,11 +1404,11 @@ msgstr ""
 #. Samsung
 #: ../ppdippstr.py:215
 msgid "Paper Size"
-msgstr ""
+msgstr "용지 크기"
 
 #: ../ppdippstr.py:216
 msgid "Paper Type"
-msgstr ""
+msgstr "용지 종류"
 
 #: ../ppdippstr.py:217
 msgid "Thin"
@@ -1437,7 +1424,7 @@ msgstr ""
 
 #: ../ppdippstr.py:220
 msgid "Edge Enhance"
-msgstr ""
+msgstr "모서리 강조"
 
 #: ../ppdippstr.py:221
 msgid "Skip Blank Pages"
@@ -1464,10 +1451,6 @@ msgid "Two-sided"
 msgstr ""
 
 #. Ricoh
-#: ../ppdippstr.py:232
-msgid "Finisher"
-msgstr ""
-
 #: ../ppdippstr.py:233
 msgid "Option Tray"
 msgstr ""
@@ -1492,10 +1475,6 @@ msgstr ""
 msgid "Not Installed"
 msgstr ""
 
-#: ../ppdippstr.py:239
-msgid "Installed"
-msgstr ""
-
 #: ../ppdippstr.py:240
 msgid "PageSize"
 msgstr ""
@@ -1516,29 +1495,1131 @@ msgstr ""
 msgid "Tray 4"
 msgstr ""
 
-#: ../ppdippstr.py:245
-msgid "Bypass Tray"
-msgstr ""
+##: ../ppdippstr.py:245
+#msgid "Bypass Tray"
+#msgstr ""
 
 #: ../ppdippstr.py:246
 msgid "Destination"
 msgstr ""
 
+#Sindoh
 #: ../ppdippstr.py:247 ../printerproperties.py:282
 msgid "Staple"
 msgstr "스테이플 "
+
+#: ../ppdippstr.py
+msgid "Paper Source Unit"
+msgstr "급지 장치"
+
+#: ../ppdippstr.py
+msgid "Finisher"
+msgstr "피니셔"
+
+#: ../ppdippstr.py
+msgid "Punch Unit"
+msgstr "펀치 장치"
+
+#: ../ppdippstr.py
+msgid "Saddle Kit"
+msgstr "새들 키트"
+
+#: ../ppdippstr.py
+msgid "Hard Disk"
+msgstr "하드디스크"
+
+#: ../ppdippstr.py
+msgid "Model"
+msgstr "모델"
+
+#: ../ppdippstr.py
+msgid "Installed"
+msgstr "설치됨"
+
+#: ../ppdippstr.py
+msgid "Collate"
+msgstr "한 부씩"
+
+#: ../ppdippstr.py
+msgid "Paper Tray"
+msgstr "용지함"
+
+#: ../ppdippstr.py
+msgid "Plain Paper"
+msgstr "일반 용지"
+
+#: ../ppdippstr.py
+msgid "Plain Paper(Side2)"
+msgstr "보통 용지(2면)"
+
+#: ../ppdippstr.py
+msgid "Thick 1"
+msgstr "두꺼운 용지 1"
+
+#: ../ppdippstr.py
+msgid "Thick 1(Side2)"
+msgstr "두꺼운 용지(2면)"
+
+#: ../ppdippstr.py
+msgid "Thick 1+"
+msgstr "두꺼운 용지 1+"
+
+#: ../ppdippstr.py
+msgid "Thick 1+(Side2)"
+msgstr "두꺼운 용지 1+(2면)"
+
+#: ../ppdippstr.py
+msgid "Thick 2"
+msgstr "두꺼운 용지 2"
+
+#: ../ppdippstr.py
+msgid "Thick 2(Side2)"
+msgstr "두꺼운 용지 2(2면)"
+
+#: ../ppdippstr.py
+msgid "Thick 3"
+msgstr "두꺼운 용지 3"
+
+#: ../ppdippstr.py
+msgid "Thick 3(Side2)"
+msgstr "두꺼운 용지 3(2면)"
+
+#: ../ppdippstr.py
+msgid "Thick 4"
+msgstr "두꺼운 용지 4"
+
+#: ../ppdippstr.py
+msgid "Thick 4(Side2)"
+msgstr "두꺼운 용지 4(2면)"
+
+#: ../ppdippstr.py
+msgid "Thin Paper"
+msgstr "얇은 용지"
+
+#: ../ppdippstr.py
+msgid "Thin Paper(Side2)"
+msgstr "얇은 용지(2면)"
+
+#: ../ppdippstr.py
+msgid "Envelope"
+msgstr "봉투"
+
+#: ../ppdippstr.py
+msgid "Transparency"
+msgstr "OHP"
+
+#: ../ppdippstr.py
+msgid "Colored Paper"
+msgstr "색지"
+
+#: ../ppdippstr.py
+msgid "Single Side Only"
+msgstr "단면 전용 용지"
+
+#: ../ppdippstr.py
+msgid "TAB"
+msgstr ""
+
+#: ../ppdippstr.py
+msgid "Letterhead"
+msgstr "편지지"
+
+#: ../ppdippstr.py
+msgid "Special Paper"
+msgstr "특수 용지"
+
+#: ../ppdippstr.py
+msgid "Recycled"
+msgstr "재활용지"
+
+#: ../ppdippstr.py
+msgid "Recycled(Side2)"
+msgstr "재활용지(2면)"
+
+#: ../ppdippstr.py
+msgid "User1(Plain Paper)"
+msgstr "사용자1(일반 용지)"
+
+#: ../ppdippstr.py
+msgid "User1(Plain. Side2)"
+msgstr "사용자1(일반 용지 2면)"
+
+#: ../ppdippstr.py
+msgid "User2(Plain Paper)"
+msgstr "사용자2(일반 용지)"
+
+#: ../ppdippstr.py
+msgid "User2(Plain. Side2)"
+msgstr "사용자2(일반 용지2)"
+
+#: ../ppdippstr.py
+msgid "User3(Thick 1)"
+msgstr "사용자3(두꺼운 용지3)"
+
+#: ../ppdippstr.py
+msgid "User3(Thick 1 Side2)"
+msgstr "사용자3(두꺼운 용지3 2면)"
+
+#: ../ppdippstr.py
+msgid "User4(Thick 1+)"
+msgstr "사용자4(두꺼운 용지 1+)"
+
+#: ../ppdippstr.py
+msgid "User4(Thick 1+ Side2)"
+msgstr "사용자4(두꺼운 용지 1+ 2면)"
+
+#: ../ppdippstr.py
+msgid "User5(Thick 2)"
+msgstr "사용자5(두꺼운 용지2)"
+
+#: ../ppdippstr.py
+msgid "User5(Thick 2 Side2)"
+msgstr "사용자5(두꺼운 용지2 2면)"
+
+#: ../ppdippstr.py
+msgid "User6(Thick 3)"
+msgstr "사용자6(두꺼운 용지3)"
+
+#: ../ppdippstr.py
+msgid "User6(Thick 3 Side2)"
+msgstr "사용자6(두꺼운 용지3 2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 1>"
+msgstr "<사용자 설정1>"
+
+#: ../ppdippstr.py
+msgid "<Custom 2>"
+msgstr "<사용자 설정2>"
+
+#: ../ppdippstr.py
+msgid "<Custom 3>"
+msgstr "<사용자 설정3>"
+
+#: ../ppdippstr.py
+msgid "<Custom 4>"
+msgstr "<사용자 설정4>"
+
+#: ../ppdippstr.py
+msgid "<Custom 5>"
+msgstr "<사용자 설정5>"
+
+#: ../ppdippstr.py
+msgid "<Custom 6>"
+msgstr "<사용자 설정6>"
+
+#: ../ppdippstr.py
+msgid "<Custom 7>"
+msgstr "<사용자 설정7>"
+
+#: ../ppdippstr.py
+msgid "<Custom 8>"
+msgstr "<사용자 설정8>"
+
+#: ../ppdippstr.py
+msgid "<Custom 9>"
+msgstr "<사용자 설정9>"
+
+#: ../ppdippstr.py
+msgid "<Custom 10>"
+msgstr "<사용자 설정10>"
+
+#: ../ppdippstr.py
+msgid "<Custom 11>"
+msgstr "<사용자 설정11>"
+
+#: ../ppdippstr.py
+msgid "<Custom 12>"
+msgstr "<사용자 설정12>"
+
+#: ../ppdippstr.py
+msgid "<Custom 13>"
+msgstr "<사용자 설정13>"
+
+#: ../ppdippstr.py
+msgid "<Custom 14>"
+msgstr "<사용자 설정14>"
+
+#: ../ppdippstr.py
+msgid "<Custom 15>"
+msgstr "<사용자 설정15>"
+
+#: ../ppdippstr.py
+msgid "<Custom 16>"
+msgstr "<사용자 설정16>"
+
+#: ../ppdippstr.py
+msgid "<Custom 17>"
+msgstr "<사용자 설정17>"
+
+#: ../ppdippstr.py
+msgid "<Custom 18>"
+msgstr "<사용자 설정18>"
+
+#: ../ppdippstr.py
+msgid "<Custom 19>"
+msgstr "<사용자 설정19>"
+
+#: ../ppdippstr.py
+msgid "<Custom 1>(Side2)"
+msgstr "<사용자 설정1>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 2>(Side2)"
+msgstr "<사용자 설정2>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 3>(Side2)"
+msgstr "<사용자 설정3>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 4>(Side2)"
+msgstr "<사용자 설정4>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 5>(Side2)"
+msgstr "<사용자 설정5>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 6>(Side2)"
+msgstr "<사용자 설정6>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 7>(Side2)"
+msgstr "<사용자 설정7>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 8>(Side2)"
+msgstr "<사용자 설정8>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 9>(Side2)"
+msgstr "<사용자 설정9>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 10>(Side2)"
+msgstr "<사용자 설정10>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 11>(Side2)"
+msgstr "<사용자 설정11>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 12>(Side2)"
+msgstr "<사용자 설정12>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 13>(Side2)"
+msgstr "<사용자 설정13>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 14>(Side2)"
+msgstr "<사용자 설정14>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 15>(Side2)"
+msgstr "<사용자 설정15>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 16>(Side2)"
+msgstr "<사용자 설정16>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 17>(Side2)"
+msgstr "<사용자 설정17>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 18>(Side2)"
+msgstr "<사용자 설정18>(2면)"
+
+#: ../ppdippstr.py
+msgid "<Custom 19>(Side2)"
+msgstr "<사용자 설정19>(2면)"
+
+#: ../ppdippstr.py:254                                                                                   
+msgid "Envelope B5"                                                                                      
+msgstr "봉투 B5"                                                                                         
+
+#: ../ppdippstr.py:255                                                                                   
+msgid "Envelope C4"                                                                                      
+msgstr "봉투 C4"
+
+#: ../ppdippstr.py:256                                                                                   
+msgid "Envelope C5"
+msgstr "봉투 C5"                                                                                        
+
+#: ../ppdippstr.py:257
+msgid "Envelope C6"
+msgstr "봉투 C6"
+
+#: ../ppdippstr.py:258                                                                                   
+msgid "Envelope Nagagata3"                                                                               
+msgstr "봉투 Nagata3"                                                                                    
+
+#: ../ppdippstr.py:259                                                                                   
+msgid "Envelope Nagagata4"                                                                               
+msgstr "봉투 Nagata4"                                                                                    
+
+#: ../ppdippstr.py:260                                                                                   
+msgid "Envelope Yougata3"
+msgstr "봉투 Yougata3"
+
+#: ../ppdippstr.py:261
+msgid "Envelope Yougata4"
+msgstr "봉투 Yougata4"
+
+#: ../ppdippstr.py:262
+msgid "Envelope Kakugata1"
+msgstr "봉투 Kakugata1"
+
+#: ../ppdippstr.py:263
+msgid "Envelope Kakugata2"
+msgstr "봉투 Kakugata2"
+
+#: ../ppdippstr.py:264
+msgid "Envelope Kakugata3"
+msgstr "봉투 Kakugata3"
+
+#: ../ppdippstr.py:265
+msgid "Envelope DL"
+msgstr "봉투 DL"
+
+#: ../ppdippstr.p:266
+msgid "Envelope Monarch"
+msgstr "봉투 Monarch"
+
+#: ../ppdippstr.py:267
+msgid "Envelope Com10"
+msgstr "봉투 Com10"
+
+#: ../ppdippstr.py:268
+msgid "Postcard"
+msgstr "일본식 우편 엽서"
+
+#: ../ppdippstr.py:269
+msgid "4x6 Postcard"
+msgstr "4x6 우편엽서"
+
+#: ../ppdippstr.py
+msgid "Finishing Options"
+msgstr "피니싱 옵션"
+
+#: ../ppdippstr.py
+msgid "Offset"
+msgstr "오프셋"
+
+#: ../ppdippstr.py
+msgid "Binding Position"
+msgstr "제본 방향"
+
+#: ../ppdippstr.py
+msgid "Left Bind"
+msgstr "왼쪽 제본"
+
+#: ../ppdippstr.py
+msgid "Top Bind"
+msgstr "상단 제본"
+
+#: ../ppdippstr.py
+msgid "Right Bind"
+msgstr "오른쪽 제본"
+
+#: ../ppdippstr.py
+msgid "Output Tray"
+msgstr "출력 트레이"
+
+#: ../ppdippstr.py
+msgid "Print Type"
+msgstr "인쇄 종류"
+
+#: ../ppdippstr.py
+msgid "1-Sided"
+msgstr "단면 인쇄"
+
+#: ../ppdippstr.py
+msgid "2-Sided"
+msgstr "양면 인쇄"
+
+#: ../ppdippstr.py
+msgid "Combination"
+msgstr "조합"
+
+#: ../ppdippstr.py
+msgid "Booklet"
+msgstr "소책자"
+
+#: ../ppdippstr.py
+msgid "Left Corner"
+msgstr "왼쪽 모서리"
+
+#: ../ppdippstr.py
+msgid "Right Corner"
+msgstr "오른쪽 모서리"
+
+#: ../ppdippstr.py
+msgid "2 Position"
+msgstr "2 점"
 
 #: ../ppdippstr.py:248 ../printerproperties.py:283
 msgid "Punch"
 msgstr "펀치"
 
-#: ../ppdippstr.py:249
-msgid "Toner Saving"
+#: ../ppdippstr.py
+msgid "Off"
+msgstr "없음"
+
+#: ../ppdippstr.py
+msgid "2-Hole"
+msgstr "2개"
+
+#: ../ppdippstr.py
+msgid "3-Hole"
+msgstr "3개"
+
+#: ../ppdippstr.py
+msgid "4-Hole"
+msgstr "4개"
+
+##: ../ppdippstr.py
+#msgid "Fold"
+#msgstr "접지"
+
+#: ../ppdippstr.py
+msgid "Center Staple and Fold"
+msgstr "중앙 스테이플 & 접지"
+
+#: ../ppdippstr.py
+msgid "Half-Fold"
+msgstr "반-접지"
+
+#: ../ppdippstr.py
+msgid "Tri-Fold"
+msgstr "세-접지"
+
+#: ../ppdippstr.py:288
+msgid "Cover Mode"
+msgstr "표지"
+
+#: ../ppdippstr.py
+msgid "Front Cover"
+msgstr "앞표지"
+
+#: ../ppdippstr.py
+msgid "Blank"
+msgstr "백지"
+
+#: ../ppdippstr.py
+msgid "Front Cover Tray"
+msgstr "앞표지 트레이"
+
+#: ../ppdippstr.py
+msgid "Tray1"
+msgstr "트레이1"
+
+#: ../ppdippstr.py
+msgid "Tray2"
+msgstr "트레이2"
+
+#: ../ppdippstr.py
+msgid "Tray3"
+msgstr "트레이3"
+
+#: ../ppdippstr.py
+msgid "Tray4"
+msgstr "트레이4"
+
+#: ../ppdippstr.py
+msgid "Bypass Tray"
+msgstr "수동 트레이"
+
+#: ../ppdippstr.py
+msgid "Back Cover"
+msgstr "뒤표지"
+
+#: ../ppdippstr.py
+msgid "Back Cover Tray"
+msgstr "뒤표지 트레이"
+
+#: ../ppdippstr.py
+msgid "Transparency Interleave"
+msgstr "투명도 인터리브"
+
+#: ../ppdippstr.py
+msgid "Interleave Tray"
+msgstr "인터리브 트레이"
+
+#: ../ppdippstr.py
+msgid "Select Color"
+msgstr "색상 선택"
+
+#: ../ppdippstr.py
+msgid "Auto Color"
+msgstr "자동 컬러"
+
+#: ../ppdippstr.py
+msgid "Full Color"
+msgstr "전체 컬러"
+
+#: ../ppdippstr.py
+msgid "Gray Scale"
+msgstr "회색조"
+
+#: ../ppdippstr.py
+msgid "Glossy Mode"
+msgstr "광택 모드"
+
+#: ../ppdippstr.py
+msgid "Color Settings"
+msgstr "색상 설정"
+
+#: ../ppdippstr.py
+msgid "Photo"
+msgstr "사진"
+
+#: ../ppdippstr.py
+msgid "Auto Trapping"
+msgstr "자동 트래핑"
+
+#: ../ppdippstr.py
+msgid "Black Over Print"
+msgstr "흑백 인쇄"
+
+#: ../ppdippstr.py
+msgid "Text"
+msgstr "문자"
+
+#: ../ppdippstr.py
+msgid "Text/Figure"
+msgstr "문자/그림"
+
+#: ../ppdippstr.py
+msgid "Color Matching (Text)"
+msgstr "색상 맞춤 (문자)"
+
+#: ../ppdippstr.py
+msgid "Vivid"
+msgstr "선명도"
+
+#: ../ppdippstr.py
+msgid "Colorimetric"
+msgstr "색상계"
+
+#: ../ppdippstr.py
+msgid "Pure Black (Text)"
+msgstr "흑백 (문자)"
+
+#: ../ppdippstr.py
+msgid "On"
+msgstr "켜기"
+
+#: ../ppdippstr.py
+msgid "Screen (Text)"
+msgstr "화면 (문자)"
+
+#: ../ppdippstr.py
+msgid "Auto"
+msgstr "자동"
+
+#: ../ppdippstr.py
+msgid "Gradation"
+msgstr "그라데이션"
+
+##: ../ppdippstr.py
+#msgid "Resolution"
+#msgstr "해상도"
+
+#: ../ppdippstr.py
+msgid "High Resolution"
+msgstr "고해상도"
+
+#: ../ppdippstr.py
+msgid "Color Matching (Photo)"
+msgstr "색상 맞춤 (사진)"
+
+#: ../ppdippstr.py
+msgid "Pure Black (Photo)"
+msgstr "흑백 (사진)"
+
+#: ../ppdippstr.py
+msgid "Screen (Photo)"
+msgstr "화면 (사진)"
+
+#: ../ppdippstr.py
+msgid "Smoothing (Photo)"
+msgstr "다듬기 (사진)"
+
+#: ../ppdippstr.py
+msgid "Dark"
+msgstr "어둡게"
+
+#: ../ppdippstr.py
+msgid "Medium"
+msgstr "보통"
+
+#: ../ppdippstr.py
+msgid "Light"
+msgstr "밝게"
+
+#: ../ppdippstr.py
+msgid "Color Matching (Graphic)"
+msgstr "색상 맞춤 (그래픽)"
+
+#: ../ppdippstr.py
+msgid "Pure Black (Graphic)"
+msgstr "흑백 (그래픽)"
+
+#: ../ppdippstr.py
+msgid "Screen (Graphic)"
+msgstr "화면 (그래픽)"
+
+#: ../ppdippstr.py
+msgid "Smoothing (Graphic)"
+msgstr "다듬기 (그래픽)"
+
+#: ../ppdippstr.py
+msgid "Toner Save"
+msgstr "토너 절약"
+
+#: ../ppdippstr.py
+msgid "Edge Enhancement"
+msgstr "모서리 강조"
+
+#: ../ppdippstr.py
+msgid "Output Method"
+msgstr "출력 방법"
+
+#: ../ppdippstr.py:336
+msgid "Print"
+msgstr "인쇄"
+
+#: ../ppdippstr.py
+msgid "Secure Print"
+msgstr "보안 인쇄"
+
+#: ../ppdippstr.py
+msgid "Proof Print"
+msgstr "시험 인쇄"
+
+#: ../ppdippstr.py
+msgid "Save in User Box"
+msgstr "사용자 박스에 저장"
+
+#: ../ppdippstr.py
+msgid "Save in Box and Print"
+msgstr "박스에 저장 후 인쇄"
+
+#: ../ppdippstr.py
+msgid "ID & Print"
+msgstr "ID & 인쇄"
+
+#: ../ppdippstr.py
+#, fuzzy
+msgid "SafeQ"
 msgstr ""
 
-#: ../ppdippstr.py:250
-msgid "Gradation"
-msgstr ""
+#: ../ppdippstr.py
+msgid "Secure Print ID"
+msgstr "보안 인쇄 ID"
+
+#: ../ppdippstr.py
+msgid "Secure Print Password"
+msgstr "보안 인쇄 암호"
+
+#: ../ppdippstr.py
+msgid "Box Number"
+msgstr "박스 번호"
+
+#: ../ppdippstr.py
+msgid "File Name"
+msgstr "파일명"
+
+#: ../ppdippstr.py
+msgid "SafeQ User"
+msgstr "SafeQ 사용자"
+
+#: ../ppdippstr.py
+msgid "<Current_User>"
+msgstr "<현재 사용자>"
+
+#: ../ppdippstr.py
+msgid "Account Track"
+msgstr "계정 트랙"
+
+#: ../ppdippstr.py
+msgid "Department Code"
+msgstr "부서 코드"
+
+#: ../ppdippstr.py
+msgid "User Authentication"
+msgstr "사용자 인증"
+
+#: ../ppdippstr.py
+msgid "External Server"
+msgstr "외부 서버"
+
+#: ../ppdippstr.py
+msgid "MFP + External Server"
+msgstr "MFP + 외부 서버"
+
+#: ../ppdippstr.py
+msgid "Authentication Server"
+msgstr "인증 서버"
+
+#: ../ppdippstr.py
+msgid "Username"
+msgstr "사용자 이름"
+
+#: ../ppdippstr.py
+msgid "Password"
+msgstr "암호"
+
+#: ../ppdippstr.py
+msgid "Copy Security"
+msgstr "복사 보안"
+
+#: ../ppdippstr.py
+msgid "Copy Security Mode"
+msgstr "복사 보안 모드"
+
+#: ../ppdippstr.py
+msgid "Copy Protect"
+msgstr "복사 방지"
+
+#: ../ppdippstr.py
+msgid "Stamp Reapeat"
+msgstr "반복 스탬프"
+
+#: ../ppdippstr.py
+msgid "Copy Guard"
+msgstr "복사 보호"
+
+#: ../ppdippstr.py
+msgid "Password Copy"
+msgstr "암호 복사"
+
+#: ../ppdippstr.py
+msgid "Password Copy - Password"
+msgstr "암호 복사 - 암호"
+
+#: ../ppdippstr.py
+msgid "Characters"
+msgstr "문자"
+
+#: ../ppdippstr.py
+msgid "Invalid Copy"
+msgstr "무효 복사본"
+
+#: ../ppdippstr.py
+msgid "Copy"
+msgstr "복사본"
+
+#: ../ppdippstr.py
+msgid "Invalid"
+msgstr "무효사본"
+
+#: ../ppdippstr.py
+msgid "Private"
+msgstr "비공개용"
+
+#: ../ppdippstr.py
+msgid "Unauthorized"
+msgstr "미승인"
+
+##: ../ppdippstr.py
+#msgid "Draft"
+#msgstr "초안"
+
+#: ../ppdippstr.py
+msgid "Confidential"
+msgstr "대외비"
+
+#: ../ppdippstr.py
+msgid "Illegal Copy"
+msgstr "불법 복사본"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 1>"
+msgstr "<본체 설정 1>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 2>"
+msgstr "<본체 설정 2>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 3>"
+msgstr "<본체 설정 3>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 4>"
+msgstr "<본체 설정 4>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 5>"
+msgstr "<본체 설정 5>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 6>"
+msgstr "<본체 설정 6>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 7>"
+msgstr "<본체 설정 7>"
+
+#: ../ppdippstr.py
+msgid "<Machine Setting 8>"
+msgstr "<본체 설정 8>"
+
+#: ../ppdippstr.py
+msgid "Date Time Stamp"
+msgstr "일자/시각 편집"
+
+#: ../ppdippstr.py
+msgid "Date and Time"
+msgstr "일자/시각"
+
+#: ../ppdippstr.py
+msgid " None"
+msgstr " 없음"
+
+#: ../ppdippstr.py
+msgid " Date"
+msgstr " 일자"
+
+#: ../ppdippstr.py
+msgid " Date and Time"
+msgstr " 일자/시각"
+
+#: ../ppdippstr.py
+msgid "Date Format"
+msgstr "일자 서식"
+
+#: ../ppdippstr.py
+msgid "Time Format"
+msgstr "시각 서식"
+
+#: ../ppdippstr.py
+msgid "Serial Number"
+msgstr "시리얼 번호"
+
+#: ../ppdippstr.py
+msgid "Distribution Control Number"
+msgstr "부수 관리 번호"
+
+#: ../ppdippstr.py
+msgid "DCN Start Number"
+msgstr "시작 번호"
+
+#: ../ppdippstr.py
+msgid "Job Number"
+msgstr "작업 번호"
+
+#: ../ppdippstr.py
+msgid "Pattern Angle"
+msgstr "패턴 각도"
+
+#: ../ppdippstr.py
+msgid " +45 degrees"
+msgstr " +45 각도"
+
+#: ../ppdippstr.py
+msgid " 0 degrees"
+msgstr " 0 각도"
+
+#: ../ppdippstr.py
+msgid " -45 degrees"
+msgstr " -45 각도"
+
+#: ../ppdippstr.py
+msgid "Pattern Text Size"
+msgstr "패턴 문자 크기"
+
+#: ../ppdippstr.py
+msgid " Small"
+msgstr " 작게"
+
+#: ../ppdippstr.py
+msgid " Standard"
+msgstr " 표준"
+
+#: ../ppdippstr.py
+msgid " Large"
+msgstr " 크게"
+
+#: ../ppdippstr.py
+msgid "Pattern Color"
+msgstr "패턴 색"
+
+#: ../ppdippstr.py
+msgid " Black"
+msgstr " 검정"
+
+#: ../ppdippstr.py
+msgid " Cyan"
+msgstr " 사이안"
+
+#: ../ppdippstr.py
+msgid " Magenta"
+msgstr " 마젠타"
+
+#: ../ppdippstr.py
+msgid "Pattern Density"
+msgstr "패턴 컬러 농도"
+
+#: ../ppdippstr.py
+msgid " -1 (Light)"
+msgstr "-1 (흐리게)"
+
+#: ../ppdippstr.py
+msgid " +1 (Dark)"
+msgstr "+1 (진하게)"
+
+#: ../ppdippstr.py
+msgid "Pattern Contrast"
+msgstr "패턴 콘트라스트"
+
+#: ../ppdippstr.py
+msgid "Pattern Overwrite"
+msgstr "패턴 덮어쓰기"
+
+#: ../ppdippstr.py
+msgid " Front (Overwrite)"
+msgstr " 앞면 (덮어쓰기)"
+
+#: ../ppdippstr.py
+msgid " Back"
+msgstr " 뒷면"
+
+#: ../ppdippstr.py
+msgid "Background Pattern"
+msgstr "배경 패턴"
+
+#: ../ppdippstr.py
+msgid "Pattern Emboss"
+msgstr "엠보스 배경"
+
+#: ../ppdippstr.py
+msgid " Emboss Text"
+msgstr "엠보스 문자"
+
+#: ../ppdippstr.py
+msgid " Emboss Background"
+msgstr "엠보스 배경"
+
+#: ../ppdippstr.py
+msgid "Page Number Stamp"
+msgstr "페이지 번호 편집"
+
+#: ../ppdippstr.py
+msgid "Page Number"
+msgstr "페이지 번호"
+
+#: ../ppdippstr.py
+msgid "Starting Page"
+msgstr "인자 시작 페이지"
+
+#: ../ppdippstr.py
+msgid "Starting Page Number"
+msgstr "시작 번호"
+
+#: ../ppdippstr.py
+msgid "Cove Mode"
+msgstr "표지"
+
+#: ../ppdippstr.py
+msgid " Print on Front and Back Cover"
+msgstr " 앞표지와 뒷표지에 인자"
+
+#: ../ppdippstr.py
+msgid " Print on Front Cover only"
+msgstr " 앞표지만 인자"
+
+#: ../ppdippstr.py
+msgid "Pages"
+msgstr "인자 페이지"
+
+#: ../ppdippstr.py
+msgid " All Pages"
+msgstr " 모든 페이지"
+
+#: ../ppdippstr.py
+msgid " 1st Page only"
+msgstr " 첫 번째 페이지만"
+
+#: ../ppdippstr.py
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: ../ppdippstr.py
+msgid " Red"
+msgstr " 빨강"
+
+#: ../ppdippstr.py
+msgid " Green"
+msgstr " 녹색"
+
+#: ../ppdippstr.py
+msgid " Blue"
+msgstr " 파랑"
+
+#: ../ppdippstr.py
+msgid " Yellow"
+msgstr " 노랑"
+
+#: ../ppdippstr.py
+msgid "Print Position"
+msgstr "인자 위치"
+
+#: ../ppdippstr.py
+msgid " Top Left"
+msgstr " 좌상"
+
+#: ../ppdippstr.py
+msgid " Top"
+msgstr " 중앙상"
+
+#: ../ppdippstr.py
+msgid " Top Right"
+msgstr " 우상"
+
+#: ../ppdippstr.py
+msgid " Left"
+msgstr " 좌중"
+
+#: ../ppdippstr.py
+msgid " Center"
+msgstr " 중앙"
+
+#: ../ppdippstr.py
+msgid " Right"
+msgstr " 우중"
+
+#: ../ppdippstr.py
+msgid " Bottom Left"
+msgstr " 좌하"
+
+#: ../ppdippstr.py
+msgid " Bottom"
+msgstr " 중앙하"
+
+#: ../ppdippstr.py
+msgid " Bottom Right"
+msgstr " 우하"
+
+#: ../ppdippstr.py
+msgid "Printer Driver Encryption"
+msgstr "프린터 드라이버 암호화"
+
+#: ../ppdippstr.py
+msgid "Driver Encryption"
+msgstr "드라이버 암호화"
+
+#: ../ppdippstr.py
+msgid "Encryption Passphrase"
+msgstr "암호화 키"
+
+#: ../ppdippstr.py:249
+msgid "Toner Saving"
+msgstr "토너 절약"
 
 #: ../ppdippstr.py:251
 msgid "Fast"
@@ -1710,9 +2791,9 @@ msgstr "옆으로 넘김 (표준)  "
 msgid "Short edge (flip)"
 msgstr "위로 넘김 (플립)  "
 
-#: ../ppdippstr.py:312
-msgid "Off"
-msgstr "끄기 "
+##: ../ppdippstr.py:312
+#msgid "Off"
+#msgstr "끄기 "
 
 #: ../ppdippstr.py:315
 msgid "Resolution, quality, ink type, media type"
@@ -2195,18 +3276,16 @@ msgstr "제조 업체 / 모델 "
 
 #: ../system-config-printer.py:360 ../ui/PrinterPropertiesDialog.ui.h:93
 #: ../ui/PrintersWindow.ui.h:9 ../ui/ServerSettingsDialog.ui.h:15
-#, fuzzy
 msgid "Add"
-msgstr "홀수 페이지 "
+msgstr "추가"
 
 #: ../system-config-printer.py:377 ../ui/PrinterPropertiesDialog.ui.h:96
-#, fuzzy
 msgid "Refresh"
-msgstr "재생(_R) "
+msgstr "새로 고침"
 
 #: ../system-config-printer.py:391
 msgid "_New"
-msgstr "새(_N)  "
+msgstr "새로 만들기(_N)  "
 
 #: ../system-config-printer.py:756
 #, python-format
@@ -2447,7 +3526,7 @@ msgstr "인쇄 작업 목록을 새로 고침 "
 
 #: ../ui/JobsWindow.ui.h:2 ../ui/SMBBrowseDialog.ui.h:2
 msgid "_Refresh"
-msgstr "재생(_R) "
+msgstr "새로 고침(_R) "
 
 #: ../ui/JobsWindow.ui.h:3
 msgid "Show completed jobs"
@@ -2464,7 +3543,7 @@ msgstr "프린터 복제 "
 #: ../ui/NewPrinterName.ui.h:3 ../ui/PrinterPropertiesDialog.ui.h:5
 #: ../ui/ServerSettingsDialog.ui.h:3 ../ui/SMBBrowseDialog.ui.h:4
 msgid "_OK"
-msgstr ""
+msgstr "확인(_O)"
 
 #: ../ui/NewPrinterName.ui.h:4
 msgid "New name for the printer"
@@ -2982,13 +4061,12 @@ msgid "<b>State</b>"
 msgstr "<b>상태</b>"
 
 #: ../ui/PrinterPropertiesDialog.ui.h:30
-#, fuzzy
 msgid "Error Policy:"
-msgstr "정책 오류: \t "
+msgstr "오류 정책: \t "
 
 #: ../ui/PrinterPropertiesDialog.ui.h:31
 msgid "Operation Policy:"
-msgstr "정책 작업: "
+msgstr "작업 정책: "
 
 #: ../ui/PrinterPropertiesDialog.ui.h:32
 msgid "<b>Policies</b>"
@@ -3024,7 +4102,7 @@ msgstr "사용자  "
 
 #: ../ui/PrinterPropertiesDialog.ui.h:41
 msgid "_Add"
-msgstr ""
+msgstr "추가(_A)"
 
 #: ../ui/PrinterPropertiesDialog.ui.h:42
 msgid "Access Control"
@@ -3266,7 +4344,7 @@ msgstr "문제 해결(_T) "
 
 #: ../ui/PrintersWindow.ui.h:7
 msgid "About"
-msgstr ""
+msgstr "정보"
 
 #: ../ui/PrintersWindow.ui.h:8
 msgid "There are no printers configured yet."
