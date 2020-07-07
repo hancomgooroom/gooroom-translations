@@ -1,3 +1,29 @@
+gooroom-translations (20200707+grm2u1+han2u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [73911863] Updated live-installer-ko.po
+  * [5368bb40] [Bug:2388] Updated live-installer-ko.po
+
+  [ cjheo ]
+  * [05e0844c] Add gnome-screenshot-po
+  * [2beede7a] [Bug:2419,2420] Added korean translation for nm-applet
+  * [70497747] Add korean translation for NetworkManager and nm-applet
+  * [b52bfa56] Update korean translation for gnome-flashback
+  * [303da3e9] Add korean translation for nimf
+  * [f6d78531] nimf 번역파일을 nimf 프로젝트로 이동 및 불필요한 파일 제거
+
+  [ HaeRyong Jeong ]
+  * [a8e3d24d] Updated gooroom-update-ko.po
+  * [e246c469] [Bug:2325] Updated metacity-ko.po
+  * [0b5b2a5d] [Bug:2362] Added NetworkManager-openvpn-ko.po file
+  * [86ccb731] [Bug:2360] Updated nm-applet-ko.po
+  * [86fdcdc3] [Bug:2446] Updated gooroom-update-ko.po
+
+  [ subin.kim ]
+  * [6f07da72] [Bug:2447, 2473] Updated gnome-mpv-ko.po&system-config-printer-ko.po
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 14:38:37 +0900
+
 gooroom-translations (20191130+grm2u5) unstable; urgency=medium
 
   [ subin.kim ]
