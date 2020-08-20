@@ -46,6 +46,8 @@ system-config-printer
 shadow
 metacity
 nautilus
+nemo
+nemo-extensions
 )
 
 # Gooroom
