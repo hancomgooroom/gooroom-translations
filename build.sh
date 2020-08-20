@@ -45,6 +45,7 @@ gtk30
 system-config-printer
 shadow
 metacity
+nautilus
 )
 
 # Gooroom
