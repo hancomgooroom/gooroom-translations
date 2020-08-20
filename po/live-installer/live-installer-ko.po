@@ -232,8 +232,8 @@ msgid "Back"
 msgstr "뒤로"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:402
-msgid "Forward"
-msgstr "앞으로"
+msgid "Next"
+msgstr "다음"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "I agree"
@@ -259,22 +259,38 @@ msgstr "새로 고침"
 msgid "Your full name"
 msgstr "사용자 전체 이름"
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:408
+#: usr/lib/live-installer/frontend/gtk_interface.py:415
+#: usr/lib/live-installer/frontend/gtk_interface.py:419
 msgid "Please enter your full name."
 msgstr "전체 이름을 입력해 주세요."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:409
+#: usr/lib/live-installer/frontend/gtk_interface.py:416
+msgid "You cannot use 'root' as your full name."
+msgstr "전체 이름으로 root는 사용이 불가능 합니다."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:417
+msgid "Your full name must not be more than 32 characters."
+msgstr "전체 이름은 32글자 이하로 지정할 수 있습니다."
+
 #: usr/lib/live-installer/frontend/gtk_interface.py:412
 msgid "This is the name you will use to log in to your computer."
 msgstr "이것은 당신의 컴퓨터에 로그인할 때 사용할 이름입니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:410
 msgid ""
-"It's recommended more than 1 letters which starts with lowcase alphabet and "
-"combined of lowcase alphabets, numbers and special character(-)."
+"It's recommended at least 1 to 32 letters which starts with lowcase alphabet "
+"and combined of lowcase alphabets, numbers and special character(-)."
 msgstr ""
-"알파벳 소문자로 시작하고 알파벳 소문자,숫자 그리고 특수문자(-)의 조합으로 1"
-"자 이상을 권장합니다."
+"알파벳 소문자로 시작하고 알파벳 소문자,숫자 그리고 특수문자(-)의 조합으로 "
+"1자 이상 32자 이하를 권장합니다."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:422
+msgid "You cannot use 'root' as user name."
+msgstr "사용자 아이디로 root는 사용이 불가능 합니다."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:423
+msgid "User name must not be more than 32 characters."
+msgstr "사용자 아이디는 32글자 이하로 지정할 수 있습니다."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:411
 msgid "Your username"
@@ -518,7 +534,14 @@ msgstr "전체 이름을 입력해 주십시오."
 msgid "Please provide a username."
 msgstr "사용자 아이디를 입력하십시오."
 
-#: usr/lib/live-installer/frontend/gtk_interface.py:907
+#: usr/lib/live-installer/frontend/gtk_interface.py:950
+#: usr/lib/live-installer/frontend/gtk_interface.py:953
+msgid "Your full name is invalid."
+msgstr "전체 이름이 유효하지 않습니다."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:959
+#: usr/lib/live-installer/frontend/gtk_interface.py:962
+#: usr/lib/live-installer/frontend/gtk_interface.py:965
 msgid "UserId is invalid."
 msgstr "사용자아이디가 유효하지 않습니다."
 
