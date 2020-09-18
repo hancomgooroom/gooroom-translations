@@ -73,7 +73,7 @@ msgstr "창 바로 전환"
 
 #: ../src/50-metacity-navigation.xml.in.h:14
 msgid "Switch windows of an app directly"
-msgstr "한 개 프로그램의 창 사이에서 전환"
+msgstr "한 개 프로그램의 창 사이에서 바로 전환"
 
 #: ../src/50-metacity-navigation.xml.in.h:15
 msgid "Switch system controls directly"
