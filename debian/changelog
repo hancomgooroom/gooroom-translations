@@ -1,3 +1,20 @@
+gooroom-translations (20201027+grm2u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [c2fd8d7b] [Bug:2493] Add korean translation for nautilus
+  * [9c5767f3] Add Korean translation for live-installer
+  * [d572dbdc] Add korean translation for nemo
+
+  [ subin.kim ]
+  * [ad60161f] [Bug:2447] Add korean translation for system-config-printer
+
+  [ HaeRyong Jeong ]
+  * [beccf437] [Bug:2587] Update metacity-ko.po
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 27 Oct 2020 15:50:12 +0900
+
 gooroom-translations (20200707+grm2u1) unstable; urgency=medium
 
   [ boyeon.choi ]
