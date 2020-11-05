@@ -1,3 +1,12 @@
+gooroom-translations (20201105+grm2u1) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [1dbb6b48] [Bug:2550] Updated korean translations for nm-applet
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 05 Nov 2020 15:32:19 +0900
+
 gooroom-translations (20201027+grm2u1) unstable; urgency=medium
 
   [ donghun ]
