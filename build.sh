@@ -32,6 +32,7 @@ gnome-flashback
 gnome-mpv
 gnome-panel
 gnome-screenshot
+gnome-settings-daemon
 galculator
 glib20
 grub
