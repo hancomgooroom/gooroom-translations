@@ -673,17 +673,17 @@ msgstr "창을 한 개 작업 공간에만 두기"
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:70
 msgid "Mi_nimize"
-msgstr "최소화(_N)"
+msgstr "최소화"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:72
 msgid "Ma_ximize"
-msgstr "최대화(_X)"
+msgstr "최대화"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:74
 msgid "Unma_ximize"
-msgstr "최대화 취소(_X)"
+msgstr "복구"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:76
@@ -698,12 +698,12 @@ msgstr "펼치기(_U)"
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:80
 msgid "_Move"
-msgstr "옮기기(_M)"
+msgstr "옮기기"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:82
 msgid "_Resize"
-msgstr "크기 조정(_R)"
+msgstr "크기 조정"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:84
@@ -714,7 +714,7 @@ msgstr "창 제목막대 화면에 표시(_S)"
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:87 ../src/ui/menu.c:89
 msgid "Always on _Top"
-msgstr "항상 위(_T)"
+msgstr "항상 위"
 
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:91
@@ -750,7 +750,7 @@ msgstr "아래쪽 작업 공간으로 옮기기(_D)"
 #. Translators: Translate this string the same way as you do in libwnck!
 #: ../src/ui/menu.c:105
 msgid "_Close"
-msgstr "닫기(_C)"
+msgstr "닫기"
 
 #: ../src/ui/menu.c:205
 #, c-format
