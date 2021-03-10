@@ -33,6 +33,7 @@ gnome-mpv
 gnome-panel
 gnome-screenshot
 gnome-settings-daemon
+gnome-screensaver
 galculator
 glib20
 grub
