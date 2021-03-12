@@ -45,6 +45,8 @@ gtk30
 system-config-printer
 shadow
 metacity
+nemo
+nemo-extensions
 )
 
 # Gooroom
