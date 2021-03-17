@@ -32,6 +32,8 @@ gnome-flashback
 gnome-mpv
 gnome-panel
 gnome-screenshot
+gnome-settings-daemon
+gnome-screensaver
 galculator
 glib20
 grub
@@ -45,6 +47,9 @@ gtk30
 system-config-printer
 shadow
 metacity
+nautilus
+nemo
+nemo-extensions
 )
 
 # Gooroom

@@ -3501,7 +3501,7 @@ msgstr "블루투스 타입"
 
 #: src/connection-editor/page-bluetooth.c:308
 msgid "Select the type of the Bluetooth connection profile."
-msgstr "Bluetooth 연결 프로파일의 유형을 선택하십시오."
+msgstr "블루투스 연결 프로파일의 유형을 선택하십시오."
 
 #: src/connection-editor/page-bluetooth.c:313
 msgid "_Personal Area Network"
