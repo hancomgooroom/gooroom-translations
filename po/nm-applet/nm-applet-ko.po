@@ -3182,6 +3182,10 @@ msgstr "새 연결 생성 실패"
 msgid "Connection delete failed"
 msgstr "연결 제거 실패"
 
+#: src/connection-editor/connection-helpers.c
+msgid "Connection delete"
+msgstr "연결 제거"
+
 #: src/connection-editor/connection-helpers.c:742
 #, c-format
 msgid "Are you sure you wish to delete the connection %s?"
