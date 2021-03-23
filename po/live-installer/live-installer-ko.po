@@ -485,8 +485,8 @@ msgid "Free space"
 msgstr "여유 공간"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:546
-msgid "Quit?"
-msgstr "종료?"
+msgid "Quit"
+msgstr "종료"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:546
 msgid "Are you sure you want to quit the installer?"
@@ -505,6 +505,10 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:965
 msgid "Password is short."
 msgstr "비밀번호 길이가 짧습니다."
+
+#: usr/lib/live-installer/frontend/gtk_interface.py:942
+msgid "Hancom Gooroom Software License Agreement"
+msgstr "한컴구름 소프트웨어 사용권 계약서"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:976
 msgid "Invalid character is in password."
