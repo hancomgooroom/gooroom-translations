@@ -208,7 +208,7 @@ msgstr "사용자 이름(_U):"
 
 #: src/nemo-connect-server-dialog.c:1080
 msgid "Pass_word:"
-msgstr "비밀번호(_w)"
+msgstr "비밀번호(_w):"
 
 #: src/nemo-connect-server-dialog.c:1096
 msgid "_Remember this password"
