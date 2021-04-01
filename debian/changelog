@@ -1,3 +1,39 @@
+gooroom-translations (20210401+grm2u1+han2u1) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [77709f1e] [Bug:2447, 2473] Updated gnome-mpv-ko.po&system-config-printer-ko.po
+  * [ad60161f] [Bug:2447] Add korean translation for system-config-printer
+  * [1dbb6b48] [Bug:2550] Updated korean translations for nm-applet
+
+  [ jenkins ]
+  * [8af70930] Version 20200707+grm2u1 released
+  * [c914ad43] Version 20201027+grm2u1 released
+  * [d52fa516] Version 20201105+grm2u1 released
+
+  [ donghun ]
+  * [c2fd8d7b] [Bug:2493] Add korean translation for nautilus
+  * [9c5767f3] Add Korean translation for live-installer
+  * [d572dbdc] Add korean translation for nemo
+  * [9da4d142] [Bug:3078,3121,3120,3107] Updated korean translations for metacity
+  * [a8a9f232] Add korean translation for nemo
+  * [4cd7a16c] [Bug:3350] Updated translations for nemo
+
+  [ HaeRyong Jeong ]
+  * [beccf437] [Bug:2587] Update metacity-ko.po
+
+  [ seolhee ]
+  * [4c8c7845] Updated korean translations for NetworkManager
+
+  [ cjheo ]
+  * [2b92e4a5] '디스크공간부족' 메시지 수정을 위해 gnome-settings-daemon 번역파일 추가
+  * [2e3b3eaf] [Bug:3086,2572] gnome-screensaver 번역파일 추가
+  * [08de56d2] 빌드오류로 인해 gnome-screensaver-po를 gnome-screensaver-ko.po로 이름변경
+
+  [ boyeon.choi ]
+  * [3d3199be] Updated Korean translations for live-installer
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 10:10:46 +0900
+
 gooroom-translations (20200707+grm2u2+han2u1) unstable; urgency=medium
 
   [ boyeon.choi ]
