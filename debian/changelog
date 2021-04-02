@@ -1,3 +1,11 @@
+gooroom-translations (20210401+grm2u1+han2u2) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [b675215f] [Bug:2509] Updated Korean translations for gtk30: gtkprinteroptionwidget & gtkprintunixdialog
+  * [5017390e] Updated translations for nm-applet: Connection delete dialog
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 02 Apr 2021 11:50:25 +0900
+
 gooroom-translations (20210401+grm2u1+han2u1) unstable; urgency=medium
 
   [ subin.kim ]
