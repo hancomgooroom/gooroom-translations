@@ -5061,3 +5061,69 @@ msgstr ""
 #: ../printerproperties.py:1189
 msgid "Print CUPS Test"
 msgstr "CUPS 테스트 인쇄"
+
+msgid "Options Installed"
+msgstr "설치된 옵션"
+
+msgid "Error Policy"
+msgstr "오류 정책"
+
+msgid "form"
+msgstr "서식"
+
+msgid "Envelope #10"
+msgstr "봉투 #10"
+
+msgid "Output Resolution"
+msgstr "출력 해상도"
+
+msgid "PDF version"
+msgstr "PDF 버전"
+
+msgid "Truncate output filename to"
+msgstr "출력 파일 이름 자르기"
+
+msgid "8 Characters"
+msgstr "8 글자"
+
+msgid "16 Characters"
+msgstr "16 글자"
+
+msgid "32 Characters"
+msgstr "32 글자"
+
+msgid "64 Characters"
+msgstr "64 글자"
+
+msgid "Label outputfiles"
+msgstr "출력 파일에 레이블 지정"
+
+msgid "Label only untitled documents with job-id"
+msgstr "제목없는 문서에만 작업 ID로 레이블 지정"
+
+msgid "Prefix all documents with job-id"
+msgstr "모든 문서의 접두부에 작업 ID로 레이블 지정"
+
+msgid "Suffix all documents with job-id"
+msgstr "모든 문서의 접미부에 작업 ID로 레이블 지정"
+
+msgid "Prefer title from"
+msgstr "선호 제목"
+
+msgid "Title in postscript document"
+msgstr "포스트 스크립트 문서의 제목"
+
+msgid "Title passed via command-line1"
+msgstr "명령 줄 1을 통해 전달 된 제목"
+
+msgid "Log level"
+msgstr "로그 레벨"
+
+msgid "Only errors"
+msgstr "에러만"
+
+msgid "Error and status messages"
+msgstr "에러 및 상태 메세지"
+
+msgid "Debug, error and status messages"
+msgstr "디버그, 에러 및 상태 메세지"

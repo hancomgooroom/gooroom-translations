@@ -10109,7 +10109,7 @@ msgstr "%d. 라우팅은 기본 라우팅을 사용할 수 없습니다"
 
 #: ../libnm-core/nm-setting-ip-config.c:2606
 msgid "a gateway is incompatible with '%s'"
-msgstr "'%s=%s'은 '%s > 0'와 호환하지 않습니다 "
+msgstr "게이트웨이가 '%s'와 호환하지 않습니다 "
 
 #: ../libnm-core/nm-setting-ip4-config.c:141
 #: ../libnm-core/nm-setting-ip6-config.c:187

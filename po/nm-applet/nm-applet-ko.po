@@ -3182,6 +3182,10 @@ msgstr "새 연결 생성 실패"
 msgid "Connection delete failed"
 msgstr "연결 제거 실패"
 
+#: src/connection-editor/connection-helpers.c
+msgid "Connection delete"
+msgstr "연결 제거"
+
 #: src/connection-editor/connection-helpers.c:742
 #, c-format
 msgid "Are you sure you wish to delete the connection %s?"
@@ -3501,7 +3505,7 @@ msgstr "블루투스 타입"
 
 #: src/connection-editor/page-bluetooth.c:308
 msgid "Select the type of the Bluetooth connection profile."
-msgstr "Bluetooth 연결 프로파일의 유형을 선택하십시오."
+msgstr "블루투스 연결 프로파일의 유형을 선택하십시오."
 
 #: src/connection-editor/page-bluetooth.c:313
 msgid "_Personal Area Network"
