@@ -1,3 +1,14 @@
+gooroom-translations (20240309+grm4u1) unstable; urgency=medium
+
+  [ seolhee.sun ]
+  * [8fb18310] Update NetworkManager, libnma, nm-applet, network-manater-openvpn translations
+
+  [ boyeon.choi ]
+  * [16e7a060] Update nautilus translations
+  * [53890640] Update Gtk Filechooser translations
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 09 Mar 2024 18:47:22 +0900
+
 gooroom-translations (20230203+grm3u1) unstable; urgency=medium
 
   [ subin.kim ]
