@@ -2491,6 +2491,10 @@ msgstr "숨긴 파일 표시(_H)"
 msgid "Show _Size Column"
 msgstr "크기 열 표시(_S)"
 
+#: gtk/gtkfilechooserwidget.c:1848
+msgid "Show T_ype Column"
+msgstr "종류 열 표시(_Y)"
+
 #: gtk/gtkfilechooserwidget.c:2283
 msgid "Show _Time"
 msgstr "시간 표시(_T)"
