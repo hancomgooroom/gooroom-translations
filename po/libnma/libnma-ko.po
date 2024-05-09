@@ -384,7 +384,7 @@ msgstr "모든 사용자에 대해 암호 저장"
 
 #: src/nma-ui-utils.c:34
 msgid "Ask for this password every time"
-msgstr "매번 이 암호 물어보기"
+msgstr "매번 암호 물어보기"
 
 #: src/nma-ui-utils.c:35
 msgid "The password is not required"

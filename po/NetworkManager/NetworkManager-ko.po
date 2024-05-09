@@ -15136,7 +15136,7 @@ msgstr "이 사용자에 대해서만 비밀번호 저장"
 
 #: src/nmtui/nmt-password-fields.c:138
 msgid "Ask password every time"
-msgstr "매번 이 암호 물어보기"
+msgstr "매번 암호 물어보기"
 
 #: src/nmtui/nmt-password-fields.c:144
 msgid "Show password"
