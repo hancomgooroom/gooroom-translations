@@ -1,3 +1,10 @@
+gooroom-translations (20240527+grm4u1) unstable; urgency=medium
+
+  [ seolhee.sun ]
+  * [748a0999] Update NetworkManager, libnma translations
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 27 May 2024 18:00:58 +0900
+
 gooroom-translations (20240309+grm4u1) unstable; urgency=medium
 
   [ seolhee.sun ]
