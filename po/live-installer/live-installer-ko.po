@@ -42,7 +42,7 @@ msgid ""
 "multiboot tools). Please burn the ISO image to DVD/USB using a different "
 "tool."
 msgstr ""
-"오류: 설치 매체에 이상이 있는 것 같습니다. 이는 구름 플랫폼과 호환이 되지 않"
+"오류: 설치 매체에 이상이 있는 것 같습니다. 이는 한컴구름과 호환이 되지 않"
 "는 이미지 굽기로 인해 발생합니다(YUMI나 다른 멀티부트 도구). 다른 도구를 이용"
 "하여 ISO 이미지를 구우시기 바랍니다."
 
@@ -65,7 +65,7 @@ msgstr "파일시스템 정보를 /etc/fstab에 쓰는 중입니다"
 
 #: usr/lib/live-installer/installer.py:365
 msgid "Configuring Recovery Mode"
-msgstr "구름 복구 파일 생성중입니다"
+msgstr "한컴구름 복구 파일 생성중입니다"
 
 #: usr/lib/live-installer/installer.py:387
 msgid "Setting hostname"
@@ -169,7 +169,7 @@ msgid ""
 "and partition.\n"
 "Do you want to install Hancom Gooroom on this PC?"
 msgstr ""
-"한컴구름을 선택해 주셔서 감사합니다. 구름을 설치하기 위해서 몇 가지의 설정이 필요합니다.\n"
+"한컴구름을 선택해 주셔서 감사합니다. 한컴구름을 설치하기 위해서 몇 가지의 설정이 필요합니다.\n"
 "환경, 사용자 정보, 파티션 설정한 후에 설치를 진행합니다.\n"
 "이 PC에 한컴구름을 설치하시겠습니까?"
 
@@ -382,7 +382,7 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 " "
 msgstr ""
-"루트 파티션은 구름 플랫폼 설치에 필요합니다.\n"
+"루트 파티션은 한컴구름 설치에 필요합니다.\n"
 "\n"
 " - 마운트 위치: /\n"
 " - 추천 크기 : 30GB\n"
@@ -605,262 +605,3 @@ msgstr "아니오"
 #: usr/lib/live-installer/dialogs.py:37
 msgid "Yes"
 msgstr "예"
-
-#~ msgid "Adding new user to the system"
-#~ msgstr "시스템에 새로운 사용자를 추가하는 중입니다"
-
-#~ msgid "Localizing packages"
-#~ msgstr "패키지를 지역화하는 중입니다"
-
-#~ msgid "User info"
-#~ msgstr "사용자 정보"
-
-#~ msgid "Partitioning"
-#~ msgstr "파티션 설정"
-
-#~ msgid "Please make sure you wish to manage partitions manually"
-#~ msgstr "파티션 관리를 수동으로 할 것인지  확인해 주십시오"
-
-#~ msgid "Advanced options"
-#~ msgstr "고급 옵션"
-
-#~ msgid "Summary"
-#~ msgstr "개요"
-
-#~ msgid "Installing Gooroom Platform"
-#~ msgstr "구름플랫폼 설치중..."
-
-#~ msgid "Installation paused: please finish the custom installation"
-#~ msgstr "설치 중지: 사용자 설정을 완료해 주십시오"
-
-#~ msgid "Select timezone"
-#~ msgstr "시간대 선택"
-
-#, python-format
-#~ msgid "%s Installer"
-#~ msgstr "%s 설치 프로그램"
-
-#~ msgid "Your full name"
-#~ msgstr "사용자 전체 이름"
-
-#~ msgid "This is the name you will use to log in to your computer."
-#~ msgstr "이것은 당신의 컴퓨터에 로그인할 때 사용할 이름입니다."
-
-#~ msgid ""
-#~ "It's recommended more than 1 letters which starts with lowcase alphabet "
-#~ "and combined of lowcase alphabets, numbers and special character(-)."
-#~ msgstr ""
-#~ "알파벳 소문자로 시작하고 알파벳 소문자,숫자 그리고 특수문자(-)의 조합으로 "
-#~ "1자 이상 32자 이하를 권장합니다."
-
-#~ msgid "Your username"
-#~ msgstr "사용자 아이디"
-
-#~ msgid "Your password"
-#~ msgstr "비밀번호"
-
-#~ msgid "Please enter your password twice to ensure it is correct."
-#~ msgstr "비밀번호가 올바른지 확인하기 위해 비밀번호를 다시 입력해 주십시오."
-
-#~ msgid "Hostname"
-#~ msgstr "호스트 이름"
-
-#~ msgid "This hostname will be the computer's name on the network."
-#~ msgstr "이 호스트 이름은 네트워크상에 보여질 컴퓨터 이름입니다."
-
-#~ msgid "Selected timezone:"
-#~ msgstr "선택한 시간대:"
-
-#~ msgid "Encrypt home"
-#~ msgstr "홈디렉토리 암호화"
-
-#~ msgid ""
-#~ "Ecryptfs (Kernel Level Encryption for Gooroom Platform recommendations)"
-#~ msgstr "Ecryptfs (기본 설정으로 추천하는 커널 수준 암호화)"
-
-#~ msgid "Encfs (User Level Encryption for advanced users)"
-#~ msgstr "Encfs (고급 사용자를 위한 사용자 수준 암호화)"
-
-#~ msgid ""
-#~ "Note: Because encfs encryption can cause unexpected errors, Installation "
-#~ "is not recommended except for research purpose to verify the encryption "
-#~ "function\n"
-#~ msgstr ""
-#~ "주의 : Encfs는 단말에서 예기치 않은 오류가 발생할 수 있으므로,\n"
-#~ " Encfs 암호화 본연의 기능 테스트나 연구 목적용으로만 설치를 권장합니다.\n"
-
-#~ msgid "Use this box to test your keyboard layout."
-#~ msgstr "아래 입력창에서 키보드 배치를 테스트해 보십시오."
-
-#~ msgid "Model"
-#~ msgstr "모델"
-
-#~ msgid ""
-#~ "You have selected to manage your partitions manually, this feature is for "
-#~ "ADVANCED USERS ONLY."
-#~ msgstr ""
-#~ "수동으로 파티션 구성하기를 선택하셨습니다. 이는 고급 사용자를 위한 모드입"
-#~ "니다."
-
-#~ msgid ""
-#~ "Before continuing, please mount your target filesystem(s) at /target."
-#~ msgstr "작업을 계속하기 전에, /target에 대상 파일시스템을 마운트하십시오."
-
-#~ msgid ""
-#~ "Do NOT mount virtual devices such as /dev, /proc, /sys, etc on /target/."
-#~ msgstr ""
-#~ "/target에 /dev, /proc, /sys 등과 같은 가상 장치를 마운트하지 마십시오."
-
-#~ msgid ""
-#~ "During the install, you will be given time to chroot into /target and "
-#~ "install any packages that will be needed to boot your new system."
-#~ msgstr ""
-#~ "설치하는 동안, /target을 chroot하고 새로운 시스템을 부팅하기 위한 패키지 "
-#~ "설치 시간이 주어집니다. "
-
-#~ msgid ""
-#~ "If you aren't sure what any of this means, please go back and deselect "
-#~ "manual partition management."
-#~ msgstr ""
-#~ "이 의미를 잘 모르시다면, 뒤로 돌아가 수동 파티션 관리를 선택 해제하십시오."
-
-#~ msgid ""
-#~ "Please do the following and then click Forward to finish installation:"
-#~ msgstr "다음 과정을 완료하신 다음을 클릭하여 설치 완료해 주십시오:"
-
-#~ msgid ""
-#~ "Create /target/etc/fstab for the filesystems as they will be mounted in "
-#~ "your new system, matching those currently mounted at /target (without "
-#~ "using the /target prefix in the mount paths themselves)."
-#~ msgstr ""
-#~ "새로운 시스템이 마운트되도록 파일시스템을 위한 /target/etc/fstab 파일을 생"
-#~ "성하고, (마운트 경로에 있는 target를 prefix하지 않고) /target에 현재의 마"
-#~ "운트를 일치시킵니다. "
-
-#~ msgid ""
-#~ "Install any packages that may be needed for first boot (mdadm, "
-#~ "cryptsetup, dmraid, etc) by calling \"sudo chroot /target\" followed by "
-#~ "the relevant apt-get/aptitude installations."
-#~ msgstr ""
-#~ "처음 부팅에 필요한 패키지(mdadm, cyptosetup, dmraid 등)들을 \"sudo "
-#~ "chroot /target\" 명령으로 apt-get나 aptitude 등을 통해 설치해 주십시오."
-
-#~ msgid ""
-#~ "Note that in order for update-initramfs to work properly in some cases "
-#~ "(such as dm-crypt), you may need to have drives currently mounted using "
-#~ "the same block device name as they appear in /target/etc/fstab."
-#~ msgstr ""
-#~ "(dm-crypt와 같은) 몇몇 경우와 같이 update-initramfs을 실행하기 위해, /"
-#~ "target/etc/fstab에 등록된 동일한 블록 장치가 현재 마운트된 드라이브에 필요"
-#~ "할 수 있습니다."
-
-#~ msgid ""
-#~ "Double-check that your /target/etc/fstab is correct, matches what your "
-#~ "new system will have at first boot, and matches what is currently mounted "
-#~ "at /target."
-#~ msgstr ""
-#~ "새로운 부팅 시스템이 현재 마운트된 /target과 일치하는지, /target/etc/"
-#~ "fstab 파일을 한번 더 확인해 주십시오."
-
-#~ msgid "Quit?"
-#~ msgstr "종료?"
-
-#~ msgid "Password is short."
-#~ msgstr "비밀번호 길이가 짧습니다."
-
-#~ msgid "Invalid character is in password."
-#~ msgstr "비밀번호 안에 유효하지 않은 문자가 있습니다."
-
-#~ msgid "Password security level is low."
-#~ msgstr "비밀번호의 보안등급이 낮습니다."
-
-#~ msgid "Passwords do not match."
-#~ msgstr "비밀번호가 일치하지 않습니다."
-
-#~ msgid "Passwords match."
-#~ msgstr "비밀번호가 일치합니다."
-
-#~ msgid ""
-#~ "It should be more than 8 letters as a combination of alphabets, numbers "
-#~ "and special characters(!@#$%^&amp;())."
-#~ msgstr ""
-#~ "알파벳, 숫자 그리고 특수문자(!@#$%^&amp;())의 조합으로 8자 이상을 입력해야"
-#~ "합니다."
-
-#~ msgid "Please provide your full name."
-#~ msgstr "전체 이름을 입력해 주십시오."
-
-#~ msgid "Please provide a username."
-#~ msgstr "사용자 아이디를 입력하십시오."
-
-#~ msgid "UserId is invalid."
-#~ msgstr "사용자아이디가 유효하지 않습니다."
-
-#~ msgid "Please provide a password for your user account."
-#~ msgstr "당신의 아이디에 해당하는 비밀번호를 입력하십시오."
-
-#~ msgid "Your passwords do not match."
-#~ msgstr "비밀번호가 일치하지 않습니다."
-
-#~ msgid "Please provide a hostname."
-#~ msgstr "호스트 이름을 입력하십시오."
-
-#~ msgid "Your username must be lower case."
-#~ msgstr "아이디는 반드시 소문자여야 합니다."
-
-#~ msgid "Your username may not contain whitespace characters."
-#~ msgstr "당신의 아이디에 공백은 포함될 수 없습니다."
-
-#~ msgid "The hostname must be lower case."
-#~ msgstr "호스트 이름은 반드시 소문자여야 합니다."
-
-#~ msgid "The hostname may not contain whitespace characters."
-#~ msgstr "호스트 이름에 공백은 포함될 수 없습니다."
-
-#~ msgid "User settings"
-#~ msgstr "사용자 설정"
-
-#~ msgid "Real name: "
-#~ msgstr "실제 이름: "
-
-#~ msgid "Username: "
-#~ msgstr "사용자 아이디: "
-
-#~ msgid "Encrypted home settings"
-#~ msgstr "홈 디렉토리 암호화 설정"
-
-#~ msgid "Encrypted home: "
-#~ msgstr "홈 디렉토리 암호화: "
-
-#~ msgid "ecryptfs (Kernel Level Encryption)"
-#~ msgstr "ecryptfs (커널 수준 암호화)"
-
-#~ msgid "encfs (User Level Encryption)"
-#~ msgstr "encfs (사용자 수준 암호화)"
-
-#~ msgid "Agreement"
-#~ msgstr "동의서"
-
-#~ msgid "I agree"
-#~ msgstr "동의합니다"
-
-#~ msgid "Hello World"
-#~ msgstr "안녕하세요"
-
-#~ msgid "Welcome"
-#~ msgstr "환영합니다"
-
-#~ msgid "You cannot use 'root' as your full name."
-#~ msgstr "전체 이름으로 root는 사용이 불가능 합니다."
-
-#~ msgid "Your full name must not be more than 32 characters."
-#~ msgstr "전체 이름은 32글자 이하로 지정할 수 있습니다."
-
-#~ msgid "You cannot use 'root' as user name."
-#~ msgstr "사용자 아이디로 root는 사용이 불가능 합니다."
-
-#~ msgid "User name must not be more than 32 characters."
-#~ msgstr "사용자 아이디는 32글자 이하로 지정할 수 있습니다."
-
-#~ msgid "Your full name is invalid."
-#~ msgstr "전체 이름이 유효하지 않습니다."
