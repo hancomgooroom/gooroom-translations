@@ -1,0 +1,498 @@
+# Korean translation for gooroom-initial-setup
+# Copyright (C) 2015-2020 Gooroom <gooroom@gooroom.kr>
+# This file is distributed under the same license as the gooroom-initial-setup package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gooroom-initial-setup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 10:25+0900\n"
+"PO-Revision-Date: 2019-09-04 17:37-0400\n"
+"Last-Translator: Gooroom <gooroom@gooroom.kr>\n"
+"Language-Team: Gooroom <gooroom@gooroom.kr>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/gis-assistant.c:433 ../src/gis-assistant.ui.h:1
+msgid "Prev"
+msgstr "이전"
+
+#: ../src/gis-assistant.c:434 ../src/gis-assistant.ui.h:2
+msgid "Next"
+msgstr "다음"
+
+#: ../src/gis-assistant.c:435 ../src/gis-assistant.ui.h:3
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: ../src/gis-assistant.c:436 ../src/gis-assistant.ui.h:4
+msgid "Done"
+msgstr "완료"
+
+#: ../src/pages/language/gis-language-page.c:123
+#: ../src/pages/language/gis-language-page.c:149
+msgid "Language Settings"
+msgstr "언어 설정"
+
+#: ../src/pages/language/gis-language-page.c:126
+#: ../src/pages/language/gis-language-page.ui.h:1
+msgid ""
+"Set the user's language for login. After logging in, you can change the "
+"user's language in the settings."
+msgstr ""
+"한컴구름 로그인을 위한 사용자의 언어를 설정합니다. 로그인 후 설정에서 사용자의 언"
+"어를 변경할 수 있습니다."
+
+#: ../src/pages/account/um-utils.c:140
+msgid "Sorry, that user name isn’t available. Please try another."
+msgstr "이미 사용중인 이름입니다. 다른 이름을 사용하십시오."
+
+#: ../src/pages/account/um-utils.c:145
+#, c-format
+msgid "The username is too long."
+msgstr "사용자의 이름이 너무 짧습니다."
+
+#: ../src/pages/account/um-utils.c:150
+msgid "The username cannot start with a “-”."
+msgstr "사용자의 이름은 “-” 문자로 시작할 수 없습니다."
+
+#: ../src/pages/account/um-utils.c:163
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"사용자 이름은 영문 알파벳 대소문자, 숫자, ‘.’, ‘-’, ‘_’ 문자만 포함할 수 있습"
+"니다."
+
+#: ../src/pages/account/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "새 암호는 이전 암호와 달라야 합니다."
+
+#: ../src/pages/account/pw-utils.c:83
+msgctxt "Password hint"
+msgid ""
+"This password is very similar to your last one. Try changing some letters "
+"and numbers."
+msgstr "이전 암호와 너무 비슷한 암호 입니다. 암호를 다르게 설정하십시오."
+
+#: ../src/pages/account/pw-utils.c:85 ../src/pages/account/pw-utils.c:93
+msgctxt "Password hint"
+msgid ""
+"This password is very similar to your last one. Try changing the password a "
+"bit more."
+msgstr "이전 암호와 너무 비슷한 암호 입니다. 암호를 다르게 설정하십시오."
+
+#: ../src/pages/account/pw-utils.c:87
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. A password without your user name would be stronger."
+msgstr "암호가 약합니다. 사용자 이름이 암호에 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:89
+msgctxt "Password hint"
+msgid "This is a weak password. Try to avoid using your name in the password."
+msgstr "암호가 약합니다. 사용자 이름이 암호에 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:91
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. Try to avoid some of the words included in the "
+"password."
+msgstr "암호가 약합니다. 단어가 암호에 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:95
+msgctxt "Password hint"
+msgid "This is a weak password. Try to avoid common words."
+msgstr "암호가 약합니다. 단어가 암호에 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:97
+msgctxt "Password hint"
+msgid "This is a weak password. Try to avoid reordering existing words."
+msgstr "암호가 약합니다. 기존 단어의 배열이 암호에 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:99
+msgctxt "Password hint"
+msgid "This is a weak password. Try to use more numbers."
+msgstr "암호가 약합니다. 숫자가 부족합니다."
+
+#: ../src/pages/account/pw-utils.c:101
+msgctxt "Password hint"
+msgid "This is a weak password. Try to use more uppercase letters."
+msgstr "암호가 약합니다. 대문자가 부족합니다."
+
+#: ../src/pages/account/pw-utils.c:103
+msgctxt "Password hint"
+msgid "This is a weak password. Try to use more lowercase letters."
+msgstr "암호가 약합니다. 소문자가 부족합니다."
+
+#: ../src/pages/account/pw-utils.c:105
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. Try to use more special characters, like "
+"punctuation."
+msgstr "암호가 약합니다. 특수문자가 부족합니다."
+
+#: ../src/pages/account/pw-utils.c:107
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. Try to use a mixture of letters, numbers and "
+"punctuation."
+msgstr "암호가 약합니다. 문자, 숫자 및 특수문자가 부족합니다."
+
+#: ../src/pages/account/pw-utils.c:109
+msgctxt "Password hint"
+msgid "This is a weak password. Try to avoid repeating the same character."
+msgstr "암호가 약합니다. 같은 글자의 반복이 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. Try to avoid repeating the same type of character: "
+"you need to mix up letters, numbers and punctuation."
+msgstr ""
+"암호가 약합니다. 같은 글자의 반복을 피하고 문자, 숫자 및 특수문자를 섞어 사용"
+"하십시오."
+
+#: ../src/pages/account/pw-utils.c:113
+msgctxt "Password hint"
+msgid "This is a weak password. Try to avoid sequences like 1234 or abcd."
+msgstr ""
+"암호가 약합니다. 1234 혹은 abcd와 같은 연속적인 문자가 포함되어 있습니다."
+
+#: ../src/pages/account/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"This is a weak password. Try to add more letters, numbers and punctuation."
+msgstr "암호가 약합니다. 문자, 숫자 및 특수문자를 더 사용하십시오."
+
+#: ../src/pages/account/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "대소문자를 사용하거나 대소문자 및 숫자를 섞어서 사용하십시오."
+
+#: ../src/pages/account/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"더 많은 문자, 숫자 및 특수문자를 조합하여 더 강력한 암호를 생성하십시오."
+
+#: ../src/pages/account/gis-account-page.c:161
+msgid "The passwords do not match."
+msgstr "암호가 일치하지 않습니다."
+
+#: ../src/pages/account/gis-account-page.c:321
+#: ../src/pages/account/gis-account-page.c:366
+msgid "Creating Accounts"
+msgstr "로그인 계정 생성"
+
+#: ../src/pages/account/gis-account-page.c:324
+#: ../src/pages/account/gis-account-page.ui.h:1
+msgid ""
+"Enter the user's information for login. After logging in, you can change "
+"your information in Settings."
+msgstr ""
+"한컴구름 로그인을 위한 사용자의 정보를 입력합니다. 로그인 후 설정에서 사용자의 정"
+"보를 변경할 수 있습니다."
+
+#: ../src/pages/account/gis-account-page.c:327
+#: ../src/pages/summary/gis-summary-page.c:713
+#: ../src/pages/account/gis-account-page.ui.h:2
+#: ../src/pages/summary/gis-summary-page.ui.h:3
+msgid "User Name"
+msgstr "아이디"
+
+#: ../src/pages/account/gis-account-page.c:328
+#: ../src/pages/summary/gis-summary-page.c:714
+#: ../src/pages/account/gis-account-page.ui.h:3
+#: ../src/pages/summary/gis-summary-page.ui.h:4
+msgid "Real Name"
+msgstr "사용자 이름"
+
+#: ../src/pages/account/gis-account-page.c:329
+#: ../src/pages/account/gis-account-page.ui.h:4
+msgid "Password"
+msgstr "암호"
+
+#: ../src/pages/account/gis-account-page.c:330
+#: ../src/pages/account/gis-account-page.ui.h:5
+msgid "Retype Password"
+msgstr "암호 확인"
+
+#: ../src/pages/goa/gis-goa-page.c:121
+msgid "Add Account"
+msgstr "계정 추가"
+
+#: ../src/pages/goa/gis-goa-page.c:275 ../src/pages/goa/gis-goa-page.ui.h:2
+msgid "The system's network is inactive"
+msgstr "시스템의 네트워크가 비활성 상태입니다."
+
+#: ../src/pages/goa/gis-goa-page.c:384 ../src/pages/goa/gis-goa-page.c:468
+msgid "Online Accounts Settings"
+msgstr "온라인 계정 설정"
+
+#: ../src/pages/goa/gis-goa-page.c:387 ../src/pages/goa/gis-goa-page.ui.h:1
+msgid ""
+"Connect your accounts to easily access your email, online calendar, "
+"contacts, documents and photos. Accounts can be added and removed at any "
+"time from the Settings application."
+msgstr ""
+"전자메일 계정, 온라인 달력, 연락처, 문서, 사진에 쉽게 접근할 계정에 연결합니"
+"다.온라인 계정은 로그인 후 설정에서 추가 및 삭제할 수 있습니다."
+
+#: ../src/pages/summary/gis-summary-page.c:196
+msgid "Done setting"
+msgstr "설정 완료"
+
+#: ../src/pages/summary/gis-summary-page.c:197
+msgid "All settings have been completed. Do you want to reboot?"
+msgstr ""
+"모든 설정이 완료되었습니다.\n"
+"시스템을 재시작 하시겠습니까?"
+
+#: ../src/pages/summary/gis-summary-page.c:204
+#: ../src/pages/summary/gis-summary-page.c:248
+msgid "_Ok"
+msgstr "예"
+
+#: ../src/pages/summary/gis-summary-page.c:249
+msgid "_Cancel"
+msgstr "아니오"
+
+#: ../src/pages/summary/gis-summary-page.c:325
+msgid "No Use"
+msgstr "사용안함"
+
+#: ../src/pages/summary/gis-summary-page.c:373
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../src/pages/summary/gis-summary-page.c:437
+msgid ""
+"User's environment configuration is completed.\n"
+"Restart the system after a while..."
+msgstr ""
+"사용자 환경 구성을 완료하였습니다.\n"
+"잠시후 시스템을 재시작합니다..."
+
+#: ../src/pages/summary/gis-summary-page.c:487
+msgid "User Environment Configuration Error"
+msgstr "사용자 환경 구성 오류"
+
+#: ../src/pages/summary/gis-summary-page.c:488
+msgid ""
+"Failed to configure user's environment. Do you want to try again after "
+"rebooting the system?"
+msgstr ""
+"사용자 환경 구성중 오류가 발생하였습니다. 시스템 재시작 후 다시 시도하시겠습"
+"니까?"
+
+#: ../src/pages/summary/gis-summary-page.c:539
+msgid "Password Setting Error"
+msgstr "암호 설정 오류"
+
+#: ../src/pages/summary/gis-summary-page.c:540
+msgid ""
+"Failed to set password. Do you want to try again after rebooting the system?"
+msgstr ""
+"암호 설정중 오류가 발생하였습니다. 시스템 재시작 후 다시 시도하시겠습니까?"
+
+#: ../src/pages/summary/gis-summary-page.c:599
+msgid "Account Creating Error"
+msgstr "계정 생성 오류"
+
+#: ../src/pages/summary/gis-summary-page.c:600
+msgid ""
+"Failed to create an account. Do you want to try again after rebooting the "
+"system?"
+msgstr ""
+"계정 생성중 오류가 발생하였습니다. 시스템 재시작 후 다시 시도하시겠습니까?"
+
+#: ../src/pages/summary/gis-summary-page.c:641
+msgid ""
+"Configuring user's environment\n"
+"Please wait..."
+msgstr ""
+"사용자 환경을 구성하고 있습니다.\n"
+"잠시만 기다려 주십시오..."
+
+#: ../src/pages/summary/gis-summary-page.c:707
+#: ../src/pages/summary/gis-summary-page.c:731
+msgid "Setup Complete"
+msgstr "설정 완료"
+
+#: ../src/pages/summary/gis-summary-page.c:709
+#: ../src/pages/summary/gis-summary-page.ui.h:1
+msgid "Setup is complete"
+msgstr "한컴구름 로그인 준비를 마쳤습니다."
+
+#: ../src/pages/summary/gis-summary-page.c:710
+#: ../src/pages/summary/gis-summary-page.ui.h:2
+msgid "OS"
+msgstr "운영체제"
+
+#: ../src/pages/summary/gis-summary-page.c:711
+#: ../src/pages/summary/gis-summary-page.ui.h:6
+msgid "Hostname"
+msgstr "호스트이름"
+
+#: ../src/pages/summary/gis-summary-page.c:712
+#: ../src/pages/summary/gis-summary-page.ui.h:5
+msgid "Language"
+msgstr "언어"
+
+#: ../src/pages/summary/gis-summary-page.c:715
+#: ../src/pages/summary/gis-summary-page.ui.h:7
+msgid "Online Accounts"
+msgstr "온라인 계정"
+
+#: ../src/pages/summary/run-passwd.c:429 ../src/pages/summary/run-su.c:396
+msgid "Authentication failed"
+msgstr "인증 실패"
+
+#: ../src/pages/summary/run-passwd.c:509
+#, c-format
+msgid "The new password is too short"
+msgstr "새 암호가 너무 짧습니다."
+
+#: ../src/pages/summary/run-passwd.c:515
+#, c-format
+msgid "The new password is too simple"
+msgstr "새 암호가 너무 간단합니다."
+
+#: ../src/pages/summary/run-passwd.c:521
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "이전 암호와 새 암호가 너무 비슷합니다."
+
+#: ../src/pages/summary/run-passwd.c:524
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "새 암호가 이미 최근에 사용했던 암호입니다."
+
+#: ../src/pages/summary/run-passwd.c:527
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "새 암호는 반드시 숫자 혹은 특수문자를 포함해야 합니다."
+
+#: ../src/pages/summary/run-passwd.c:531
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "이전 암호와 새 암호가 같습니다."
+
+#: ../src/pages/summary/run-passwd.c:535
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "최초 인증이후 암호가 변경되었습니다!"
+
+#: ../src/pages/summary/run-passwd.c:539
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "새 암호에 문자 종류가 너무 적습니다"
+
+#: ../src/pages/summary/run-passwd.c:543
+#, c-format
+msgid "Unknown error"
+msgstr "알 수 없는 에러"
+
+#: ../src/pages/eulas/gis-eulas-page.c:215
+#: ../src/pages/eulas/gis-eulas-page.c:304
+msgid "License Agreements"
+msgstr "사용자 동의"
+
+#: ../src/pages/eulas/gis-eulas-page.c:218
+msgid ""
+"I have _agreed to the terms and conditions in this end user license "
+"agreement."
+msgstr "최종 사용자 라이선스 계약의 약관에 동의했습니다."
+
+#: ../src/pages/network/gis-network-page.c:333
+msgctxt "Wireless access point"
+msgid "Other…"
+msgstr "기타 네트워크…"
+
+#: ../src/pages/network/gis-network-page.c:444
+msgid "Wireless - No Use"
+msgstr "무선 네트워크 - 연결 안 함"
+
+#: ../src/pages/network/gis-network-page.c:450
+msgid "Wireless - Use"
+msgstr "무선 네트워크 - 연결"
+
+#: ../src/pages/network/gis-network-page.c:651
+msgid "Wired - No Use"
+msgstr "유선 네트워크 - 연결 안 함"
+
+#: ../src/pages/network/gis-network-page.c:653
+msgid "Wired - Disconnected"
+msgstr "유선 네트워크 - 연결 안됨"
+
+#: ../src/pages/network/gis-network-page.c:659
+msgid "Wired - Connected"
+msgstr "유선 네트워크 - 연결됨"
+
+#: ../src/pages/network/gis-network-page.c:709
+#: ../src/pages/network/gis-network-page.c:1119
+msgid "Wired - No Device"
+msgstr "유선 네트워크 - 장치 없음"
+
+#: ../src/pages/network/gis-network-page.c:712
+#: ../src/pages/network/gis-network-page.c:1128
+msgid "Wireless - No Device"
+msgstr "무선 네트워크 - 장치 없음"
+
+#: ../src/pages/network/gis-network-page.c:1107
+#: ../src/pages/network/gis-network-page.c:1217
+msgid "Network Settings"
+msgstr "네트워크 설정"
+
+#: ../src/pages/network/gis-network-page.c:1110
+#: ../src/pages/network/gis-network-page.ui.h:1
+msgid ""
+"Connect the system to the network. Connect to the network using LAN or WIFI."
+msgstr ""
+"시스템을 네트워크에 연결합니다. LAN 혹은 WIFI를 이용하여 네트워크에 연결하십"
+"시오."
+
+#: ../src/pages/network/gis-network-page.c:1132
+#: ../src/pages/network/gis-network-page.ui.h:2
+msgid ""
+"No network device\n"
+"Please contact the administrator."
+msgstr ""
+"네트워크 장치를 찾을 수 없습니다.\n"
+"관리자에게 문의하여 주시기 바랍니다."
+
+#: ../src/pages/network/gis-network-page.c:1135
+#: ../src/pages/network/gis-network-page.ui.h:4
+msgid ""
+"Network information could not be found.\n"
+"Please contact the administrator."
+msgstr ""
+"네트워크 정보를 찾을 수 없습니다.\n"
+"관리자에게 문의하여 주시기 바랍니다."
+
+#: ../src/pages/network/gis-network-page.c:1138
+#: ../src/pages/network/gis-network-page.ui.h:6
+msgid ""
+"The system's network is inactive.\n"
+"Please click the button below to enable networking."
+msgstr ""
+"네트워크가 비활성화 상태입니다.\n"
+"아래 버튼을 눌러 네트워크를 활성화 하십시오."
+
+#: ../src/pages/network/gis-network-page.c:1141
+#: ../src/pages/network/gis-network-page.ui.h:8
+msgid "Enable Networking"
+msgstr "네트워크 사용하기"
+
+#: ../src/pages/eulas/gis-eulas-page.ui.h:1
+msgid "I agree to the End-user license agreement"
+msgstr "최종 사용자 라이선스 계약의 약관에 동의했습니다."
+
+#: ../src/pages/summary/splash-window.ui.h:1
+msgid "Please wait..."
+msgstr "잠시만 기다려 주십시오..."

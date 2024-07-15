@@ -54,6 +54,7 @@ nemo
 nemo-extensions
 libnma
 malcontent
+gooroom-initial-setup
 )
 
 # Gooroom
