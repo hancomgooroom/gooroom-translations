@@ -1,3 +1,17 @@
+gooroom-translations (20240830+han4u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [e055bb96] gnome-settings-daemon 번역 업데이트
+  * [8e509dc6] Update system-config-printer-ko.po
+
+  [ boyeon.choi ]
+  * [38bddfe4] Init Hancom Gooroom V4
+  * [36758579] [HGOOROOM-2250]Update live-installer-ko.po: change 구름 to 한컴구름
+  * [162d8ab4] [HGOOROOM-2314] Update synaptic-ko.po
+  * [9c073306] Add gooroom-initial-setup-ko.po
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 30 Aug 2024 06:50:05 +0900
+
 gooroom-translations (20240527+grm4u1) unstable; urgency=medium
 
   [ seolhee.sun ]
